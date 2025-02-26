@@ -1,251 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikhil Tiwari - Software Engineer Resume</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
-      transition: background-color 0.3s, color 0.3s;
-    }
-    body.dark-mode {
-      background-color: #121212;
-      color: #ffffff;
-    }
-    @media (prefers-color-scheme: dark) {
-      body:not(.light-mode) {
-        background-color: #121212;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikhil Tiwari - Software Engineer Resume</title>
+    <link rel="manifest" href="/manifest.json" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico" />
+
+    <!-- Apple Touch Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_io/apple-touch-icon.png"
+    />
+
+    <!-- Android Chrome Icons -->
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/favicon_io/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/favicon_io/android-chrome-512x512.png"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      body.dark-mode {
+        background-color: #000000;
         color: #ffffff;
       }
-      body:not(.light-mode) .resume-section {
+      @media (prefers-color-scheme: dark) {
+        body:not(.light-mode) {
+          background-color: #000000;
+          color: #ffffff;
+        }
+        body:not(.light-mode) .resume-section {
+          background-color: #1e1e1e;
+          box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+        }
+        body:not(.light-mode) .section-title {
+          color: #1e90ff;
+        }
+        body:not(.light-mode) .skills-list li {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+      .resume-section {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, box-shadow 0.3s;
+      }
+      .dark-mode .resume-section {
         background-color: #1e1e1e;
         box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
       }
-      body:not(.light-mode) .section-title {
+      .resume-header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px 8px 0 0;
+      }
+      .resume-header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      .resume-header p {
+        margin: 5px 0;
+      }
+      .section-title {
+        color: #007bff;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .dark-mode .section-title {
         color: #1e90ff;
       }
-      body:not(.light-mode) .skills-list li {
+      .skills-list {
+        list-style-type: none;
+        padding: 0;
+      }
+      .skills-list li {
+        display: inline-block;
+        background-color: #e9ecef;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 4px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .dark-mode .skills-list li {
         background-color: #333;
         color: #fff;
       }
-    }
-    .resume-section {
-      background-color: #fff;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s, box-shadow 0.3s;
-    }
-    .dark-mode .resume-section {
-      background-color: #1e1e1e;
-      box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-    }
-    .resume-header {
-      background-color: #007bff;
-      color: #fff;
-      padding: 20px;
-      border-radius: 8px 8px 0 0;
-    }
-    .resume-header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    .resume-header p {
-      margin: 5px 0;
-    }
-    .section-title {
-      color: #007bff;
-      margin-bottom: 15px;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-    .dark-mode .section-title {
-      color: #1e90ff;
-    }
-    .skills-list {
-      list-style-type: none;
-      padding: 0;
-    }
-    .skills-list li {
-      display: inline-block;
-      background-color: #e9ecef;
-      padding: 5px 10px;
-      margin: 5px;
-      border-radius: 4px;
-      transition: background-color 0.3s, color 0.3s;
-    }
-    .dark-mode .skills-list li {
-      background-color: #333;
-      color: #fff;
-    }
-    .dark-mode-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1000;
-    }
-  </style>
-</head>
-<body>
-  <!-- Dark Mode Toggle Button -->
-  <button class="btn btn-dark dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
-
-  <div class="container my-5">
-    <!-- Header Section -->
-    <div class="resume-section resume-header text-center">
-      <h1>Nikhil Tiwari</h1>
-      <p>India | +91-7898888758 | nikhiltiwari005@gmail.com | linkedin.com/in/nikhiltiwari005 | github.com/nikhiltiwari005 | <a href="./Nikhil_Resume.pdf" target="_blank">Resume</a> </p>
-    </div>
-
-    <!-- Professional Summary -->
-    <div class="resume-section">
-      <h2 class="section-title">Professional Summary</h2>
-      <p>
-        Results-driven Software Engineer with 6+ years of experience specializing in designing and implementing scalable, high-performance systems. Proficient in full-cycle software development, system optimization, and delivering solutions for complex business challenges. Skilled in Java, PHP, Spring Boot, Golang, AWS (S3, Lambda, SQS), Redis, Kafka, and more. Proven track record of leading teams, optimizing performance, and architecting robust systems. Passionate about continuous learning and creating impactful solutions.
-      </p>
-    </div>
-
-    <!-- Technical Skills -->
-    <div class="resume-section">
-      <h2 class="section-title">Technical Skills</h2>
-      <ul class="skills-list">
-        <li>Java</li>
-        <li>PHP</li>
-        <li>Golang</li>
-        <li>Python</li>
-        <li>Spring Boot</li>
-        <li>Laravel</li>
-        <li>NiFi</li>
-        <li>Workbox</li>
-        <li>AWS (S3, Lambda, SQS, EventBridge, ElastiCache)</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-        <li>MySQL</li>
-        <li>Redis</li>
-        <li>Kafka</li>
-        <li>RESTful APIs</li>
-        <li>ETL</li>
-        <li>Performance Optimization</li>
-        <li>Progressive Web Apps (PWA)</li>
-        <li>Trusted Web Activities (TWA)</li>
-      </ul>
-    </div>
-
-    <!-- Professional Experience -->
-    <div class="resume-section">
-      <h2 class="section-title">Professional Experience</h2>
-
-      <!-- Lead Software Engineer -->
-      <div class="mb-4">
-        <h3>Lead Software Engineer</h3>
-        <p><strong>Optum</strong> | Gurugram, Haryana, India (Hybrid) | <em>Mar 2023 – Dec 2024</em></p>
-        <ul>
-          <li>Designed and implemented a high-performance archival service, reducing MySQL query times and enhancing system efficiency.</li>
-          <li>Led a team to deliver a dynamic rule engine project for real-time processing, improving adaptability and scalability.</li>
-          <li>Developed a Golang-based microservice for event orchestration using AWS SQS and EventBridge.</li>
-          <li>Collaborated cross-functionally to ensure high-quality deliverables and meet project deadlines.</li>
-        </ul>
-      </div>
-
-      <!-- Senior Software Engineer -->
-      <div class="mb-4">
-        <h3>Senior Software Engineer</h3>
-        <p><strong>Optum</strong> | Gurugram, Haryana, India (Hybrid) | <em>Sep 2022 – Mar 2023</em></p>
-        <ul>
-          <li>Optimized MySQL query performance, reducing load times from 2 seconds to 200-500ms.</li>
-          <li>Architected a centralized AWS ElastiCache Redis solution, improving application response time by 30%.</li>
-          <li>Developed and deployed microservices to enhance platform modularity and scalability.</li>
-        </ul>
-      </div>
-
-      <!-- Software Engineer -->
-      <div class="mb-4">
-        <h3>Software Engineer</h3>
-        <p><strong>Optum</strong> | Gurugram, Haryana, India (Hybrid) | <em>Oct 2020 – Sep 2022</em></p>
-        <ul>
-          <li>Optimized legacy PHP code, improving performance and maintainability.</li>
-          <li>Built an event-driven consumer application for AWS SQS message processing.</li>
-          <li>Leveraged NiFi for ETL integration, streamlining data processing workflows.</li>
-          <li>Collaborated on scalable architecture design and performance testing initiatives.</li>
-        </ul>
-      </div>
-
-      <!-- Software Engineer - NotifyVisitors -->
-      <div class="mb-4">
-        <h3>Software Engineer</h3>
-        <p><strong>NotifyVisitors</strong> | Delhi Area, India (On-site) | <em>Feb 2019 – Jan 2020</em></p>
-        <ul>
-          <li>Led a micro-project to develop Progressive Web Applications (PWA) and Trusted Web Activities (TWA), automating TWA APK creation for clients.</li>
-          <li>Built a Pub-Sub architecture using Kafka for large-scale data analytics, enabling efficient user session and heatmap data streaming.</li>
-          <li>Developed a custom wrapper for Workbox to enhance client-side caching and improve performance.</li>
-        </ul>
-      </div>
-
-      <!-- Junior Software Engineer -->
-      <div class="mb-4">
-        <h3>Junior Software Engineer</h3>
-        <p><strong>Bigly - Online Reselling App</strong> | Noida, Uttar Pradesh, India (On-site) | <em>Nov 2017 – Jun 2018</em></p>
-        <ul>
-          <li>Developed and tested RESTful APIs to enhance backend functionality and data integration.</li>
-          <li>Transitioned from core PHP to Laravel, strengthening expertise in MVC architecture.</li>
-          <li>Utilized PHP, MySQL, HTML, CSS, and JavaScript for full-stack development.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Education -->
-    <div class="resume-section">
-      <h2 class="section-title">Education</h2>
-      <p><strong>Bachelor’s Degree in Computer Programming, Specific Applications</strong></p>
-      <p><em>Awadesh Pratap Singh University, Rewa</em> | <em>2014 – 2017</em></p>
-      <p><strong>High School, Mathematics</strong></p>
-      <p><em>School of Excellence</em> | <em>2010 – 2014</em></p>
-    </div>
-
-    <!-- Key Achievements -->
-    <div class="resume-section">
-      <h2 class="section-title">Key Achievements</h2>
-      <ul>
-        <li>Reduced MySQL query load times by 90% through performance optimization efforts.</li>
-        <li>Architected a centralized AWS ElastiCache Redis solution, improving application response time by 30%.</li>
-        <li>Automated TWA APK creation, streamlining deployment processes for clients.</li>
-        <li>Delivered a dynamic rule engine project, enabling real-time processing with greater adaptability.</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Bootstrap JS (Optional) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Dark Mode Script -->
-  <script>
-    // Check system preference and set initial mode
-    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const body = document.body;
-
-    if (systemPrefersDark && !body.classList.contains("light-mode")) {
-      body.classList.add("dark-mode");
-      document.querySelector(".dark-mode-toggle").textContent = "☀️";
-    }
-
-    // Toggle dark mode manually
-    function toggleDarkMode() {
-      body.classList.toggle("dark-mode");
-      body.classList.toggle("light-mode");
-
-      const button = document.querySelector(".dark-mode-toggle");
-      if (body.classList.contains("dark-mode")) {
-        button.textContent = "☀️";
-      } else {
-        button.textContent = "🌙";
+      .dark-mode-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
       }
-    }
-  </script>
-</body>
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-C72GRZW786"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-C72GRZW786");
+    </script>
+  </head>
+  <body>
+    <!-- Dark Mode Toggle Button -->
+    <button class="btn btn-dark dark-mode-toggle" onclick="toggleDarkMode()">
+      🌙
+    </button>
+
+    <div class="container my-5">
+      <!-- Header Section -->
+      <div class="resume-section resume-header text-center">
+        <h1>Nikhil Tiwari</h1>
+        <p>
+          India |
+          <a class="text-white" href="tel:+917898888758"> +91-7898888758</a> |
+          <a class="text-white" href="mailto:nikhiltiwari005@gmail.com"
+            >nikhiltiwari005@gmail.com</a
+          >
+          |
+          <a class="text-white" href="https://linkedin.com/in/nikhiltiwari005" target="_blank"
+            >LinkedIn</a
+          >
+          |
+          <a class="text-white" href="https://github.com/nikhiltiwari005" target="_blank"
+            >GitHub</a
+          >
+          |
+          <a class="text-white" href="./Nikhil_Resume.pdf" target="_blank">Resume</a>
+        </p>
+      </div>
+
+      <!-- Professional Summary -->
+      <div class="resume-section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p>
+          Results-driven Software Engineer with 6+ years of experience
+          specializing in designing and implementing scalable, high-performance
+          systems. Proficient in full-cycle software development, system
+          optimization, and delivering solutions for complex business
+          challenges. Skilled in Java, PHP, Spring Boot, Golang, AWS (S3,
+          Lambda, SQS), Redis, Kafka, and more. Proven track record of leading
+          teams, optimizing performance, and architecting robust systems.
+          Passionate about continuous learning and creating impactful solutions.
+        </p>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="resume-section">
+        <h2 class="section-title">Technical Skills</h2>
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>PHP</li>
+          <li>Golang</li>
+          <li>Python</li>
+          <li>Spring Boot</li>
+          <li>Laravel</li>
+          <li>NiFi</li>
+          <li>Workbox</li>
+          <li>AWS (S3, Lambda, SQS, EventBridge, ElastiCache)</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>MySQL</li>
+          <li>Redis</li>
+          <li>Kafka</li>
+          <li>RESTful APIs</li>
+          <li>ETL</li>
+          <li>Performance Optimization</li>
+          <li>Progressive Web Apps (PWA)</li>
+          <li>Trusted Web Activities (TWA)</li>
+        </ul>
+      </div>
+
+      <!-- Professional Experience -->
+      <div class="resume-section">
+        <h2 class="section-title">Professional Experience</h2>
+
+        <!-- Lead Software Engineer -->
+        <div class="mb-4">
+          <h3>Lead Software Engineer</h3>
+          <p>
+            <strong>Optum</strong> | Gurugram, Haryana, India (Hybrid) |
+            <em>Mar 2023 – Dec 2024</em>
+          </p>
+          <ul>
+            <li>
+              Designed and implemented a high-performance archival service,
+              reducing MySQL query times and enhancing system efficiency.
+            </li>
+            <li>
+              Led a team to deliver a dynamic rule engine project for real-time
+              processing, improving adaptability and scalability.
+            </li>
+            <li>
+              Developed a Golang-based microservice for event orchestration
+              using AWS SQS and EventBridge.
+            </li>
+            <li>
+              Collaborated cross-functionally to ensure high-quality
+              deliverables and meet project deadlines.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Senior Software Engineer -->
+        <div class="mb-4">
+          <h3>Senior Software Engineer</h3>
+          <p>
+            <strong>Optum</strong> | Gurugram, Haryana, India (Hybrid) |
+            <em>Sep 2022 – Mar 2023</em>
+          </p>
+          <ul>
+            <li>
+              Optimized MySQL query performance, reducing load times from 2
+              seconds to 200-500ms.
+            </li>
+            <li>
+              Architected a centralized AWS ElastiCache Redis solution,
+              improving application response time by 30%.
+            </li>
+            <li>
+              Developed and deployed microservices to enhance platform
+              modularity and scalability.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Software Engineer -->
+        <div class="mb-4">
+          <h3>Software Engineer</h3>
+          <p>
+            <strong>Optum</strong> | Gurugram, Haryana, India (Hybrid) |
+            <em>Oct 2020 – Sep 2022</em>
+          </p>
+          <ul>
+            <li>
+              Optimized legacy PHP code, improving performance and
+              maintainability.
+            </li>
+            <li>
+              Built an event-driven consumer application for AWS SQS message
+              processing.
+            </li>
+            <li>
+              Leveraged NiFi for ETL integration, streamlining data processing
+              workflows.
+            </li>
+            <li>
+              Collaborated on scalable architecture design and performance
+              testing initiatives.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Software Engineer - NotifyVisitors -->
+        <div class="mb-4">
+          <h3>Software Engineer</h3>
+          <p>
+            <strong>NotifyVisitors</strong> | Delhi Area, India (On-site) |
+            <em>Feb 2019 – Jan 2020</em>
+          </p>
+          <ul>
+            <li>
+              Led a micro-project to develop Progressive Web Applications (PWA)
+              and Trusted Web Activities (TWA), automating TWA APK creation for
+              clients.
+            </li>
+            <li>
+              Built a Pub-Sub architecture using Kafka for large-scale data
+              analytics, enabling efficient user session and heatmap data
+              streaming.
+            </li>
+            <li>
+              Developed a custom wrapper for Workbox to enhance client-side
+              caching and improve performance.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Junior Software Engineer -->
+        <div class="mb-4">
+          <h3>Junior Software Engineer</h3>
+          <p>
+            <strong>Bigly - Online Reselling App</strong> | Noida, Uttar
+            Pradesh, India (On-site) | <em>Nov 2017 – Jun 2018</em>
+          </p>
+          <ul>
+            <li>
+              Developed and tested RESTful APIs to enhance backend functionality
+              and data integration.
+            </li>
+            <li>
+              Transitioned from core PHP to Laravel, strengthening expertise in
+              MVC architecture.
+            </li>
+            <li>
+              Utilized PHP, MySQL, HTML, CSS, and JavaScript for full-stack
+              development.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="resume-section">
+        <h2 class="section-title">Education</h2>
+        <p>
+          <strong
+            >Bachelor’s Degree in Computer Programming, Specific
+            Applications</strong
+          >
+        </p>
+        <p>
+          <em>Awadesh Pratap Singh University, Rewa</em> | <em>2014 – 2017</em>
+        </p>
+        <p><strong>High School, Mathematics</strong></p>
+        <p><em>School of Excellence</em> | <em>2010 – 2014</em></p>
+      </div>
+
+      <!-- Key Achievements -->
+      <div class="resume-section">
+        <h2 class="section-title">Key Achievements</h2>
+        <ul>
+          <li>
+            Reduced MySQL query load times by 90% through performance
+            optimization efforts.
+          </li>
+          <li>
+            Architected a centralized AWS ElastiCache Redis solution, improving
+            application response time by 30%.
+          </li>
+          <li>
+            Automated TWA APK creation, streamlining deployment processes for
+            clients.
+          </li>
+          <li>
+            Delivered a dynamic rule engine project, enabling real-time
+            processing with greater adaptability.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Dark Mode Script -->
+    <script>
+      // Check system preference and set initial mode
+      const systemPrefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      const body = document.body;
+
+      if (systemPrefersDark && !body.classList.contains("light-mode")) {
+        body.classList.add("dark-mode");
+        document.querySelector(".dark-mode-toggle").textContent = "☀️";
+      }
+
+      // Toggle dark mode manually
+      function toggleDarkMode() {
+        body.classList.toggle("dark-mode");
+        body.classList.toggle("light-mode");
+
+        const button = document.querySelector(".dark-mode-toggle");
+        if (body.classList.contains("dark-mode")) {
+          button.textContent = "☀️";
+        } else {
+          button.textContent = "🌙";
+        }
+      }
+    </script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then((registration) => {
+            console.log("Service Worker Registered:", registration);
+          })
+          .catch((error) => {
+            console.log("Service Worker Registration Failed:", error);
+          });
+      }
+    </script>
+  </body>
 </html>
