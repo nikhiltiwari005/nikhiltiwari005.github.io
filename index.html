@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" class="dark">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Nikhil Tiwari - Lead Software Engineer with 7+ years of experience in backend development, scalable architecture, and system optimization. Expertise in PHP, Java, Python, Golang, AWS, and microservices." />
+    <meta name="description" content="Nikhil Tiwari - Software Engineer with 7+ years of experience in backend development, scalable architecture, and system optimization. Expertise in PHP, Java, Python, Golang, AWS, and microservices." />
     <meta name="keywords" content="Nikhil Tiwari, Software Engineer, Backend Developer, PHP, Java, Python, Golang, AWS, Microservices, System Optimization" />
     <meta name="author" content="Nikhil Tiwari" />
 
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Nikhil Tiwari - Lead Software Engineer" />
+    <meta property="og:title" content="Nikhil Tiwari - Software Engineer" />
     <meta property="og:description" content="Results-driven Senior Software Engineer with 7+ years of experience in backend development, scalable architecture, and system optimization." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nikhiltiwari005.github.io" />
@@ -17,11 +17,11 @@
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Nikhil Tiwari - Lead Software Engineer" />
+    <meta name="twitter:title" content="Nikhil Tiwari - Software Engineer" />
     <meta name="twitter:description" content="Results-driven Senior Software Engineer with 7+ years of experience in backend development, scalable architecture, and system optimization." />
     <meta name="twitter:image" content="https://nikhiltiwari005.github.io/images/profile.jpg" />
 
-    <title>Nikhil Tiwari - Lead Software Engineer</title>
+    <title>Nikhil Tiwari - Software Engineer</title>
     <link rel="manifest" href="/manifest.json" />
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png" />
@@ -33,372 +33,560 @@
     <link rel="manifest" href="/favicon_io/site.webmanifest" />
     <link rel="icon" type="image/png" sizes="192x192" href="/favicon_io/android-chrome-192x192.png" />
     <link rel="icon" type="image/png" sizes="512x512" href="/favicon_io/android-chrome-512x512.png" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
-    <!-- Custom CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        dark: {
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155',
+                        },
+                        primary: {
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                        }
+                    },
+                    animation: {
+                        'blur-in': 'blurIn 0.5s ease-out forwards',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        blurIn: {
+                            '0%': { filter: 'blur(12px)', opacity: '0' },
+                            '100%': { filter: 'blur(0px)', opacity: '1' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-        background-color: #f8f9fa;
-        color: #333;
-        transition: background-color 0.3s, color 0.3s;
-      }
-      body.dark-mode {
-        background-color: #121212;
-        color: #ffffff;
-      }
-      .resume-section {
-        background-color: #fff;
-        padding: 25px;
-        margin-bottom: 25px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: background-color 0.3s, box-shadow 0.3s;
-      }
-      .dark-mode .resume-section {
-        background-color: #1e1e1e;
-        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-      }
-      .resume-header {
-        background-color: #007bff;
-        color: #fff;
-        padding: 30px;
-        border-radius: 10px;
-        text-align: center;
-      }
-      .resume-header h1 {
-        margin: 0;
-        font-size: 2.8rem;
-        font-weight: 700;
-      }
-      .resume-header p {
-        margin: 10px 0;
-        font-size: 1.1rem;
-      }
-      .resume-header a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0 5px;
-      }
-      .resume-header a:hover {
-        text-decoration: underline;
-      }
-      .section-title {
-        color: #007bff;
-        margin-bottom: 20px;
-        font-size: 1.8rem;
-        font-weight: 700;
-        border-bottom: 2px solid #007bff;
-        display: inline-block;
-        padding-bottom: 5px;
-      }
-      .dark-mode .section-title {
-        color: #1e90ff;
-        border-bottom-color: #1e90ff;
-      }
-      .skills-list {
-        list-style-type: none;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-      .skills-list li {
-        background-color: #e9ecef;
-        padding: 8px 15px;
-        border-radius: 20px;
-        font-size: 0.9rem;
-        transition: background-color 0.3s, color 0.3s;
-      }
-      .dark-mode .skills-list li {
-        background-color: #333;
-        color: #fff;
-      }
-      .experience-item {
-        margin-bottom: 25px;
-      }
-      .experience-item h3 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-bottom: 5px;
-      }
-      .experience-item p {
-        margin: 5px 0;
-        font-size: 0.95rem;
-        color: #666;
-      }
-      .dark-mode .experience-item p {
-        color: #ccc;
-      }
-      .experience-item ul {
-        padding-left: 20px;
-      }
-      .experience-item ul li {
-        margin-bottom: 10px;
-      }
-      .dark-mode-toggle {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-        background-color: #007bff;
-        border: none;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-      .dark-mode-toggle:hover {
-        background-color: #0056b3;
-      }
+        /* Main background style */
+        body {
+            position: relative;
+            background-color: transparent; /* Make background transparent to show the spots */
+            overflow-x: hidden;
+        }
+        
+        /* Color spots container */
+        .background-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2; /* Behind everything */
+            overflow: hidden;
+        }
+        
+        /* Individual color spots */
+        .color-spot {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.5;
+        }
+        
+        /* Global glass effect for content sections */
+        section {
+            position: relative;
+            z-index: 1;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        /* Enhanced glass card effect */
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .dark .glass-card {
+            background-color: rgba(15, 23, 42, 0.5);
+        }
+        
+        /* Make the navigation more glassy too */
+        nav {
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.1) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .dark nav {
+            background-color: rgba(15, 23, 42, 0.5) !important;
+        }
+        
+        /* Make section backgrounds semi-transparent */
+        section#about, section#experience, section#projects, footer {
+            background-color: rgba(243, 244, 246, 0.5) !important; /* light mode */
+        }
+        
+        .dark section#about, .dark section#experience, .dark section#projects, .dark footer {
+            background-color: rgba(30, 41, 59, 0.5) !important; /* dark mode */
+        }
     </style>
-    <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C72GRZW786"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
         dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-C72GRZW786');
-    </script>
-  </head>
-  <body>
-    <!-- Dark Mode Toggle Button -->
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
-
-    <div class="container my-5">
-      <!-- Header Section -->
-      <div class="resume-section resume-header">
-        <h1>Nikhil Tiwari</h1>
-        <p>
-          Lead Software Engineer • Delhi, IN •
-          <a href="tel:+917898888758">+91-7898888758</a> •
-          <a href="mailto:nikhiltiwari005@gmail.com">nikhiltiwari005@gmail.com</a> •
-          <a href="https://linkedin.com/in/nikhiltiwari005" target="_blank">LinkedIn</a> •
-          <a href="https://github.com/nikhiltiwari005" target="_blank">GitHub</a> •
-          <a href="https://nikhiltiwari005.medium.com" target="_blank">Medium</a> •
-          <a href="./resume/Nikhil_Tiwari_Resume.pdf" target="_blank">Resume</a>
-        </p>
-      </div>
-
-      <!-- Professional Summary -->
-      <div class="resume-section">
-        <h2 class="section-title">Professional Summary</h2>
-        <p>
-          Results-driven <strong>Senior Software Engineer</strong> with <strong>7 years of experience</strong> in backend development, scalable architecture, and system optimization. Expertise in <strong>PHP, Java, Python, Golang, AWS, and microservices</strong>, with a proven track record of improving system performance, reducing costs, and leading cross-functional teams. Adept at designing and implementing <strong>event-driven architectures, caching strategies, and high-performance systems</strong>. Passionate about mentoring teams, driving innovation, and delivering impactful solutions.
-        </p>
-      </div>
-
-      <!-- Technical Skills -->
-      <div class="resume-section">
-        <h2 class="section-title">Technical Skills</h2>
-        <ul class="">
-          <li><strong>Programming Languages:</strong> PHP, Java, Python, Golang, JavaScript/Node.js, HTML/CSS</li>
-          <li><strong>Cloud &amp; DevOps:</strong> AWS (EC2, S3, SQS, SNS, EventBridge, Lambda, RDS, ElastiCache, CloudWatch, IaC), Docker, Kubernetes, CI/CD</li>
-          <li><strong>Databases:</strong> MySQL, Redis, MongoDB</li>
-          <li><strong>Tools &amp; Frameworks:</strong> Laravel, Spring Boot, Kafka, RESTful APIs, gRPC, JMeter, XDebug</li>
-          <li><strong>Architectures:</strong> Microservices, Event-Driven Architecture, Serverless, Scalable Systems</li>
-          <li><strong>Other Skills:</strong> Performance Optimization, SQL Query Tuning, Caching Strategies, Monitoring &amp; Alerting (ELK, Splunk, CloudWatch)</li>
-          <li><strong>Core Programming Concepts:</strong> OOPs, Design Patterns, Data Structures, Algorithms, System Design</li>
-        </ul>
-      </div>
-
-      <div class="resume-section">
-        <h2 class="section-title">Years of Experience by Technology</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="skills-list">
-              <li><strong>PHP:</strong> 7 years</li>
-              <li><strong>Java:</strong> 4 years</li>
-              <li><strong>Python:</strong> 4 years</li>
-              <li><strong>Golang:</strong> 2 years</li>
-              <li><strong>JavaScript/Node.js:</strong> 6 years</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="skills-list">
-              <li><strong>AWS:</strong> 7 years</li>
-              <li><strong>MySQL:</strong> 7 years</li>
-              <li><strong>Redis:</strong> 5 years</li>
-              <li><strong>Kafka:</strong> 5 years</li>
-              <li><strong>Docker/Kubernetes:</strong> 4 years</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Professional Experience -->
-      <div class="resume-section">
-        <h2 class="section-title">Professional Experience</h2>
-        <div class="experience-item">
-          <h3>Self Employed – Delhi, Delhi</h3>
-          <p><strong>Skill Development</strong> | Jan 2025 - Now</p>
-          <ul>
-            <li>Focused on Data Structures & Algorithms (DSA) and AI/ML to strengthen foundational knowledge and problem-solving skills.</li>
-            <li>Exploring AI/ML concepts, including supervised and unsupervised learning, neural networks, and natural language processing (NLP).</li>
-            <li>Working on personal projects to apply AI/ML techniques in real-world scenarios.</li>
-          </ul>
-        </div>
-
-        <!-- Optum -->
-        <div class="experience-item">
-          <h3>Optum (UHG) – Gurugram, Haryana</h3>
-          <p><strong>Lead Software Engineer</strong> | Oct 2020 – Dec 2024</p>
-          <ul>
-            <li>
-              <strong>Performance Optimization:</strong>
-              <ul>
-                <li>Reduced MySQL query load times from <strong>2 seconds to 200-500ms</strong>, improving system efficiency by <strong>1.5x</strong> and lowering RDS CPU utilization from <strong>70% to 50%</strong>.</li>
-                <li>Migrated non-lag-sensitive queries from product DB to replica DB, reducing query execution time.</li>
-                <li>Reduced <strong>ElastiCache CPU utilization</strong> by identifying and resolving duplicate event publishing.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Architectural Improvements:</strong>
-              <ul>
-                <li>Designed and implemented a <strong>high-performance archival service</strong>, reducing database load and improving application latency.</li>
-                <li>Developed a <strong>Golang-based microservice</strong> using AWS SQS and EventBridge, replacing HTTP-based systems and reducing operational costs.</li>
-                <li>Designed and implemented a <strong>horizontal cache management system (CSM)</strong>, reducing stale cache issues and improving system performance.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>ETL Pipeline Redesign:</strong>
-              <ul>
-                <li>Developed a <strong>PHP-based consumer layer</strong> from scratch as part of an ETL pipeline redesign project, replacing an HTTP-based system.</li>
-                <li>Collaborated with cross-functional teams to process messages from a queue, reducing processing time from <strong>7 hours to 2 hours</strong>—a <strong>71% improvement</strong>.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Leadership & Mentorship:</strong>
-              <ul>
-                <li>Mentored junior developers, conducted code reviews, and set coding standards, improving team productivity and code quality.</li>
-                <li>Conducted training sessions on <strong>caching strategies</strong> and created detailed documentation for microservices.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Monitoring & Alerting:</strong>
-              <ul>
-                <li>Implemented <strong>OpenTelemetry (OTEL)</strong> instrumentation and created dashboards for real-time monitoring, enabling proactive issue detection and resolution.</li>
-                <li>Integrated alerting mechanisms into the baseline framework, ensuring <strong>100% error log capture</strong> and aggregation in production.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Cross-Functional Collaboration:</strong>
-              <ul>
-                <li>Worked with DevOps to migrate from <strong>EC2 to EKS</strong>, optimize CI/CD pipelines, and reduce infrastructure costs.</li>
-                <li>Collaborated with QA teams to achieve <strong>>90% code coverage</strong> through unit and integration tests.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Security & Compliance:</strong>
-              <ul>
-                <li>Addressed <strong>Dependabot issues</strong> and performed <strong>PII/PHI compliance checks</strong>, enhancing application security.</li>
-                <li>Migrated from <strong>DocASAP VPN</strong> to <strong>Optum VPN</strong>, improving security and operational efficiency.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Recognition:</strong>
-              <ul>
-                <li>Received multiple performance awards for dedication, collaboration, and delivering high-quality solutions on time.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <!-- NotifyVisitors -->
-        <div class="experience-item">
-          <h3>NotifyVisitors – Delhi, Delhi</h3>
-          <p><strong>Software Engineer</strong> | Feb 2019 – Jan 2020</p>
-          <ul>
-            <li>Led the development of <strong>Progressive Web Applications (PWA)</strong> and <strong>Trusted Web Activities (TWA)</strong>, automating APK generation and improving deployment efficiency.</li>
-            <li>Built a <strong>Kafka-based Pub-Sub system</strong> for large-scale analytics, enabling efficient streaming of user session and heatmap data.</li>
-            <li>Developed a custom wrapper for <strong>Google Workbox</strong>, enhancing client-side caching and improving application performance.</li>
-            <li>Designed and implemented a <strong>rate-limiting system</strong> to manage API traffic and prevent abuse.</li>
-          </ul>
-        </div>
-
-        <!-- Bigly Technologies -->
-        <div class="experience-item">
-          <h3>Bigly Technologies – Noida, UP</h3>
-          <p><strong>Junior Software Developer</strong> | Nov 2017 – June 2018</p>
-          <ul>
-            <li>Designed and tested <strong>RESTful APIs</strong> to enhance backend functionality and data integration.</li>
-            <li>Transitioned from <strong>Core PHP to Laravel</strong>, improving code maintainability and scalability.</li>
-            <li>Utilized <strong>PHP, MySQL, HTML, CSS, and JavaScript</strong> for full-stack development.</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Key Achievements -->
-      <div class="resume-section">
-        <h2 class="section-title">Key Achievements</h2>
-        <ul>
-          <li>Designed and developed a <strong>horizontal cache management system (CSM)</strong>, reducing stale cache issues and improving system performance.</li>
-          <li>Implemented a <strong>data archival framework</strong>, improving query performance and reducing database load. Archived data can now be queried through <strong>AWS Athena</strong>.</li>
-          <li>Developed a <strong>config-based rule manager framework</strong>, enabling dynamic rule processing and improving system adaptability.</li>
-          <li>Migrated services from <strong>EC2 to EKS</strong>, reducing infrastructure costs and improving resource utilization.</li>
-          <li>Facilitated daily scrum meetings, sprint planning, and retrospectives, ensuring timely delivery of features.</li>
-        </ul>
-      </div>
-
-      <!-- Education -->
-      <div class="resume-section">
-        <h2 class="section-title">Education</h2>
-        <p><strong>Bachelor of Computer Application (BCA)</strong></p>
-        <p>APS University, Satna, MP | 2014 – 2017</p>
-      </div>
-
-      <!-- Additional Information -->
-      <div class="resume-section">
-        <h2 id="projects" class="section-title">Projects</h2>
-        <ul>
-          <li>Google Chrome Extension to unblock Youtube: https://github.com/nikhiltiwari005/netskope-yt-unblock</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Bootstrap JS (Optional) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Dark Mode Script -->
-    <script>
-      const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      const body = document.body;
-
-      if (systemPrefersDark && !body.classList.contains("light-mode")) {
-        body.classList.add("dark-mode");
-        document.querySelector(".dark-mode-toggle").textContent = "☀️";
-      }
-
-      function toggleDarkMode() {
-        body.classList.toggle("dark-mode");
-        body.classList.toggle("light-mode");
-
-        const button = document.querySelector(".dark-mode-toggle");
-        if (body.classList.contains("dark-mode")) {
-          button.textContent = "☀️";
-        } else {
-          button.textContent = "🌙";
         }
-      }
+        gtag('js', new Date());
+        gtag('config', 'G-C72GRZW786');
     </script>
     <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("/service-worker.js")
-          .then((registration) => {
-            console.log("Service Worker Registered:", registration);
-          })
-          .catch((error) => {
-            console.log("Service Worker Registration Failed:", error);
-          });
-      }
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then((registration) => {
+              console.log("Service Worker Registered:", registration);
+            })
+            .catch((error) => {
+              console.log("Service Worker Registration Failed:", error);
+            });
+        }
     </script>
-  </body>
+</head>
+<body class="bg-white dark:bg-dark-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-300">
+    <div class="background-effect" id="background-effect"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 dark:bg-dark-800/80 backdrop-blur-md z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold text-primary-500">Nikhil</a>
+                <div class="flex items-center space-x-6">
+                    <button id="theme-toggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-dark-700 transition-colors">
+                        <i class="fas fa-moon dark:hidden"></i>
+                        <i class="fas fa-sun hidden dark:inline"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-20">
+        <div class="container mx-auto px-6 py-20 text-center">
+            <div class="max-w-3xl mx-auto">
+                <div class="glass-card rounded-2xl p-8 mb-8 animate-blur-in">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-4">Hi, I'm <span class="text-primary-500">Nikhil Tiwari</span></h1>
+                    <p class="text-xl md:text-2xl mb-8">Software Engineer with 7+ years of experience</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#about" class="px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white rounded-full transition-all duration-300 transform hover:scale-105">Learn More</a>
+                    </div>
+                </div>
+                <div class="animate-float">
+                    <i class="fas fa-chevron-down text-4xl text-primary-500 opacity-70"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100 dark:bg-dark-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">About <span class="text-primary-500">Me</span></h2>
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="lg:w-1/3">
+                    <div class="glass-card rounded-2xl p-6 h-full">
+                        <div class="aspect-square bg-gray-300 dark:bg-dark-700 rounded-xl mb-4 overflow-hidden relative">
+                            <!-- Actual image with onError fallback to show the icon if image fails to load -->
+                            <img 
+                                src="../me.jpg" 
+                                alt="Nikhil Tiwari"
+                                class="w-full h-full object-cover"
+                                onError="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                            />
+                            
+                            <!-- Placeholder icon (initially hidden, shown only if image fails) -->
+                            <div class="w-full h-full flex items-center justify-center absolute top-0 left-0" style="display: none;">
+                                <i class="fas fa-user text-6xl text-gray-500 dark:text-gray-400"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/3">
+                    <div class="glass-card rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-4">Software Engineer</h3>
+                        <p class="mb-4">Results-driven Senior Software Engineer with 7+ years of experience in backend development, scalable architecture, and system optimization. Expertise in PHP, Java, Python, Golang, AWS, and microservices, with a proven track record of improving system performance, reducing costs, and leading cross-functional teams.</p>
+                        <p class="mb-6">Adept at designing and implementing event-driven architectures, caching strategies, and high-performance systems. Passionate about mentoring teams, driving innovation, and delivering impactful solutions.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-primary-500/10 text-primary-500 rounded-full">Backend</span>
+                            <span class="px-4 py-2 bg-primary-500/10 text-primary-500 rounded-full">Cloud</span>
+                            <span class="px-4 py-2 bg-primary-500/10 text-primary-500 rounded-full">DevOps</span>
+                            <span class="px-4 py-2 bg-primary-500/10 text-primary-500 rounded-full">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-primary-500">Skills</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Skill 1 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">PHP</h3>
+                        <span class="text-primary-500">7 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">JavaScript/Node.js</h3>
+                        <span class="text-primary-500">6 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">AWS</h3>
+                        <span class="text-primary-500">7 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">Java</h3>
+                        <span class="text-primary-500">4 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">Python</h3>
+                        <span class="text-primary-500">4 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">Golang</h3>
+                        <span class="text-primary-500">2 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="glass-card rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-bold">Golang</h3>
+                        <span class="text-primary-500">2 years</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2.5">
+                        <div class="bg-primary-500 h-2.5 rounded-full" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-100 dark:bg-dark-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Work <span class="text-primary-500">Experience</span></h2>
+            <div class="max-w-3xl mx-auto">
+                <!-- Experience 1 -->
+                <div class="glass-card rounded-2xl p-6 mb-6">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">Software Engineer</h3>
+                        <span class="text-primary-500">Oct 2020 - Dec 2024</span>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Optum (UHG) - Gurugram, Haryana</h4>
+                    <p class="mb-4">Led in designing and implementing scalable backend solutions, performance optimization, and system architecture.</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Reduced MySQL query load times from 2 seconds to 200-500ms, improving system efficiency by 1.5x</li>
+                        <li>Designed and implemented a high-performance archival service, reducing database load</li>
+                        <li>Developed a Golang-based microservice using AWS SQS and EventBridge</li>
+                        <li>Designed a horizontal cache management system (CSM), reducing stale cache issues</li>
+                        <li>Mentored junior developers and conducted code reviews to improve team productivity</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="glass-card rounded-2xl p-6 mb-6">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">Software Engineer</h3>
+                        <span class="text-primary-500">Feb 2019 - Jan 2020</span>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">NotifyVisitors - Delhi, Delhi</h4>
+                    <p class="mb-4">Led development of web applications and large-scale analytics systems.</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Led the development of Progressive Web Applications (PWA) and Trusted Web Activities (TWA)</li>
+                        <li>Built a Kafka-based Pub-Sub system for large-scale analytics</li>
+                        <li>Developed a custom wrapper for Google Workbox to enhance client-side caching</li>
+                        <li>Designed and implemented a rate-limiting system to manage API traffic</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="glass-card rounded-2xl p-6 mb-6">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">Junior Software Developer</h3>
+                        <span class="text-primary-500">Nov 2017 - June 2018</span>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Bigly Technologies - Noida, UP</h4>
+                    <p class="mb-4">Developed RESTful APIs and full-stack applications.</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Designed and tested RESTful APIs to enhance backend functionality</li>
+                        <li>Transitioned from Core PHP to Laravel, improving code maintainability</li>
+                        <li>Utilized PHP, MySQL, HTML, CSS, and JavaScript for full-stack development</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">Skill Development</h3>
+                        <span class="text-primary-500">Jan 2025 - Present</span>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Self Employed - Delhi, Delhi</h4>
+                    <p class="mb-4">Focusing on expanding expertise in emerging technologies.</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Focused on Data Structures & Algorithms (DSA) to strengthen problem-solving skills</li>
+                        <li>Exploring AI/ML concepts, including supervised learning, neural networks, and NLP</li>
+                        <li>Working on personal projects to apply AI/ML techniques in real-world scenarios</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-primary-500">Education</span></h2>
+            <div class="max-w-3xl mx-auto">
+                <!-- Education 1 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">Bachelor of Computer Application (BCA)</h3>
+                        <span class="text-primary-500">2014 - 2017</span>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">APS University, Satna, MP</h4>
+                    <p>Foundation in computer science, programming concepts, and software development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-100 dark:bg-dark-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured <span class="text-primary-500">Projects</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="glass-card rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 group">
+                    <div class="h-48 bg-gray-300 dark:bg-dark-700 relative overflow-hidden">
+                        <div class="w-full h-full flex items-center justify-center">
+                            <i class="fas fa-project-diagram text-6xl text-gray-500 dark:text-gray-400"></i>
+                        </div>
+                        <div class="absolute inset-0 bg-primary-500/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="https://github.com/nikhiltiwari005/netskope-yt-unblock" target="_blank" class="text-white font-bold px-4 py-2 border-2 border-white rounded-full hover:bg-white hover:text-primary-500 transition-colors">View Project</a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">YouTube Unblocker</h3>
+                        <p class="mb-4">Chrome Extension to unblock YouTube access in restricted networks.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-primary-500/10 text-primary-500 rounded-full text-sm">JavaScript</span>
+                            <span class="px-3 py-1 bg-primary-500/10 text-primary-500 rounded-full text-sm">Chrome API</span>
+                            <span class="px-3 py-1 bg-primary-500/10 text-primary-500 rounded-full text-sm">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section id="social" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Connect With <span class="text-primary-500">Me</span></h2>
+            <div class="flex justify-center space-x-6">
+                <a href="https://linkedin.com/in/nikhiltiwari005" target="_blank" class="w-16 h-16 rounded-full bg-gray-100 dark:bg-dark-700 flex items-center justify-center hover:bg-primary-500 hover:text-white transition-colors duration-300 text-2xl">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/nikhiltiwari005" target="_blank" class="w-16 h-16 rounded-full bg-gray-100 dark:bg-dark-700 flex items-center justify-center hover:bg-primary-500 hover:text-white transition-colors duration-300 text-2xl">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:nikhiltiwari005@gmail.com" class="w-16 h-16 rounded-full bg-gray-100 dark:bg-dark-700 flex items-center justify-center hover:bg-primary-500 hover:text-white transition-colors duration-300 text-2xl">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+917898888758" class="w-16 h-16 rounded-full bg-gray-100 dark:bg-dark-700 flex items-center justify-center hover:bg-primary-500 hover:text-white transition-colors duration-300 text-2xl">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://nikhiltiwari005.medium.com" target="_blank" class="w-16 h-16 rounded-full bg-gray-100 dark:bg-dark-700 flex items-center justify-center hover:bg-primary-500 hover:text-white transition-colors duration-300 text-2xl">
+                    <i class="fab fa-medium"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-100 dark:bg-dark-800">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="current-year"></span> Nikhil Tiwari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        let currentYear = document.getElementById('current-year');
+        currentYear.textContent = (new Date()).getFullYear();
+
+        // Dark mode toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        // Function to apply theme based on preference
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                html.classList.add('dark');
+            } else {
+                html.classList.remove('dark');
+            }
+        }
+
+        // Function to get system theme preference
+        function getSystemThemePreference() {
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        // Theme toggle click handler
+        themeToggle.addEventListener('click', () => {
+            // If system preference was being used, save explicit preference
+            const newTheme = html.classList.contains('dark') ? 'light' : 'dark';
+            localStorage.setItem('theme', newTheme);
+            localStorage.setItem('themeSource', 'user'); // Mark as user preference
+            applyTheme(newTheme);
+        });
+
+        // Initialize theme
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedThemeSource = localStorage.getItem('themeSource');
+            const savedTheme = localStorage.getItem('theme');
+            
+            if (savedThemeSource === 'user' && savedTheme) {
+                // User has explicitly set a preference
+                applyTheme(savedTheme);
+            } else {
+                // Use system preference
+                applyTheme(getSystemThemePreference());
+                // Listen for system preference changes
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+                    if (localStorage.getItem('themeSource') !== 'user') {
+                        applyTheme(e.matches ? 'dark' : 'light');
+                    }
+                });
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+    <!-- Keep the color spots script unchanged -->
+    <script>
+        // Create and position random color spots
+        function createColorSpots() {
+            const container = document.getElementById('background-effect');
+            
+            // Clear any existing spots if function is called multiple times
+            container.innerHTML = '';
+            
+            const colors = [
+                'rgba(59, 130, 246, 0.7)',   // Blue (primary-500)
+                'rgba(37, 99, 235, 0.7)',    // Darker blue (primary-600) 
+                'rgba(99, 102, 241, 0.7)',   // Indigo
+                'rgba(139, 92, 246, 0.7)',   // Purple
+                'rgba(236, 72, 153, 0.7)',   // Pink
+            ];
+            
+            // Number of spots depends on screen size
+            const spotCount = window.innerWidth > 768 ? 6 : 4;
+            
+            // Create spots
+            for (let i = 0; i < spotCount; i++) {
+                const spot = document.createElement('div');
+                spot.classList.add('color-spot');
+                
+                // Random properties
+                const size = Math.random() * 500 + 300; // Larger spots
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                
+                // Position and style
+                spot.style.width = `${size}px`;
+                spot.style.height = `${size}px`;
+                spot.style.left = `${Math.random() * 100}%`;
+                spot.style.top = `${Math.random() * 100}%`;
+                spot.style.backgroundColor = color;
+                
+                container.appendChild(spot);
+            }
+        }
+        
+        // Initialize color spots
+        document.addEventListener('DOMContentLoaded', createColorSpots);
+        
+        // Re-create spots on window resize
+        let resizeTimer;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(createColorSpots, 250);
+        });
+    </script>
+</body>
 </html>
