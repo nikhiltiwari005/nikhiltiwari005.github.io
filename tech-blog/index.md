@@ -130,7 +130,7 @@ title: "Tech Blog"
   <p class="blog-desc">Notes on software engineering, systems thinking, and things I'm learning.</p>
 </div>
 
-{% assign pages_list = site.pages | where_exp: "p", "p.path contains 'pages/' and p.layout == 'post'" | sort: 'date' | reverse %}
+{% assign pages_list = site.pages | where_exp: "p", "p.path contains 'pages/'" | where_exp: "p", "p.layout == 'post'" | sort: 'date' | reverse %}
 
 {% if pages_list.size > 0 %}
   <ul class="post-list">

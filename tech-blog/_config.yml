@@ -7,7 +7,6 @@ author: "Nikhil Tiwari"
 # Build
 markdown: kramdown
 highlighter: rouge
-permalink: /pages/:name/
 
 kramdown:
   input: GFM
