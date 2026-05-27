@@ -1,0 +1,20 @@
+title: "Nikhil Tiwari — Tech Blog"
+description: "Writing about software, systems, and things I find interesting."
+url: "https://nikhiltiwari005.github.io"
+baseurl: "/tech-blog"
+author: "Nikhil Tiwari"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: /pages/:name/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# Exclude from build
+exclude:
+  - README.md

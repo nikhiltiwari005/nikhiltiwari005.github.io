@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <title>{% if page.title %}{{ page.title }} — {{ site.author }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d0d0f;
+      --surface:  #131316;
+      --border:   #222228;
+      --accent:   #7c6dfa;
+      --accent2:  #5de4c7;
+      --text:     #e2e4ea;
+      --muted:    #5a5f6e;
+      --soft:     #9399a8;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── NAV ─────────────────────────────────── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,13,15,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    .nav-logo span { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a.active { color: var(--accent); }
+
+    /* ── MAIN WRAPPER ────────────────────────── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    /* ── FOOTER ──────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-family: 'Syne', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+  </style>
+
+  {% if page.layout == 'post' %}
+  <style>
+    /* ── POST TYPOGRAPHY ─────────────────────── */
+    .post-header { margin-bottom: 48px; }
+
+    .post-tag {
+      display: inline-block;
+      font-family: 'Syne', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(124,109,250,0.1);
+      border: 1px solid rgba(124,109,250,0.25);
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+    }
+
+    .post-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      line-height: 1.15;
+      color: #fff;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+
+    .post-meta {
+      font-size: 0.82rem;
+      color: var(--muted);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .post-meta span::before { content: '·'; margin-right: 16px; }
+    .post-meta span:first-child::before { display: none; }
+
+    .post-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* ── PROSE ───────────────────────────────── */
+    .prose h1, .prose h2, .prose h3,
+    .prose h4, .prose h5, .prose h6 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      color: #fff;
+      margin: 2.2em 0 0.7em;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+    .prose h1 { font-size: 1.9rem; font-weight: 800; }
+    .prose h2 { font-size: 1.4rem; }
+    .prose h3 { font-size: 1.1rem; }
+
+    .prose p { margin: 1.1em 0; color: var(--text); }
+
+    .prose a {
+      color: var(--accent2);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba(93,228,199,0.3);
+      transition: text-decoration-color 0.15s;
+    }
+    .prose a:hover { text-decoration-color: var(--accent2); }
+
+    .prose strong { font-weight: 600; color: #fff; }
+    .prose em { font-style: italic; color: var(--soft); }
+
+    .prose ul, .prose ol {
+      padding-left: 1.5em;
+      margin: 1em 0;
+    }
+    .prose li { margin: 0.4em 0; color: var(--text); }
+
+    .prose blockquote {
+      border-left: 3px solid var(--accent);
+      margin: 1.8em 0;
+      padding: 14px 20px;
+      background: rgba(124,109,250,0.05);
+      border-radius: 0 6px 6px 0;
+    }
+    .prose blockquote p { margin: 0; color: var(--soft); font-style: italic; }
+
+    .prose code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.84em;
+      background: #1c1c22;
+      color: var(--accent2);
+      padding: 2px 7px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+    }
+
+    .prose pre {
+      background: #111115;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow-x: auto;
+      margin: 1.8em 0;
+      padding: 20px;
+    }
+    .prose pre code {
+      background: none;
+      border: none;
+      padding: 0;
+      font-size: 0.87rem;
+      color: var(--text);
+    }
+
+    .prose table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.8em 0;
+      font-size: 0.93rem;
+    }
+    .prose th {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 10px 14px;
+      text-align: left;
+      background: var(--surface);
+      color: var(--soft);
+      border-bottom: 1px solid var(--border);
+    }
+    .prose td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .prose hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5em 0;
+    }
+
+    .prose img {
+      max-width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin: 1.5em 0;
+    }
+
+    /* syntax highlight override */
+    .highlight { background: #111115 !important; }
+
+    /* ── POST NAV ────────────────────────────── */
+    .post-nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 60px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+    }
+    .post-nav a {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .post-nav a:hover { color: var(--accent); }
+  </style>
+  {% endif %}
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="{{ site.baseurl }}/">NT<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="https://nikhiltiwari005.github.io">Home</a></li>
+      <li><a href="{{ site.baseurl }}/" class="active">Blog</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <span>© {{ 'now' | date: "%Y" }} <a href="https://nikhiltiwari005.github.io">Nikhil Tiwari</a></span>
+    &nbsp;·&nbsp;
+    <span>Built with Jekyll &amp; GitHub Pages</span>
+  </footer>
+
+</body>
+</html>

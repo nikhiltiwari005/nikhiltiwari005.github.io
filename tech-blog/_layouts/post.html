@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article>
+  <header class="post-header">
+    {% if page.tag %}
+      <div class="post-tag">{{ page.tag }}</div>
+    {% endif %}
+
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <div class="post-meta">
+      <span>{{ page.date | date: "%B %d, %Y" }}</span>
+      {% if page.author %}<span>{{ page.author }}</span>{% endif %}
+      {% if page.read_time %}<span>{{ page.read_time }} min read</span>{% endif %}
+    </div>
+  </header>
+
+  <hr class="post-divider" />
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <div class="post-nav">
+    <a href="{{ site.baseurl }}/">← All Posts</a>
+    <a href="https://nikhiltiwari005.github.io">nikhiltiwari005.github.io ↗</a>
+  </div>
+</article>
