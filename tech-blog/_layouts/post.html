@@ -6,16 +6,16 @@ layout: default
   <header class="post-header">
     <div class="post-hero-accent"></div>
 
-    {% if page.tag or page.date %}
+    {% if page.tag %}
       <div class="post-kicker">
-        {% if page.tag %}<span class="post-tag">{{ page.tag }}</span>{% endif %}
-        <span>{{ page.date | date: "%B %d, %Y" }}</span>
+        <span class="post-tag">{{ page.tag }}</span>
       </div>
     {% endif %}
 
     <h1 class="post-title">{{ page.title }}</h1>
 
     <div class="post-meta">
+      <span>{{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.author %}<span>{{ page.author }}</span>{% endif %}
       {% if page.read_time %}<span>{{ page.read_time }} min read</span>{% endif %}
     </div>

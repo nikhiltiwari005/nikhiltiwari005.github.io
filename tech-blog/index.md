@@ -16,20 +16,18 @@ permalink: /tech-blog/
   <div class="post-list-wrap">
     {% for post in pages_list %}
       {% capture post_num %}{{ forloop.index | prepend: "0" | slice: -2, 2 }}{% endcapture %}
-      <div class="post-row">
+      <a href="{{ post.url | relative_url }}" class="post-row-link">
         <div class="post-row-num">{{ post_num }}</div>
         <div class="post-row-body">
           {% if post.tag %}<div class="post-row-tag">{{ post.tag }}</div>{% endif %}
-          <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
-            <div class="post-row-title">{{ post.title }}</div>
-            {% if post.description %}<div class="post-row-desc">{{ post.description }}</div>{% endif %}
-          </a>
+          <div class="post-row-title">{{ post.title }}</div>
+          {% if post.description %}<div class="post-row-desc">{{ post.description }}</div>{% endif %}
         </div>
         <div class="post-row-right">
           <span class="post-row-date">{{ post.date | date: "%b %d, %Y" }}</span>
           <span class="post-row-arrow">→</span>
         </div>
-      </div>
+      </a>
     {% endfor %}
   </div>
 {% else %}
