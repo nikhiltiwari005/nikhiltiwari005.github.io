@@ -19,3 +19,7 @@ kramdown:
 # Exclude from build
 exclude:
   - README.md
+
+plugins:
+  - jekyll-sitemap   # auto-generates /tech-blog/sitemap.xml
+  - jekyll-seo-tag   # (available if you want to use it later)

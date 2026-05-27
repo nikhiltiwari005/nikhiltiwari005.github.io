@@ -4,20 +4,22 @@ layout: default
 
 <article>
   <header class="post-header">
-    {% if page.tag %}
-      <div class="post-tag">{{ page.tag }}</div>
+    <div class="post-hero-accent"></div>
+
+    {% if page.tag or page.date %}
+      <div class="post-kicker">
+        {% if page.tag %}<span class="post-tag">{{ page.tag }}</span>{% endif %}
+        <span>{{ page.date | date: "%B %d, %Y" }}</span>
+      </div>
     {% endif %}
 
     <h1 class="post-title">{{ page.title }}</h1>
 
     <div class="post-meta">
-      <span>{{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.author %}<span>{{ page.author }}</span>{% endif %}
       {% if page.read_time %}<span>{{ page.read_time }} min read</span>{% endif %}
     </div>
   </header>
-
-  <hr class="post-divider" />
 
   <div class="prose">
     {{ content }}
