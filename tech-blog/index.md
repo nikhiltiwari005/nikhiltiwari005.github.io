@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Tech Blog"
+permalink: /tech-blog/
 ---
 
 <style>

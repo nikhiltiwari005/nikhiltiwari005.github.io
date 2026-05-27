@@ -4,6 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.author }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:locale" content="en_US" />
+  {% if page.image or site.image %}
+    <meta property="og:image" content="{{ page.image | default: site.image | absolute_url }}" />
+    <meta property="og:image:alt" content="{{ page.title | default: site.title }}" />
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+  {% if site.social.twitter %}
+    <meta name="twitter:creator" content="@{{ site.social.twitter }}" />
+  {% endif %}
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {{ site.author }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+  {% if page.image or site.image %}
+    <meta name="twitter:image" content="{{ page.image | default: site.image | absolute_url }}" />
+  {% endif %}
+  <meta name="theme-color" content="#0d0d0f" />
   <title>{% if page.title %}{{ page.title }} — {{ site.author }}{% else %}{{ site.title }}{% endif %}</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -280,10 +301,10 @@
 <body>
 
   <nav>
-    <a class="nav-logo" href="{{ site.baseurl }}/">NT<span>.</span></a>
+    <a class="nav-logo" href="{{ "/" | relative_url }}">NT<span>.</span></a>
     <ul class="nav-links">
       <li><a href="https://nikhiltiwari005.github.io">Home</a></li>
-      <li><a href="{{ site.baseurl }}/" class="active">Blog</a></li>
+      <li><a href="{{ "/" | relative_url }}" class="active">Blog</a></li>
     </ul>
   </nav>
 

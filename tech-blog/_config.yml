@@ -3,6 +3,8 @@ description: "Writing about software, systems, and things I find interesting."
 url: "https://nikhiltiwari005.github.io"
 baseurl: "/tech-blog"
 author: "Nikhil Tiwari"
+social:
+  twitter: "nikhiltiwari005"
 
 # Build
 markdown: kramdown
