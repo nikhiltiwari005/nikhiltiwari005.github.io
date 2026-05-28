@@ -2,6 +2,7 @@
 layout: post
 title: "How Java Works Under the Hood"
 description: "A deep dive into the JVM, bytecode, and what actually happens when you run a Java program."
+image: /tech-blog/assets/images/java-compilation-flow.svg
 date: 2026-05-27
 author: Nikhil Tiwari
 tag: Java
