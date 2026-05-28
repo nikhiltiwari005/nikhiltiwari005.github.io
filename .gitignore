@@ -1,7 +1,5 @@
 .DS_Store
 PROJECT_SUMMARY.md
 tech-blog/.bundle/
-tech-blog/Gemfile
-tech-blog/Gemfile.lock
 tech-blog/_site/
 tech-blog/vendor/
