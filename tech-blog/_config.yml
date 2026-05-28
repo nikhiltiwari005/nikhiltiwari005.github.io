@@ -6,6 +6,9 @@ author: "Nikhil Tiwari"
 social:
   twitter: "nikhiltiwari005"
 
+# Disable default theme - use custom layouts
+theme: null
+
 # Build
 markdown: kramdown
 highlighter: rouge
