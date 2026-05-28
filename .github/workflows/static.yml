@@ -45,18 +45,13 @@ jobs:
           cp manifest.json _deploy/ || true
           cp service-worker.js _deploy/ || true
           
-          # Flatten Jekyll output - Jekyll builds with baseurl creates nested structure
-          # Copy the actual tech-blog content (removes the nested tech-blog/ directory)
+          # Jekyll with baseurl creates: _site/tech-blog/
+          # Copy from the correct nested level to flatten
           if [ -d "tech-blog/_site/tech-blog" ]; then
             cp -r tech-blog/_site/tech-blog/* _deploy/tech-blog/
           else
             cp -r tech-blog/_site/* _deploy/tech-blog/
           fi
-          
-          # Also copy pages and other files from root of _site
-          cp -r tech-blog/_site/pages/ _deploy/tech-blog/ 2>/dev/null || true
-          cp tech-blog/_site/sitemap.xml _deploy/tech-blog/ 2>/dev/null || true
-          cp tech-blog/_site/robots.txt _deploy/tech-blog/ 2>/dev/null || true
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
