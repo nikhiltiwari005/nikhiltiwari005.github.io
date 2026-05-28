@@ -35,18 +35,28 @@ jobs:
       
       - name: Create deployment artifact
         run: |
-          # Create temp directory for deployment
+          # Create tech-blog directory
           mkdir -p _deploy/tech-blog
           
-          # Copy all root-level files and directories
+          # Copy all root-level files and directories (main site)
           cp -r favicon/ _deploy/ || true
           cp -r resume/ _deploy/ || true
           cp index.html _deploy/ || true
           cp manifest.json _deploy/ || true
           cp service-worker.js _deploy/ || true
           
-          # Copy built tech-blog to correct subdirectory
-          cp -r tech-blog/_site/* _deploy/tech-blog/
+          # Flatten Jekyll output - Jekyll builds with baseurl creates nested structure
+          # Copy the actual tech-blog content (removes the nested tech-blog/ directory)
+          if [ -d "tech-blog/_site/tech-blog" ]; then
+            cp -r tech-blog/_site/tech-blog/* _deploy/tech-blog/
+          else
+            cp -r tech-blog/_site/* _deploy/tech-blog/
+          fi
+          
+          # Also copy pages and other files from root of _site
+          cp -r tech-blog/_site/pages/ _deploy/tech-blog/ 2>/dev/null || true
+          cp tech-blog/_site/sitemap.xml _deploy/tech-blog/ 2>/dev/null || true
+          cp tech-blog/_site/robots.txt _deploy/tech-blog/ 2>/dev/null || true
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
