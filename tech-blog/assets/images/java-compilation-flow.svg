@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" style="background: #0d0d0f;">
+  <defs>
+    <style>
+      .box { fill: #1a1a1f; stroke: #7c6dfa; stroke-width: 2; }
+      .box-title { font-size: 14px; font-weight: bold; fill: #fff; }
+      .box-text { font-size: 12px; fill: #e2e4ea; }
+      .arrow { stroke: #5de4c7; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .label { font-size: 11px; fill: #5de4c7; font-weight: bold; }
+      .highlight { fill: #7c6dfa; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#5de4c7" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="30" style="font-size: 24px; font-weight: bold; fill: #fff; text-anchor: middle;">Java Compilation &amp; Execution Flow</text>
+
+  <!-- Stage 1: Source Code -->
+  <rect x="50" y="80" width="140" height="80" class="box" rx="8"/>
+  <text x="120" y="105" text-anchor="middle" class="box-title">Source Code</text>
+  <text x="120" y="125" text-anchor="middle" class="box-text">MyClass.java</text>
+  <text x="120" y="140" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">public class</text>
+  <text x="120" y="153" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">Hello World</text>
+
+  <!-- Arrow 1 -->
+  <path d="M 190 120 L 240 120" class="arrow"/>
+  <text x="215" y="115" class="label" text-anchor="middle">javac</text>
+
+  <!-- Stage 2: Bytecode -->
+  <rect x="240" y="80" width="140" height="80" class="box" rx="8"/>
+  <text x="310" y="105" text-anchor="middle" class="box-title">Bytecode</text>
+  <text x="310" y="125" text-anchor="middle" class="box-text">MyClass.class</text>
+  <text x="310" y="140" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">Platform</text>
+  <text x="310" y="153" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">Independent</text>
+
+  <!-- Arrow 2 -->
+  <path d="M 380 120 L 430 120" class="arrow"/>
+  <text x="405" y="115" class="label" text-anchor="middle">java</text>
+
+  <!-- Stage 3: JVM -->
+  <rect x="430" y="80" width="140" height="80" class="box" rx="8"/>
+  <text x="500" y="105" text-anchor="middle" class="box-title" style="fill: #5de4c7;">JVM</text>
+  <text x="500" y="125" text-anchor="middle" class="box-text">Classloader</text>
+  <text x="500" y="140" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">Verifier</text>
+  <text x="500" y="153" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">Executor</text>
+
+  <!-- Arrow to Runtime -->
+  <path d="M 500 160 L 500 220" class="arrow"/>
+  <text x="520" y="190" class="label">Runtime</text>
+
+  <!-- Stage 4a: Interpretation -->
+  <rect x="300" y="220" width="130" height="100" class="box" rx="8"/>
+  <text x="365" y="245" text-anchor="middle" class="box-title">Interpretation</text>
+  <text x="365" y="265" text-anchor="middle" class="box-text" style="font-size: 11px;">Read bytecode</text>
+  <text x="365" y="280" text-anchor="middle" class="box-text" style="font-size: 11px;">line by line</text>
+  <text x="365" y="305" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8; font-style: italic;">Slower ⚠</text>
+
+  <!-- Arrow down from Interpretation -->
+  <path d="M 365 320 L 365 380" class="arrow"/>
+
+  <!-- Stage 4b: JIT Compilation -->
+  <rect x="570" y="220" width="130" height="100" class="box" rx="8"/>
+  <text x="635" y="245" text-anchor="middle" class="box-title" style="fill: #5de4c7;">JIT Compilation</text>
+  <text x="635" y="265" text-anchor="middle" class="box-text" style="font-size: 11px;">Hot paths</text>
+  <text x="635" y="280" text-anchor="middle" class="box-text" style="font-size: 11px;">→ Machine code</text>
+  <text x="635" y="305" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #5de4c7; font-style: italic;">Faster ⚡</text>
+
+  <!-- Arrow down from JIT -->
+  <path d="M 635 320 L 635 380" class="arrow"/>
+
+  <!-- Arrow connecting both to execution -->
+  <path d="M 435 380 L 500 380" class="arrow"/>
+  <path d="M 565 380 L 500 380" class="arrow"/>
+
+  <!-- Stage 5: Native Execution -->
+  <rect x="400" y="380" width="200" height="80" class="box" rx="8" style="fill: #1a2a1f; stroke: #5de4c7; stroke-width: 2;"/>
+  <text x="500" y="410" text-anchor="middle" class="box-title" style="fill: #5de4c7;">Native Machine Code</text>
+  <text x="500" y="430" text-anchor="middle" class="box-text">Running on OS/CPU</text>
+  <text x="500" y="450" text-anchor="middle" class="box-text" style="font-size: 10px; fill: #9399a8;">Output: Hello World ✓</text>
+
+  <!-- Memory Management Box -->
+  <rect x="50" y="380" width="180" height="80" class="box" rx="8" style="stroke: #7c6dfa; stroke-dasharray: 5,5;"/>
+  <text x="140" y="405" text-anchor="middle" class="box-title">Memory (JVM)</text>
+  <text x="140" y="425" text-anchor="middle" class="box-text" style="font-size: 11px;">Stack: locals</text>
+  <text x="140" y="445" text-anchor="middle" class="box-text" style="font-size: 11px;">Heap: objects</text>
+
+  <!-- GC Arrow -->
+  <path d="M 230 420 L 290 420" class="arrow" style="stroke-dasharray: 5,5;"/>
+  <text x="260" y="410" class="label" style="font-size: 10px;">GC cleanup</text>
+
+  <!-- Bottom Info -->
+  <rect x="50" y="520" width="800" height="60" style="fill: #131316; stroke: #222228; stroke-width: 1; rx: 4;"/>
+  <text x="60" y="545" style="font-size: 12px; fill: #5de4c7; font-weight: bold;">Key Insight:</text>
+  <text x="60" y="565" style="font-size: 11px; fill: #e2e4ea;">Bytecode once, runs anywhere. JVM handles platform differences. JIT warms up over time = faster execution.</text>
+</svg>

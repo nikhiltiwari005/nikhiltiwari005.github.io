@@ -10,6 +10,8 @@ read_time: 6
 
 Java is one of those languages that promises "write once, run anywhere" — but how does that actually work? Let's pull back the curtain.
 
+![Java Compilation and Execution Flow](/tech-blog/assets/images/java-compilation-flow.svg)
+
 ## The Compilation Step
 
 When you write Java code and run `javac MyClass.java`, the compiler doesn't produce machine code. It produces **bytecode** — a `.class` file that no hardware natively understands.
