@@ -21,11 +21,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Build Jekyll site
-        uses: actions/jekyll-build-pages@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./tech-blog
-          destination: ./tech-blog/_site
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: 'tech-blog'
+      
+      - name: Build Jekyll site with Gemfile
+        run: |
+          cd tech-blog
+          bundle exec jekyll build
       
       - name: Create deployment artifact
         run: |
