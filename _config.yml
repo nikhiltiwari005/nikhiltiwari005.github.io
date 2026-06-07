@@ -2,7 +2,7 @@
 # For more options, see https://github.com/cotes2020/jekyll-theme-chirpy
 
 title: Nikhil Tiwari
-tagline: Software Engineer | Tech Writer | Open Source Contributor
+tagline: Lead Software Engineer | AWS | Cloud & Backend Development | Open to Opportunities 
 description: Personal website and tech blog by Nikhil Tiwari
 url: "https://nikhiltiwari005.github.io"
 avatar: /me.png
@@ -105,9 +105,17 @@ jekyll-archives:
 
 # Comments system (optional)
 comments:
-  active: disqus
-  disqus:
-    shortname: ""
+  provider: giscus
+  giscus:
+    repo: nikhiltiwari005/nikhiltiwari005.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkxNTU1MDE2MzU=
+    category: General
+    category_id: DIC_kwDOCUTEQ84C-r1s
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    input_position: top
+    lang: en
 
 # Analytics (optional)
 analytics:
