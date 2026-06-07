@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/reduce-database-round-trips-for-faster-application-performance/1_2qPAlEkrUeQcUGjWyxIP5w.png
     alt: image
+description: "Every time your application communicates with the database — sending a query and waiting for a response — it initiates a round trip . While each individual t..."
 ---
 
 ### ⚡ Reduce Database Round Trips for Faster Application Performance

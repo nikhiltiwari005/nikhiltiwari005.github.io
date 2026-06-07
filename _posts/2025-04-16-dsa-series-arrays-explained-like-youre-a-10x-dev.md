@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/dsa-series-arrays-explained-like-youre-a-10x-dev/1_vXJWND7NDW2UUy0-BT5KUw.png
     alt: image
+description: "A deep dive into how arrays really work — from memory layout and low level behavior to raw implementations and must know DSA patterns."
 ---
 
 ### DSA Series: Arrays Explained Like You’re a 10x Dev 🧠

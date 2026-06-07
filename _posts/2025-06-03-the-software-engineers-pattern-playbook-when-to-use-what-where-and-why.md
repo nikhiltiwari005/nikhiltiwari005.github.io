@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_id387MHLwqjARGOtys0UUA.png
     alt: image
+description: "A comprehensive guide to design patterns, architectural patterns, and system design fundamentals"
 ---
 
 ### The Software Engineer’s Pattern Playbook: When to Use What, Where, and Why

@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/supercharge-text-search-with-full-text-index-in-sql/1_kQE5DDyjK4H5xAxgYej_cA.png
     alt: image
+description: "Searching through large volumes of text using LIKE ‘%keyword%’ might get the job done on small tables — but it becomes a performance bottleneck as data grows..."
 ---
 
 ### 🔍 Supercharge Text Search with Full-Text Index in SQL

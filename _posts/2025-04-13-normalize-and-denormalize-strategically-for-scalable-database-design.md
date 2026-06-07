@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_U-efY9wfKS8ngvSzGOGcFg.png
     alt: image
+description: "When designing databases, we often hear two seemingly conflicting principles:"
 ---
 
 ### 🧠 Normalize and Denormalize Strategically for Scalable Database Design

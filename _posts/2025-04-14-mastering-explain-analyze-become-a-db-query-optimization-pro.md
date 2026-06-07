@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/mastering-explain-analyze-become-a-db-query-optimization-pro/1_lu3w1ApCcTYF7soBDadBIA.png
     alt: image
+description: "`EXPLAIN`(or`EXPLAIN ANALYZE`) is a tool offered by almost every SQL based RDBMS to help developers and DBAs understand how the database plans to execute (or..."
 ---
 
 ### 🧠 Mastering EXPLAIN/ANALYZE: Become a DB Query Optimization Pro

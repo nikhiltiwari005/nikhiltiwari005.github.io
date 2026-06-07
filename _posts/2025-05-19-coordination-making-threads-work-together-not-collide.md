@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/coordination-making-threads-work-together-not-collide/1_JM1hYhAkEnn08JV3WLNPrg.png
     alt: image
+description: "Welcome to Pillar 4 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### 🕸️ Coordination: Making Threads Work Together, Not Collide

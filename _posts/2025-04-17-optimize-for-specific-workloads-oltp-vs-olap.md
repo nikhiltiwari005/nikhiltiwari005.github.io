@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_YUzyyKaIcv2wxbSl-ZZGTg.png
     alt: image
+description: "Not all databases are used the same way. Knowing whether your workload is transactional (OLTP) or analytical (OLAP) is essential for optimizing performance, ..."
 ---
 
 ### 🎯 Optimize for Specific Workloads: OLTP vs OLAP

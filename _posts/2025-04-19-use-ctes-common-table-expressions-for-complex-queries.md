@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-ctes-common-table-expressions-for-complex-queries/1_y5coeDuBfsTsrCFkxmFuoQ.png
     alt: image
+description: "Common Table Expressions (CTEs) are temporary result sets defined within the execution scope of a single SQL statement. CTEs are written using the WITH claus..."
 ---
 
 ### 🧩 Use CTEs (Common Table Expressions) for Complex Queries

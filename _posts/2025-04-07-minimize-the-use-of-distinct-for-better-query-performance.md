@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/minimize-the-use-of-distinct-for-better-query-performance/1_b84fz0G2i6chkf4IRwyuXA.png
     alt: image
+description: "Why DISTINCT Can Be Costly?"
 ---
 
 Why DISTINCT Can Be Costly?---

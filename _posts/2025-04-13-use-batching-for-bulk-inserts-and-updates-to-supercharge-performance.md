@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-batching-for-bulk-inserts-and-updates-to-supercharge-performance/1_w_W_cTV6Z5efqDKn5JPgPA.png
     alt: image
+description: "When you’re dealing with large volumes of data, inserting or updating records one by one can become a serious bottleneck. Batching allows you to group multip..."
 ---
 
 ### 🚀 Use Batching for Bulk Inserts and Updates to Supercharge Performance

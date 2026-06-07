@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/demystifying-and-equals-in-java/1_9uwOm7APqOPg7_B2hRlHEw.png
     alt: image
+description: "Understanding Reference Equality, Value Equality, hashCode(), Lombok, and Records"
 ---
 
 ### Demystifying == and .equals() in Java

@@ -6,6 +6,7 @@ tags: [java]
 image:
     path: /assets/img/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_Jl2nYru0_2OJBkQzkURtUg.png
     alt: Programming Paradigms Mastering the Mindsets of Code (with Java)
+description: "Programming paradigms aren’t just buzzwords — they’re the fundamental mindsets that shape how we think, design, and write software. They influence everything..."
 ---
 
 Programming paradigms aren’t just buzzwords — they’re the fundamental mindsets that shape how we think, design, and write software. They influence everything from variable scoping to how we approach scalability.

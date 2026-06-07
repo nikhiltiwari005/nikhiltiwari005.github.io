@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/create-and-maintain-partitioning-for-scalable-sql-performance/1_McFE1GPePfYfY2_GPtaCvg.png
     alt: image
+description: "Partitioning is the process of dividing a large table or index into smaller, more manageable subsets (partitions) , while still treating them as a single tab..."
 ---
 
 ### ⚡ Create and Maintain Partitioning for Scalable SQL Performance

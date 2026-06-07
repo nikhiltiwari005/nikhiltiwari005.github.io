@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/the-multitasking-myth-why-your-brain-is-sabotaging-your-productivity-and-what-to-do-about-it/0_s59Demx4vLPG1SNe
     alt: image
+description: "Photo by Jesus Hilario H. on Unsplash You’re not a multitasking wizard — and science proves why that’s okay"
 ---
 
 ### The Multitasking Myth: Why Your Brain is Sabotaging Your Productivity (and What to Do About It)

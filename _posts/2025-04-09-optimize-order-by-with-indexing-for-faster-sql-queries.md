@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/optimize-order-by-with-indexing-for-faster-sql-queries/1_X6NPEnSdwPUBEhXT7nfEGg.png
     alt: image
+description: "When writing SQL queries that include an ORDER BY clause, performance can degrade significantly, especially on large datasets. One of the most effective ways..."
 ---
 
 ### 🔃 Optimize ORDER BY with Indexing for Faster SQL Queries

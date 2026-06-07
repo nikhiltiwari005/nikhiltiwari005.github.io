@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-union-all-instead-of-union-for-better-query-performance/1_jUL1dfnNgddoNFkLpVODpQ.png
     alt: image
+description: "Understanding UNION and UNION ALL"
 ---
 
 ### Use UNION ALL Instead of UNION for Better Query Performance

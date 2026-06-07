@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/coding-styles-101-declarative-vs-imperative-vs-functional-vs-procedural-explained-simply/1_JT1So9i90IyUPwrtdRBINg.png
     alt: image
+description: "A beginner friendly guide to the 4 core programming paradigms with real world examples, analogies, and clear code snippets."
 ---
 
 ## 🧠 Coding Styles 101: Declarative vs Imperative vs Functional vs Procedural Explained Simply (Python)

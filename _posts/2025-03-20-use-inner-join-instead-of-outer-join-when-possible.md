@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-inner-join-instead-of-outer-join-when-possible/1_J9eW2HTy5PvUSqTrc2hp4w.png
     alt: image
+description: "Using INNER JOIN instead of OUTER JOIN can significantly improve query performance, especially when you don’t need to include unmatched…"
 ---
 
 Using INNER JOIN instead of OUTER JOIN can significantly improve query performance, especially when you don’t need to include unmatched…---

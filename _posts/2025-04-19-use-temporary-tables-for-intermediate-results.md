@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-temporary-tables-for-intermediate-results/1_JBErHtrsBDsE6oYuDbUe8Q.png
     alt: image
+description: "Temporary tables are special tables that exist temporarily during a session or transaction. They are perfect for breaking down complex queries into manageabl..."
 ---
 
 ### 🧪 Use Temporary Tables for Intermediate Results

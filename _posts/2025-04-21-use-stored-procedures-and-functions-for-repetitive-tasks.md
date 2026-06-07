@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_P62IKDDdfjj_ZlSwjf9BEA.png
     alt: image
+description: "When your application performs repetitive database operations — like inserting logs, validating data, or executing complex calculations — stored procedures a..."
 ---
 
 ### 🧠 Use Stored Procedures and Functions for Repetitive Tasks

@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/avoid-select-for-better-sql-performance/1_3zigLDMr_d3be8qT_mhNlQ.png
     alt: image
+description: "When working with SQL, one of the most common and tempting shortcuts is to use SELECT to fetch all columns from a table. While it might…"
 ---
 
 When working with SQL, one of the most common and tempting shortcuts is to use SELECT * to fetch all columns from a table. While it might…---

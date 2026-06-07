@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/immutability-thread-safety-without-the-locks/1_J61Cn6r9BfdonVWGy43QsA.png
     alt: image
+description: "Welcome to Pillar 7 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### 🧱 Immutability — Thread Safety Without the Locks

@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/keep-statistics-updated-for-optimal-query-performance/1_0cdcxz_cXq2c_21ioVTYiA.png
     alt: image
+description: "What Are Database Statistics?"
 ---
 
 What Are Database Statistics?---

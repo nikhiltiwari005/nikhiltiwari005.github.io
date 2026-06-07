@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/what-are-programming-paradigms/1_OVE0JtiEfFiO2vFz4ij6Ww.png
     alt: image
+description: "Programming paradigms are different styles or approaches to solving problems using code. They define how you structure and write programs."
 ---
 
 ### 🧠 What are Programming Paradigms?

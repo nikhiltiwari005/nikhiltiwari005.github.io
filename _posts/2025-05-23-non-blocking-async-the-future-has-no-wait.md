@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/non-blocking-async-the-future-has-no-wait/1_zuc1qFL4uTV_tKGpaVB11w.png
     alt: image
+description: "Welcome to Pillar 6 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### ⚡ Non-Blocking & Async: The Future Has No wait()

@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/cores-threads-and-vcpus-the-untold-story-of-cpus-in-linux-docker-and-kubernetes/1_VoNMY2r0c7FlwTTMl4Yfow.png
     alt: image
+description: "“I gave my Docker container 2 CPUs — why is it still slow?”"
 ---
 
 ### 🧠 Cores, Threads, and vCPUs: The Untold Story of CPUs in Linux, Docker, and Kubernetes

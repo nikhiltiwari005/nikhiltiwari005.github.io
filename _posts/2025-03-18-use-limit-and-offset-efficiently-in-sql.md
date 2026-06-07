@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-limit-and-offset-efficiently-in-sql/1_TemBv9R_42IJVUcZCDVBVA.png
     alt: image
+description: "Pagination is a common requirement in modern applications. Efficiently handling large datasets without slowing down performance is critical…"
 ---
 
 Pagination is a common requirement in modern applications. Efficiently handling large datasets without slowing down performance is critical…---

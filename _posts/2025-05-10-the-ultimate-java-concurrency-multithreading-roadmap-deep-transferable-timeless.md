@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/the-ultimate-java-concurrency-multithreading-roadmap-deep-transferable-timeless/1_LyaSU-WnNUVv21A-luOzGg.png
     alt: image
+description: "Master the 9 Pillars Every Engineer Must Know"
 ---
 
 ### 🧠 The Ultimate Java Concurrency & Multithreading Roadmap (Deep, Transferable, Timeless)

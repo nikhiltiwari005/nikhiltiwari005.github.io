@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/thread-lifecycle-management-the-final-pillar/1_csRt7v-NaTmSZOCvPR056Q.png
     alt: image
+description: "Welcome to Pillar 9 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### 🧵 Thread Lifecycle & Management — The Final Pillar

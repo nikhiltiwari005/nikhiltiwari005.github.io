@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/mutual-exclusion-the-first-law-of-thread-civilization/1_mm-16pfF7Z2fzA17r5B5xQ.png
     alt: image
+description: "Welcome to Pillar 1 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### 🔐 Mutual Exclusion: The First Law of Thread Civilization

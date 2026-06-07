@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/avoid-too-many-joins-in-a-single-query/1_Etl3OFR3aN_tBHsP8P9PvA.png
     alt: image
+description: "Joining multiple tables in a single query is common in relational databases, but excessive joins — especially on large datasets — can lead to:"
 ---
 
 ### 🔗 Avoid Too Many Joins in a Single Query

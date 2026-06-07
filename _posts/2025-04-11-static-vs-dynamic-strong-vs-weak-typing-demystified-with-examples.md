@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/static-vs-dynamic-strong-vs-weak-typing-demystified-with-examples/1_ATUj2JuwT8Tyen2_8twMxQ.png
     alt: image
+description: "Whether you’re choosing a new language or just trying to understand what someone means when they say “Java is statically typed” or “JavaScript is weakly type..."
 ---
 
 ### 🧠 Static vs Dynamic, Strong vs Weak Typing: Demystified with Examples

@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/task-management-thread-creation-is-dead-long-live-the-executor/1_c997S8F743Ggv62SXwcvFg.png
     alt: image
+description: "Welcome to Pillar 5 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### 🧠 Task Management: Thread Creation is Dead, Long Live the Executor

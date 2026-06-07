@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/understanding-primitive-types-in-programming-the-building-blocks-of-code/1_E222NJ9UJBKW1owP5Ze_ww.png
     alt: image
+description: "As a newcomer to programming, you’ll quickly encounter the term “primitive types.” These foundational elements are the atoms of programming languages — the s..."
 ---
 
 ### 🧠 Understanding Primitive Types in Programming: The Building Blocks of Code

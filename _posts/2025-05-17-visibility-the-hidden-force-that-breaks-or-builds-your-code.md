@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/visibility-the-hidden-force-that-breaks-or-builds-your-code/1__v64gNC6V-ZfPyCh83RCoQ.png
     alt: image
+description: "Welcome to Pillar 2 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### 👀 Visibility: The Hidden Force That Breaks or Builds Your Code

@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/mastering-database-performance-a-guide-to-creating-proper-indexes/1_jbYHk_UcAnjH8JV8xNZWPA.png
     alt: image
+description: "Databases are the backbone of modern applications, handling massive amounts of data every second. But as the volume of data grows, so do the challenges of re..."
 ---
 
 ### Mastering Database Performance: A Guide to Creating Proper Indexes

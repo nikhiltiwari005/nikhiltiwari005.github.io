@@ -3,6 +3,7 @@ title: "SOLID Principles Made Simple: A Developer’s Guide with Real-World Java
 date: 2026-06-07 02:45:01 +0000
 categories: [programming, SOLID]
 tags: [java]
+description: "Writing clean, maintainable code is like building a house — you need solid foundations. The SOLID principles, introduced by Robert C. Martin (Uncle Bob), pro..."
 ---
 
 ### SOLID Principles Made Simple: A Developer’s Guide with Real-World Java Examples

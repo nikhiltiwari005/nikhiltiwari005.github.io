@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/singleton-pattern-in-java-beyond-the-basics/1_wbJeN0fk9NneNHF_x1ri1Q.png
     alt: image
+description: "“There should only ever be one.” — That sounds like the plot of a dystopian movie. But in software engineering, that’s the Singleton Pattern , and it plays a..."
 ---
 
 ### Singleton Pattern in Java: Beyond the Basics

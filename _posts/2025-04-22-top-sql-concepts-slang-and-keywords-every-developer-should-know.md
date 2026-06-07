@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/top-sql-concepts-slang-and-keywords-every-developer-should-know/1_eyFblsdm__xXxVB7bsCFRQ.png
     alt: image
+description: "💡 Whether you’re just starting with databases or you’re optimizing complex analytics pipelines, knowing the right SQL terms — and the lingo used by pros — ca..."
 ---
 
 ### 🔍 Top SQL Concepts, Slang, and Keywords Every Developer Should Know

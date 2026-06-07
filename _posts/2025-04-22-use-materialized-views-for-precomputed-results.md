@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/use-materialized-views-for-precomputed-results/1_ZYp332G_UCnSmRgYB9QvQQ.png
     alt: image
+description: "A materialized view is a database object that stores the result of a query physically on disk, unlike regular views which execute the query every time they’r..."
 ---
 
 ### ⚡️ Use Materialized Views for Precomputed Results

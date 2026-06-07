@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/mitigate-sql-injection-and-boost-query-performance-with-parameterized-queries/1_7mDQH9Q-UqlsYH90w3JtgA.png
     alt: image
+description: "When working with SQL queries in any application, how you pass data to the database can significantly impact performance, maintainability, and most important..."
 ---
 
 ### Mitigate SQL Injection and Boost Query Performance with Parameterized Queries

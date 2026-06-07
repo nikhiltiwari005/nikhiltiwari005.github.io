@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/mastering-indexes-in-sql-a-complete-guide/1_TLLBnTuDjvz4ae3GcJ2pyg.png
     alt: image
+description: "Indexes are one of the most powerful tools to improve the performance of SQL queries. Without proper indexing, even the most optimized…"
 ---
 
 Indexes are one of the most powerful tools to improve the performance of SQL queries. Without proper indexing, even the most optimized…---

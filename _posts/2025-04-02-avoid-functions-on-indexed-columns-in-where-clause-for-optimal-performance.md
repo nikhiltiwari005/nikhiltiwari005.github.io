@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/avoid-functions-on-indexed-columns-in-where-clause-for-optimal-performance/1_V61CUFY1uPMCTW70UP8Xtw.png
     alt: image
+description: "Why Indexed Columns Matter in Queries?"
 ---
 
 Why Indexed Columns Matter in Queries?---

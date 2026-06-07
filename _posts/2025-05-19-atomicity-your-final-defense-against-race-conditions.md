@@ -6,6 +6,7 @@ tags: []
 image:
     path: /assets/img/atomicity-your-final-defense-against-race-conditions/1_lf4NGIERbE4jWOgB2jdS6g.png
     alt: image
+description: "Welcome to Pillar 3 of the Concurrency & Multithreading: The Ultimate Engineer’s Bible series."
 ---
 
 ### ⚔️ Atomicity: Your Final Defense Against Race Conditions

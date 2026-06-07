@@ -6,6 +6,7 @@ tags: [java, spring-boot]
 image:
     path: /assets/img/spring-boot-is-slow-until-you-do-these-10-things/1_x95ey24pXDu69XQ6pE0wCw.png
     alt: image
+description: "You’re building with Spring Boot — but is your app truly optimized, or merely functional?"
 ---
 
 ### Spring Boot Is Slow — ⚡Until You Do These 10 Things
