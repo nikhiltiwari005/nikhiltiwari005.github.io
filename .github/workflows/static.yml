@@ -27,11 +27,16 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Cache gems
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       
       - name: Install dependencies
-        run: bundle install
+        run: bundle install --jobs 4 --retry 3
       
       - name: Build with Jekyll
         run: bundle exec jekyll build --verbose
