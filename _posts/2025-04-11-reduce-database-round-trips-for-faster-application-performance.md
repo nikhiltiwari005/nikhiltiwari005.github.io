@@ -1,13 +1,13 @@
 ---
 title: "⚡ Reduce Database Round Trips for Faster Application Performance"
 date: 2025-04-11 14:58:09 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### ⚡ Reduce Database Round Trips for Faster Application Performance
 
-![image](/assets/img/medium/reduce-database-round-trips-for-faster-application-performance/1_2qPAlEkrUeQcUGjWyxIP5w.png)
+![image](/assets/img/reduce-database-round-trips-for-faster-application-performance/1_2qPAlEkrUeQcUGjWyxIP5w.png)
 
 ### Why Reducing Round Trips Matters
 

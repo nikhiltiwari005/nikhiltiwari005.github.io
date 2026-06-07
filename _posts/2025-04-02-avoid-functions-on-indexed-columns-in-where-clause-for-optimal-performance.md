@@ -1,7 +1,7 @@
 ---
 title: "Avoid Functions on Indexed Columns in WHERE Clause for Optimal Performance"
 date: 2025-04-02 10:43:54 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 # Avoid Functions on Indexed Columns in WHERE Clause for Optimal Performance
@@ -10,7 +10,7 @@ Why Indexed Columns Matter in Queries?---
 
 ### Avoid Functions on Indexed Columns in WHERE Clause for Optimal Performance
 
-![image](/assets/img/medium/avoid-functions-on-indexed-columns-in-where-clause-for-optimal-performance/1_V61CUFY1uPMCTW70UP8Xtw.png)
+![image](/assets/img/avoid-functions-on-indexed-columns-in-where-clause-for-optimal-performance/1_V61CUFY1uPMCTW70UP8Xtw.png)
 
 **Why Indexed Columns Matter in Queries?**
 

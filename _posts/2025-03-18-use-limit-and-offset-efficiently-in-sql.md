@@ -1,7 +1,7 @@
 ---
 title: "Use LIMIT and OFFSET Efficiently in SQL"
 date: 2025-03-18 12:26:42 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 # Use LIMIT and OFFSET Efficiently in SQL
@@ -12,7 +12,7 @@ Pagination is a common requirement in modern applications. Efficiently handling 
 
 Pagination is a common requirement in modern applications. Efficiently handling large datasets without slowing down performance is critical for creating responsive user experiences. SQL provides powerful tools for this — LIMIT and OFFSET — but misusing them can lead to performance issues. In this post, we’ll explore how to optimize their usage and avoid common pitfalls.
 
-![image](/assets/img/medium/use-limit-and-offset-efficiently-in-sql/1_TemBv9R_42IJVUcZCDVBVA.png)
+![image](/assets/img/use-limit-and-offset-efficiently-in-sql/1_TemBv9R_42IJVUcZCDVBVA.png)
 
 **✅ What are LIMIT and OFFSET?**
 

@@ -1,12 +1,12 @@
 ---
 title: "🧠 Use Stored Procedures and Functions for Repetitive Tasks"
 date: 2025-04-21 07:51:02 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 ### 🧠 Use Stored Procedures and Functions for Repetitive Tasks
 
-![image](/assets/img/medium/use-stored-procedures-and-functions-for-repetitive-tasks/1_P62IKDDdfjj_ZlSwjf9BEA.png)
+![image](/assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_P62IKDDdfjj_ZlSwjf9BEA.png)
 
 ### 🚀 Why Use Stored Procedures and Functions?
 
@@ -21,7 +21,7 @@ When your application performs repetitive database operations — like inserting
 
 ### 🔧 Stored Procedure vs Function
 
-![image](/assets/img/medium/use-stored-procedures-and-functions-for-repetitive-tasks/1_CS3TKE21STLGcijfZ85X6g.png)
+![image](/assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_CS3TKE21STLGcijfZ85X6g.png)
 
 ### 📘 Example: Stored Procedure for Bulk Logging
 
@@ -71,7 +71,7 @@ CALL daily_sales_summary(CURRENT_DATE - INTERVAL 1 DAY);
 - ⚡**Less network overhead**: Only call procedure name, not whole query
 - 🔐**Security**: Avoid exposing raw tables directly to application layer
 
-![image](/assets/img/medium/use-stored-procedures-and-functions-for-repetitive-tasks/1_69_Ofhd1ZXX5Om1eAVPvKQ.png)
+![image](/assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_69_Ofhd1ZXX5Om1eAVPvKQ.png)
 
 ### 🔒 Best Practices
 

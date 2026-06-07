@@ -1,7 +1,7 @@
 ---
 title: "🧠 What are Programming Paradigms?"
 date: 2025-04-23 07:22:34 +0000
-categories: [medium-export]
+categories: ["Programming Concepts"]
 tags: []
 ---
 
@@ -9,7 +9,7 @@ tags: []
 
 **Programming paradigms**are different styles or approaches to solving problems using code. They define*how*you structure and write programs.
 
-![image](/assets/img/medium/what-are-programming-paradigms/1_OVE0JtiEfFiO2vFz4ij6Ww.png)
+![image](/assets/img/what-are-programming-paradigms/1_OVE0JtiEfFiO2vFz4ij6Ww.png)
 
 ### 🔥 The Most Common Paradigms:
 
@@ -103,7 +103,7 @@ SELECT number FROM numbers WHERE number % 2 = 0;
 
 ### 🧪 Summary Table
 
-![image](/assets/img/medium/what-are-programming-paradigms/1_sgdj0fD7brGSXFvY9DyJWw.png)
+![image](/assets/img/what-are-programming-paradigms/1_sgdj0fD7brGSXFvY9DyJWw.png)
 
 ### 🏁 Conclusion
 

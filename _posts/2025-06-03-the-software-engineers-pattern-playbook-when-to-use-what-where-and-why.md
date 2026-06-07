@@ -9,10 +9,7 @@ tags: []
 
 > A comprehensive guide to design patterns, architectural patterns, and system design fundamentals
 
-![image](/assets/img/medium/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_id387MHLwqjARGOtys0UUA.png)
-
-> ***🔓Not a Medium member?***[Read it for Free](https://nikhiltiwari005.medium.com/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why-69cde0c751b7?sk=b5476a95af6d052259626e5c7a1ecc8d)**  
-> **If you found it useful,**clap & share**. It keeps high-quality content alive.
+![image](/assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_id387MHLwqjARGOtys0UUA.png)
 
 #### 🤔 The Confusion is Real
 
@@ -42,7 +39,7 @@ MACRO LEVEL (City Planning)├── System Design → How multiple services/sys
 
 ### 📚 Pattern Categories Explained
 
-![image](/assets/img/medium/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_KDcO0-zeZrMxaPjuT3BlBQ.png)
+![image](/assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_KDcO0-zeZrMxaPjuT3BlBQ.png)
 
 ### 🏛️ Architectural Patterns
 
@@ -193,7 +190,7 @@ SOFTWARE DEVELOPMENT├── 1. FOUNDATIONS: Programming Core│   ├── La
 
 #### When Someone Says…
 
-![image](/assets/img/medium/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_h9djDDyQ87VPwKwPUqVQvw.png)
+![image](/assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_h9djDDyQ87VPwKwPUqVQvw.png)
 
 #### In Interviews, Expect…
 

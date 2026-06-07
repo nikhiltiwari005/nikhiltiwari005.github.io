@@ -1,13 +1,13 @@
 ---
 title: "⚡️ Use Materialized Views for Precomputed Results"
 date: 2025-04-22 08:41:58 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### ⚡️ Use Materialized Views for Precomputed Results
 
-![image](/assets/img/medium/use-materialized-views-for-precomputed-results/1_ZYp332G_UCnSmRgYB9QvQQ.png)
+![image](/assets/img/use-materialized-views-for-precomputed-results/1_ZYp332G_UCnSmRgYB9QvQQ.png)
 
 ### 📌 What Are Materialized Views?
 
@@ -21,7 +21,7 @@ They’re especially useful when:
 
 ### 🚀 Benefits of Materialized Views
 
-![image](/assets/img/medium/use-materialized-views-for-precomputed-results/1_jhgKlK5kk4NAHI28gR3VWA.png)
+![image](/assets/img/use-materialized-views-for-precomputed-results/1_jhgKlK5kk4NAHI28gR3VWA.png)
 
 ### 🔧 How to Create and Use Materialized Views
 
@@ -74,7 +74,7 @@ CREATE VIEW top_customers WITH SCHEMABINDING ASSELECT customer_id, COUNT_BIG(*) 
 
 ### 📊 Performance Comparison
 
-![image](/assets/img/medium/use-materialized-views-for-precomputed-results/1_GLCORi6HrRsH3DBC3wBXqg.png)
+![image](/assets/img/use-materialized-views-for-precomputed-results/1_GLCORi6HrRsH3DBC3wBXqg.png)
 
 ### 🎯 Pro Tip
 

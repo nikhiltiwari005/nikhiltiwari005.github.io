@@ -1,13 +1,13 @@
 ---
 title: "🧠 Mastering Sequential, Concurrent, and Parallel Programming Concepts"
 date: 2025-04-14 07:43:12 +0000
-categories: [medium-export]
+categories: ["Programming Concepts"]
 tags: []
 ---
 
 ### 🧠 Mastering Sequential, Concurrent, and Parallel Programming Concepts
 
-![image](/assets/img/medium/mastering-sequential-concurrent-and-parallel-programming-concepts/1_ssQ-Lg2deE-qbdPGNxR-mA.png)
+![image](/assets/img/mastering-sequential-concurrent-and-parallel-programming-concepts/1_ssQ-Lg2deE-qbdPGNxR-mA.png)
 
 ### 📄 Executive Summary
 

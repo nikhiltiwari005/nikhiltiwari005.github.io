@@ -1,19 +1,19 @@
 ---
 title: "🎯 Optimize for Specific Workloads: OLTP vs OLAP"
 date: 2025-04-17 13:38:02 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🎯 Optimize for Specific Workloads: OLTP vs OLAP
 
-![image](/assets/img/medium/optimize-for-specific-workloads-oltp-vs-olap/1_YUzyyKaIcv2wxbSl-ZZGTg.png)
+![image](/assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_YUzyyKaIcv2wxbSl-ZZGTg.png)
 
 Not all databases are used the same way. Knowing whether your workload is**transactional (OLTP)**or**analytical (OLAP)**is essential for optimizing performance, schema design, indexing strategy, and query tuning.
 
 ### 🔍 What Are OLTP and OLAP?
 
-![image](/assets/img/medium/optimize-for-specific-workloads-oltp-vs-olap/1_G-0pU8EdWrUT2Cfy3y5iyQ.png)
+![image](/assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_G-0pU8EdWrUT2Cfy3y5iyQ.png)
 
 ### ⚙️ Tuning Strategies for OLTP Workloads
 
@@ -67,7 +67,7 @@ Store intermediate aggregates to reduce runtime computation.
 
 ### 📈 Performance Impact
 
-![image](/assets/img/medium/optimize-for-specific-workloads-oltp-vs-olap/1_6kyJTNJy7fOvCYBDUk5GNg.png)
+![image](/assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_6kyJTNJy7fOvCYBDUk5GNg.png)
 
 ### 💡 Pro Tip
 

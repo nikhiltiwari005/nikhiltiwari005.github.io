@@ -1,7 +1,7 @@
 ---
 title: "🚀 DSA Mastery: The Ultimate Data Structures and Algorithms Guide"
 date: 2025-05-27 15:30:44 +0000
-categories: [medium-export]
+categories: ["Data Structure and Algorithms Series"]
 tags: []
 ---
 
@@ -9,10 +9,7 @@ tags: []
 
 *A strategic roadmap to mastering data structures and algorithms, connecting theory to engineering and preparing you for elite coding interviews.*
 
-![image](/assets/img/medium/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_3uKBG2vtD0OG7zuxnjgOCQ.png)
-
-<figcaption class="imageCaption">DSA Overview</figcaption>> **🔓Not a Medium member?**[Read it for Free](https://medium.com/javarevisited/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide-120e6dddb9cd?sk=436f03c1081baefd6840eedb073f0ac8)***  
-> ****If you found it useful,****clap & share****. It keeps high-quality content alive.*
+![image](/assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_3uKBG2vtD0OG7zuxnjgOCQ.png)
 
 ---
 
@@ -29,7 +26,7 @@ tags: []
 - **Non-Linear**: Trees, Graphs, Hash Tables (hierarchical/networked access)
 - **Specialized**: Heaps, Tries, Sets (optimized for specific operations)
 
-![image](/assets/img/medium/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_VpMN-6-qICeZojRIfqxK7g.png)
+![image](/assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_VpMN-6-qICeZojRIfqxK7g.png)
 
 #### Types of Algorithms
 
@@ -38,7 +35,7 @@ tags: []
 - **Optimization**: Find best solutions (Dynamic Programming, Greedy)
 - **Graph Processing**: Navigate relationships (Shortest Path, Network Flow)
 
-![image](/assets/img/medium/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_EMRIoyaf8TcBNtCQpTh7Zg.png)
+![image](/assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_EMRIoyaf8TcBNtCQpTh7Zg.png)
 
 #### Why Learn DSA
 

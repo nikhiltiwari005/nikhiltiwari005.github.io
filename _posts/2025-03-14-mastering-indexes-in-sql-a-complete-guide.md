@@ -1,7 +1,7 @@
 ---
 title: "Mastering Indexes in SQL: A Complete Guide"
 date: 2025-03-14 17:52:44 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 # Mastering Indexes in SQL: A Complete Guide
@@ -12,12 +12,7 @@ Indexes are one of the most powerful tools to improve the performance of SQL que
 
 Indexes are one of the most powerful tools to improve the performance of SQL queries. Without proper indexing, even the most optimized query can take forever to execute, especially when dealing with large datasets. In this guide, we’ll explore the different types of indexes, their use cases, and how to implement them effectively to speed up your database queries.
 
-#### 🔓Not a Medium member? Read it for Free
-
-> *No account needed. Just real engineering insights.****  
-> ****If you found it useful,****clap & share****. It keeps high-quality content alive.*
-
-![image](/assets/img/medium/mastering-indexes-in-sql-a-complete-guide/1_TLLBnTuDjvz4ae3GcJ2pyg.png)
+![image](/assets/img/mastering-indexes-in-sql-a-complete-guide/1_TLLBnTuDjvz4ae3GcJ2pyg.png)
 
 **What is an Index?**
 

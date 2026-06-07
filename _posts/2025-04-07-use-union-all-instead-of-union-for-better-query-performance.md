@@ -1,13 +1,13 @@
 ---
 title: "Use UNION ALL Instead of UNION for Better Query Performance"
 date: 2025-04-07 14:02:00 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### Use UNION ALL Instead of UNION for Better Query Performance
 
-![image](/assets/img/medium/use-union-all-instead-of-union-for-better-query-performance/1_jUL1dfnNgddoNFkLpVODpQ.png)
+![image](/assets/img/use-union-all-instead-of-union-for-better-query-performance/1_jUL1dfnNgddoNFkLpVODpQ.png)
 
 **Understanding UNION and UNION ALL**
 

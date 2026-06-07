@@ -1,7 +1,7 @@
 ---
 title: "🧠 Task Management: Thread Creation is Dead, Long Live the Executor"
 date: 2025-05-20 18:25:29 +0000
-categories: [medium-export]
+categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
 ---
 
@@ -12,7 +12,7 @@ tags: []
 > *🔗 ←*[Previous: Coordination](https://medium.com/javarevisited/️-coordination-making-threads-work-together-not-collide-fe74f790063a)*• 🔗 →*[Next: Non-Blocking / Async](https://nikhiltiwari005.medium.com/non-blocking-async-the-future-has-no-wait-4011b38041d9)*  
 > 🔝*[Parent Blog: The Ultimate Concurrency & Multithreading Guide](https://medium.com/javarevisited/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02)
 
-![image](/assets/img/medium/task-management-thread-creation-is-dead-long-live-the-executor/1_c997S8F743Ggv62SXwcvFg.png)
+![image](/assets/img/task-management-thread-creation-is-dead-long-live-the-executor/1_c997S8F743Ggv62SXwcvFg.png)
 
 ### 🚨 Stop Thinking Like It’s 2005
 
@@ -53,7 +53,7 @@ You become a task commander, not a thread mechanic.
 
 #### 🧱 Core Components
 
-![image](/assets/img/medium/task-management-thread-creation-is-dead-long-live-the-executor/1_-_Jt6ZHnAD7AeZKnDgB92w.png)
+![image](/assets/img/task-management-thread-creation-is-dead-long-live-the-executor/1_-_Jt6ZHnAD7AeZKnDgB92w.png)
 
 1. **Runnable**&**Callable**: Units of work
 2. **ExecutorService**: Manages thread pools

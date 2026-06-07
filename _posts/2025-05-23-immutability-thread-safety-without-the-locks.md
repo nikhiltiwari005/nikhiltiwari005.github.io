@@ -1,7 +1,7 @@
 ---
 title: "🧱 Immutability — Thread Safety Without the Locks"
 date: 2025-05-23 07:26:30 +0000
-categories: [medium-export]
+categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
 ---
 
@@ -12,7 +12,7 @@ tags: []
 > *🔗*[← Previous: Non-Blocking & Async](https://nikhiltiwari005.medium.com/non-blocking-async-the-future-has-no-wait-4011b38041d9)*• 🔗*[→ Next: Parallelism](https://nikhiltiwari005.medium.com/parallelism-exploiting-all-cores-like-a-pro-e127ddc1ff68)*  
 > 🔝*[Parent Blog: The Ultimate Concurrency & Multithreading Guide](https://medium.com/javarevisited/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02)
 
-![image](/assets/img/medium/immutability-thread-safety-without-the-locks/1_J61Cn6r9BfdonVWGy43QsA.png)
+![image](/assets/img/immutability-thread-safety-without-the-locks/1_J61Cn6r9BfdonVWGy43QsA.png)
 
 > *✅ Read for free:*[Immutability — Thread Safety Without the Locks](https://nikhiltiwari005.medium.com/immutability-thread-safety-without-the-locks-6aefbb413c56?sk=cce09b773f1c7aa73426f41d53be3575)*  
 > If it helped you, clap once. If it helped a lot, clap more. That’s how it reaches others too.*
@@ -50,7 +50,7 @@ Immutability is the**“don’t fight”**approach to thread safety.
 4. **Initialize fields via constructor**
 5. **If fields are objects, make defensive copies**
 
-![image](/assets/img/medium/immutability-thread-safety-without-the-locks/1_aVAufqZdtRfrIC2uD36Ycg.png)
+![image](/assets/img/immutability-thread-safety-without-the-locks/1_aVAufqZdtRfrIC2uD36Ycg.png)
 
 ### ✅ Example: Immutable
 

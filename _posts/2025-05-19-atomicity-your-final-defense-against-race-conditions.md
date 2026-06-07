@@ -1,7 +1,7 @@
 ---
 title: "⚔️ Atomicity: Your Final Defense Against Race Conditions"
 date: 2025-05-19 15:28:26 +0000
-categories: [medium-export]
+categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
 ---
 
@@ -14,7 +14,7 @@ tags: []
 
 “Two threads walk into a bar. One increments a counter. The other resets it. The bar burns down. Nobody knows why.” — Ancient concurrency proverb.
 
-![image](/assets/img/medium/atomicity-your-final-defense-against-race-conditions/1_lf4NGIERbE4jWOgB2jdS6g.png)
+![image](/assets/img/atomicity-your-final-defense-against-race-conditions/1_lf4NGIERbE4jWOgB2jdS6g.png)
 
 Visibility isn’t enough. You can*see*the data — great. But what if**two threads update it at the same time**?
 
@@ -29,7 +29,7 @@ No other thread can peek in while it’s halfway done. You need atomicity to ens
 > *✅ Read for free:*[Atomicity: Your Final Defense Against Race Conditions](https://medium.com/javarevisited/%EF%B8%8F-atomicity-your-final-defense-against-race-conditions-4bb87b577631?sk=e56d5e48e4fd5e8d1ac1d027676af03a)*  
 > If it helped you, clap once. If it helped a lot, clap more. That’s how it reaches others too.*
 
-![image](/assets/img/medium/atomicity-your-final-defense-against-race-conditions/1_bLzXY1Gn0L_OldFYHbzjIw.png)
+![image](/assets/img/atomicity-your-final-defense-against-race-conditions/1_bLzXY1Gn0L_OldFYHbzjIw.png)
 
 ### 🧠 The Classic Problem: count++
 

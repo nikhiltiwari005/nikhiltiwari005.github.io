@@ -1,7 +1,7 @@
 ---
 title: "Keep Statistics Updated for Optimal Query Performance"
 date: 2025-04-02 11:32:09 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 # Keep Statistics Updated for Optimal Query Performance
@@ -10,7 +10,7 @@ What Are Database Statistics?---
 
 ### Keep Statistics Updated for Optimal Query Performance
 
-![image](/assets/img/medium/keep-statistics-updated-for-optimal-query-performance/1_0cdcxz_cXq2c_21ioVTYiA.png)
+![image](/assets/img/keep-statistics-updated-for-optimal-query-performance/1_0cdcxz_cXq2c_21ioVTYiA.png)
 
 **What Are Database Statistics?**
 

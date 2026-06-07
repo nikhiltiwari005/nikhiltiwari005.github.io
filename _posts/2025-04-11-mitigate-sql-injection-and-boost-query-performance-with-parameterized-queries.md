@@ -1,13 +1,13 @@
 ---
 title: "Mitigate SQL Injection and Boost Query Performance with Parameterized Queries"
 date: 2025-04-11 15:01:43 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### Mitigate SQL Injection and Boost Query Performance with Parameterized Queries
 
-![image](/assets/img/medium/mitigate-sql-injection-and-boost-query-performance-with-parameterized-queries/1_7mDQH9Q-UqlsYH90w3JtgA.png)
+![image](/assets/img/mitigate-sql-injection-and-boost-query-performance-with-parameterized-queries/1_7mDQH9Q-UqlsYH90w3JtgA.png)
 
 ### Why It Matters
 

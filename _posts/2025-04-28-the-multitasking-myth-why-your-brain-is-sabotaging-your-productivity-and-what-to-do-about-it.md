@@ -7,7 +7,7 @@ tags: []
 
 ### The Multitasking Myth: Why Your Brain is Sabotaging Your Productivity (and What to Do About It)
 
-![image](/assets/img/medium/the-multitasking-myth-why-your-brain-is-sabotaging-your-productivity-and-what-to-do-about-it/0_s59Demx4vLPG1SNe)
+![image](/assets/img/the-multitasking-myth-why-your-brain-is-sabotaging-your-productivity-and-what-to-do-about-it/0_s59Demx4vLPG1SNe)
 
 <figcaption class="imageCaption">Photo by <a class="markup--anchor markup--figure-anchor" data-href="https://unsplash.com/@jesushilarioh?utm_source=medium&amp;utm_medium=referral" href="https://unsplash.com/@jesushilarioh?utm_source=medium&amp;utm_medium=referral" rel="photo-creator noopener" target="_blank">Jesus Hilario H.</a> on <a class="markup--anchor markup--figure-anchor" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption>### You’re not a multitasking wizard — and science proves why that’s okay
 

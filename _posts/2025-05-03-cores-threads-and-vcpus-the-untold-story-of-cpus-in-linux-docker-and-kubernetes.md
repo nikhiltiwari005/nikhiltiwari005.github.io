@@ -1,7 +1,7 @@
 ---
 title: "🧠 Cores, Threads, and vCPUs: The Untold Story of CPUs in Linux, Docker, and Kubernetes"
 date: 2025-05-03 19:48:31 +0000
-categories: [medium-export]
+categories: ["Programming Concepts"]
 tags: []
 ---
 
@@ -15,15 +15,13 @@ tags: []
 
 Welcome to the chaos.
 
-![image](/assets/img/medium/cores-threads-and-vcpus-the-untold-story-of-cpus-in-linux-docker-and-kubernetes/1_VoNMY2r0c7FlwTTMl4Yfow.png)
+![image](/assets/img/cores-threads-and-vcpus-the-untold-story-of-cpus-in-linux-docker-and-kubernetes/1_VoNMY2r0c7FlwTTMl4Yfow.png)
 
 Most developers have a vague sense that CPUs are “doing work” — somewhere down there, deep in the machine. But when it comes time to set CPU limits on Docker containers or request compute in Kubernetes clusters, that vagueness becomes a real liability.
 
 If you want to level up as a software engineer, platform engineer, or backend specialist — you need CPU literacy.
 
 This blog will demystify CPUs from the bare metal up — from physical cores and hyperthreading, to virtual CPUs, millicores, and how Linux, Docker, and Kubernetes interpret them.
-
-> 🔓*Not a Medium member?*[Read it for Free](https://blog.devgenius.io/cores-threads-and-vcpus-the-untold-story-of-cpus-in-linux-docker-and-kubernetes-699615beeb3c?source=friends_link&sk=3a512d19a9af0b606312b2eddb684ac7)
 
 ### 🟩 1. The Developer’s Dilemma: How Many CPUs Do You Really Have?
 

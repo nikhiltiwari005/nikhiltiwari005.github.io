@@ -1,13 +1,13 @@
 ---
 title: "🧠 Understanding Primitive Types in Programming: The Building Blocks of Code"
 date: 2025-04-16 05:14:30 +0000
-categories: [medium-export]
+categories: ["Programming Concepts"]
 tags: []
 ---
 
 ### 🧠 Understanding Primitive Types in Programming: The Building Blocks of Code
 
-![image](/assets/img/medium/understanding-primitive-types-in-programming-the-building-blocks-of-code/1_E222NJ9UJBKW1owP5Ze_ww.png)
+![image](/assets/img/understanding-primitive-types-in-programming-the-building-blocks-of-code/1_E222NJ9UJBKW1owP5Ze_ww.png)
 
 ### Introduction
 

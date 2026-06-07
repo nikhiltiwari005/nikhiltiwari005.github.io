@@ -1,7 +1,7 @@
 ---
 title: "Demystifying == and .equals() in Java"
 date: 2025-05-07 14:39:45 +0000
-categories: [medium-export]
+categories: ["Java World!"]
 tags: []
 ---
 
@@ -9,7 +9,7 @@ tags: []
 
 *Understanding Reference Equality, Value Equality, hashCode(), Lombok, and Records*
 
-![image](/assets/img/medium/demystifying-and-equals-in-java/1_9uwOm7APqOPg7_B2hRlHEw.png)
+![image](/assets/img/demystifying-and-equals-in-java/1_9uwOm7APqOPg7_B2hRlHEw.png)
 
 In Java, comparing objects is not as straightforward as it seems. Developers often confuse == and .equals(), and overlook the role of hashCode(), which leads to subtle bugs — especially in collections like HashMap. In this post, we’ll dissect these concepts and explore modern alternatives like Lombok and Records.
 

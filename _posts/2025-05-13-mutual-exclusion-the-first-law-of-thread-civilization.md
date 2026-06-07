@@ -1,7 +1,7 @@
 ---
 title: "🔐 Mutual Exclusion: The First Law of Thread Civilization"
 date: 2025-05-13 16:33:34 +0000
-categories: [medium-export]
+categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
 ---
 
@@ -12,7 +12,7 @@ tags: []
 > *🔗*[← Parent Article](https://nikhiltiwari005.medium.com/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02)*• 🔗*[→ Next: Visibility](https://medium.com/javarevisited/visibility-the-hidden-force-that-breaks-or-builds-your-code-c8bb14e9dbd2)*  
 > 🔝*[Parent Blog: The Ultimate Guide to Concurrency & Multithreading](https://nikhiltiwari005.medium.com/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02?source=user_profile_page---------3-------------45e0b1880c4d----------------------)
 
-![image](/assets/img/medium/mutual-exclusion-the-first-law-of-thread-civilization/1_mm-16pfF7Z2fzA17r5B5xQ.png)
+![image](/assets/img/mutual-exclusion-the-first-law-of-thread-civilization/1_mm-16pfF7Z2fzA17r5B5xQ.png)
 
 Imagine you’re sharing a bank locker with three roommates. You all trust each other, but you only have one key. Why? Because if everyone accessed the locker at the same time, it would lead to utter chaos — stuff might get stolen, broken, or lost. That key is what we call**mutual exclusion**in the world of multithreading.
 
@@ -29,7 +29,7 @@ Because if you don’t get**mutual exclusion**right, nothing else matters. Visib
 
 ### 🔐 Java Mechanisms for Mutual Exclusion
 
-![image](/assets/img/medium/mutual-exclusion-the-first-law-of-thread-civilization/1_CDqYyCNkg2Sa89aJyBYTRA.png)
+![image](/assets/img/mutual-exclusion-the-first-law-of-thread-civilization/1_CDqYyCNkg2Sa89aJyBYTRA.png)
 
 ### 1. synchronized — The OG Lock 🔓
 
@@ -119,7 +119,7 @@ If both threads read balance = 1000 at the same time:
 
 ### ⚒️ When to Use What?
 
-![image](/assets/img/medium/mutual-exclusion-the-first-law-of-thread-civilization/1_7SEPNfAvhvqCajwhCMJ-bg.png)
+![image](/assets/img/mutual-exclusion-the-first-law-of-thread-civilization/1_7SEPNfAvhvqCajwhCMJ-bg.png)
 
 > *💡 Tip: Always prefer synchronized for simplicity unless you need advanced locking features.*
 

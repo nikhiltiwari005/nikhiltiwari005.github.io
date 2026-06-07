@@ -1,7 +1,7 @@
 ---
 title: "Use EXISTS Instead of IN for Subqueries"
 date: 2025-03-30 11:51:44 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 # Use EXISTS Instead of IN for Subqueries
@@ -10,7 +10,7 @@ Using EXISTS instead of IN for subqueries can significantly improve query perfor
 
 ### Use EXISTS Instead of IN for Subqueries
 
-![image](/assets/img/medium/use-exists-instead-of-in-for-subqueries/1_NV2q_gOf4iowvaoPnfHBmg.png)
+![image](/assets/img/use-exists-instead-of-in-for-subqueries/1_NV2q_gOf4iowvaoPnfHBmg.png)
 
 Using EXISTS instead of IN for subqueries can significantly improve query performance, especially when dealing with large datasets. While both serve similar purposes, EXISTS is often more efficient because it stops searching as soon as it finds a match, whereas IN processes all values before returning a result.
 

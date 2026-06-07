@@ -1,13 +1,13 @@
 ---
 title: "🧠 Mastering EXPLAIN/ANALYZE: Become a DB Query Optimization Pro"
 date: 2025-04-14 09:51:19 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🧠 Mastering EXPLAIN/ANALYZE: Become a DB Query Optimization Pro
 
-![image](/assets/img/medium/mastering-explain-analyze-become-a-db-query-optimization-pro/1_lu3w1ApCcTYF7soBDadBIA.png)
+![image](/assets/img/mastering-explain-analyze-become-a-db-query-optimization-pro/1_lu3w1ApCcTYF7soBDadBIA.png)
 
 ### 🔍 What is EXPLAIN/ANALYZE?
 

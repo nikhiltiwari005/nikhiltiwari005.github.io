@@ -1,13 +1,13 @@
 ---
 title: "🧠 Normalize and Denormalize Strategically for Scalable Database Design"
 date: 2025-04-13 08:46:34 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🧠 Normalize and Denormalize Strategically for Scalable Database Design
 
-![image](/assets/img/medium/normalize-and-denormalize-strategically-for-scalable-database-design/1_U-efY9wfKS8ngvSzGOGcFg.png)
+![image](/assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_U-efY9wfKS8ngvSzGOGcFg.png)
 
 When designing databases, we often hear two seemingly conflicting principles:
 
@@ -20,7 +20,7 @@ Both are true — it’s all about**knowing when**to use each.
 
 ### 📚 Recap: Normalization vs. Denormalization
 
-![image](/assets/img/medium/normalize-and-denormalize-strategically-for-scalable-database-design/1_xlrdgc5GFs2RqvsDySHIgQ.png)
+![image](/assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_xlrdgc5GFs2RqvsDySHIgQ.png)
 
 ---
 
@@ -147,7 +147,7 @@ SELECT  region,  product_category,  SUM(quantity * price) AS total_salesFROM Sal
 
 ### 🧠 Key Takeaways
 
-![image](/assets/img/medium/normalize-and-denormalize-strategically-for-scalable-database-design/1_cAgXgov_FCAtLimT-dDIZA.png)
+![image](/assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_cAgXgov_FCAtLimT-dDIZA.png)
 
 ---
 

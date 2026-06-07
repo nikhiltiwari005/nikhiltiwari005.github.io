@@ -9,7 +9,7 @@ tags: []
 
 You’re building with Spring Boot — but is your app truly optimized, or merely functional?
 
-![image](/assets/img/medium/spring-boot-is-slow-until-you-do-these-10-things/1_x95ey24pXDu69XQ6pE0wCw.png)
+![image](/assets/img/spring-boot-is-slow-until-you-do-these-10-things/1_x95ey24pXDu69XQ6pE0wCw.png)
 
 Spring Boot gives you a fast start. But fast isn’t the same as*high-performance*. If you’re shipping to prod without tuning these knobs, you’re leaving performance, scalability, and efficiency on the table.
 

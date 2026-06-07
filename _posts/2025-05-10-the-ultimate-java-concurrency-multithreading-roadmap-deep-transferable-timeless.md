@@ -1,7 +1,7 @@
 ---
 title: "🧠 The Ultimate Java Concurrency & Multithreading Roadmap (Deep, Transferable, Timeless)"
 date: 2025-05-10 07:03:58 +0000
-categories: [medium-export]
+categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
 ---
 
@@ -17,12 +17,7 @@ Whether you’re writing in Java, C++, Rust, Go, Python, or JavaScript —**this
 
 These 9 pillars**transcend languages, libraries, and frameworks.**Master these, and you will dominate any concurrency paradigm.
 
-#### 🔓Not a Medium member? Read it for Free
-
-> No account needed. Just real engineering insights.**  
-> **If you found it useful,**clap & share**. It keeps high-quality content alive.
-
-![image](/assets/img/medium/the-ultimate-java-concurrency-multithreading-roadmap-deep-transferable-timeless/1_LyaSU-WnNUVv21A-luOzGg.png)
+![image](/assets/img/the-ultimate-java-concurrency-multithreading-roadmap-deep-transferable-timeless/1_LyaSU-WnNUVv21A-luOzGg.png)
 
 <figcaption class="imageCaption">The Ultimate Concurrency &amp; Multithreading Roadmap</figcaption>### 🔥 Why This Blog Exists
 
@@ -88,7 +83,7 @@ Concurrency & Multithreading│├── 1. Mutual Exclusion│   ├── sync
 
 ### 🌐 How These Concepts Map Across Languages
 
-![image](/assets/img/medium/the-ultimate-java-concurrency-multithreading-roadmap-deep-transferable-timeless/1_oPsvP0dSN8RBrppILjw_Eg.png)
+![image](/assets/img/the-ultimate-java-concurrency-multithreading-roadmap-deep-transferable-timeless/1_oPsvP0dSN8RBrppILjw_Eg.png)
 
 <figcaption class="imageCaption">Cross-Language Equivalents</figcaption>> *🛠****You’ll see these tools evolve — but the underlying problems and principles stay the same.***
 

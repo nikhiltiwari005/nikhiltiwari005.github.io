@@ -11,7 +11,7 @@ Programming paradigms aren’t just buzzwords — they’re the fundamental mind
 
 But here’s the problem: Most engineers have a vague idea of these paradigms, often confusing one for another, or assuming they’re mutually exclusive. Some even think paradigms are tied to languages. Let’s fix that. In this blog, you’ll deeply understand each paradigm, how they overlap, and where Java fits in.
 
-![image](/assets/img/medium/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_Jl2nYru0_2OJBkQzkURtUg.png)
+![image](/assets/img/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_Jl2nYru0_2OJBkQzkURtUg.png)
 
 We’ll tackle this with code, comparisons, and clarity. Buckle up.
 
@@ -156,7 +156,7 @@ Absolutely. In fact, real-world code is**multi-paradigm**. A Java method might b
 
 ### 🧪 Summary Table
 
-![image](/assets/img/medium/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_m3BRT_TiNOdAEr_msINR_w.png)
+![image](/assets/img/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_m3BRT_TiNOdAEr_msINR_w.png)
 
 ---
 

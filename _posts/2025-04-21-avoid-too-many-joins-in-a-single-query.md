@@ -1,13 +1,13 @@
 ---
 title: "🔗 Avoid Too Many Joins in a Single Query"
 date: 2025-04-21 07:48:13 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🔗 Avoid Too Many Joins in a Single Query
 
-![image](/assets/img/medium/avoid-too-many-joins-in-a-single-query/1_Etl3OFR3aN_tBHsP8P9PvA.png)
+![image](/assets/img/avoid-too-many-joins-in-a-single-query/1_Etl3OFR3aN_tBHsP8P9PvA.png)
 
 ### 🤯 Why Too Many Joins Can Hurt Performance
 
@@ -73,7 +73,7 @@ Sometimes, not all joins are necessary. Double-check with stakeholders — do th
 
 ### 📊 Performance Example
 
-![image](/assets/img/medium/avoid-too-many-joins-in-a-single-query/1_rcalHd8Wesczb7C6B75Euw.png)
+![image](/assets/img/avoid-too-many-joins-in-a-single-query/1_rcalHd8Wesczb7C6B75Euw.png)
 
 ### 🧪 Final Thoughts
 

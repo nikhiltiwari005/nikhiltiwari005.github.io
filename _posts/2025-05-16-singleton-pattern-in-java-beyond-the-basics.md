@@ -1,7 +1,7 @@
 ---
 title: "Singleton Pattern in Java: Beyond the Basics"
 date: 2025-05-16 19:19:06 +0000
-categories: [medium-export]
+categories: ["Design Patterns"]
 tags: []
 ---
 
@@ -11,9 +11,7 @@ tags: []
 
 In this blog, we’ll go from a naive implementation to the most production-grade patterns of Singleton in Java. We’ll uncover the*why*, the*how*, and the*why not*of each variant, comparing them on safety, performance, and elegance.
 
-> *📖****Not a Medium member?****You can read this article for free using this friend link:*[Singleton Pattern in Java: Beyond the Basics](https://nikhiltiwari005.medium.com/fd3872420cf7?source=friends_link&sk=22030d92420bd36160e4a0bf68c92a30)
-
-![image](/assets/img/medium/singleton-pattern-in-java-beyond-the-basics/1_wbJeN0fk9NneNHF_x1ri1Q.png)
+![image](/assets/img/singleton-pattern-in-java-beyond-the-basics/1_wbJeN0fk9NneNHF_x1ri1Q.png)
 
 ---
 
@@ -145,7 +143,7 @@ public class AppConfig {    private static final AppConfig instance = new AppCon
 
 ### 🧠 When to Use Which Singleton?
 
-![image](/assets/img/medium/singleton-pattern-in-java-beyond-the-basics/1_gmCNMh0zW0L77Ld09PGJ8w.png)
+![image](/assets/img/singleton-pattern-in-java-beyond-the-basics/1_gmCNMh0zW0L77Ld09PGJ8w.png)
 
 ---
 

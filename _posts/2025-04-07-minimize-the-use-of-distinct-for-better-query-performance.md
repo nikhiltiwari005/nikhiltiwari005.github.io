@@ -1,7 +1,7 @@
 ---
 title: "Minimize the Use of DISTINCT for Better Query Performance"
 date: 2025-04-07 14:01:52 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 # Minimize the Use of DISTINCT for Better Query Performance
@@ -10,7 +10,7 @@ Why DISTINCT Can Be Costly?---
 
 ### Minimize the Use of DISTINCT for Better Query Performance
 
-![image](/assets/img/medium/minimize-the-use-of-distinct-for-better-query-performance/1_b84fz0G2i6chkf4IRwyuXA.png)
+![image](/assets/img/minimize-the-use-of-distinct-for-better-query-performance/1_b84fz0G2i6chkf4IRwyuXA.png)
 
 ### Why DISTINCT Can Be Costly?
 

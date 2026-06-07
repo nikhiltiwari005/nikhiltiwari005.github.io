@@ -1,7 +1,7 @@
 ---
 title: "👀 Visibility: The Hidden Force That Breaks or Builds Your Code"
 date: 2025-05-17 15:06:25 +0000
-categories: [medium-export]
+categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
 ---
 
@@ -15,7 +15,7 @@ tags: []
 “What you can’t see will kill your code.”  
 — Every multithreaded bug you’ve ever chased at 3 AM.
 
-![image](/assets/img/medium/visibility-the-hidden-force-that-breaks-or-builds-your-code/1__v64gNC6V-ZfPyCh83RCoQ.png)
+![image](/assets/img/visibility-the-hidden-force-that-breaks-or-builds-your-code/1__v64gNC6V-ZfPyCh83RCoQ.png)
 
 > *✅ Read for free:*[Visibility: The Hidden Force That Breaks or Builds Your Code](https://medium.com/javarevisited/visibility-the-hidden-force-that-breaks-or-builds-your-code-c8bb14e9dbd2?sk=a948ae8f8a8b27738b1bbc575e2696c4)*  
 > If it helped you, clap once. If it helped a lot, clap more. That’s how it reaches others too.*
@@ -30,7 +30,7 @@ Visibility ensures that when one thread**writes**to a shared variable, other thr
 
 In single-threaded programs, you take this for granted. In multithreaded systems, you**must fight for it**.
 
-![image](/assets/img/medium/visibility-the-hidden-force-that-breaks-or-builds-your-code/1_Gr0Tx8FR0V8prPgdRJXFLw.png)
+![image](/assets/img/visibility-the-hidden-force-that-breaks-or-builds-your-code/1_Gr0Tx8FR0V8prPgdRJXFLw.png)
 
 ### 🧬 The Java Memory Model (JMM): The Battlefield
 
@@ -137,7 +137,7 @@ That “wipe” is your**visibility mechanism**.
 
 ### 🧠 Summary Cheat Sheet
 
-![image](/assets/img/medium/visibility-the-hidden-force-that-breaks-or-builds-your-code/1_BNKQHYv4VLQgGb7ZtDYtSA.png)
+![image](/assets/img/visibility-the-hidden-force-that-breaks-or-builds-your-code/1_BNKQHYv4VLQgGb7ZtDYtSA.png)
 
 ### 🚧 Common Bugs from Visibility Failures
 

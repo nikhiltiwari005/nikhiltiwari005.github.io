@@ -1,13 +1,13 @@
 ---
 title: "🧩 Use CTEs (Common Table Expressions) for Complex Queries"
 date: 2025-04-19 11:37:40 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🧩 Use CTEs (Common Table Expressions) for Complex Queries
 
-![image](/assets/img/medium/use-ctes-common-table-expressions-for-complex-queries/1_y5coeDuBfsTsrCFkxmFuoQ.png)
+![image](/assets/img/use-ctes-common-table-expressions-for-complex-queries/1_y5coeDuBfsTsrCFkxmFuoQ.png)
 
 ### 💡 What Are CTEs?
 
@@ -15,7 +15,7 @@ tags: []
 
 ### ✅ Why Use CTEs?
 
-![image](/assets/img/medium/use-ctes-common-table-expressions-for-complex-queries/1_IOLKmAWth1Ye1xnBVu5LAg.png)
+![image](/assets/img/use-ctes-common-table-expressions-for-complex-queries/1_IOLKmAWth1Ye1xnBVu5LAg.png)
 
 ### 🧱 Syntax
 
@@ -61,7 +61,7 @@ WITH MATERIALIZED filtered_orders AS (    SELECT * FROM orders WHERE status = 'd
 
 ### ⚖️ CTEs vs. Subqueries vs. Temp Tables
 
-![image](/assets/img/medium/use-ctes-common-table-expressions-for-complex-queries/1_Unxkr6VGtjgsCXj7VLOKIA.png)
+![image](/assets/img/use-ctes-common-table-expressions-for-complex-queries/1_Unxkr6VGtjgsCXj7VLOKIA.png)
 
 ### ✅ Final Thoughts
 

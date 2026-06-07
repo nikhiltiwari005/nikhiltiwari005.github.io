@@ -1,7 +1,7 @@
 ---
 title: "DSA Series: Master This to Instantly Level Up Your Programming Career"
 date: 2025-04-16 00:59:48 +0000
-categories: [medium-export]
+categories: ["Data Structure and Algorithms Series"]
 tags: []
 ---
 
@@ -9,7 +9,7 @@ tags: []
 
 *The Foundation Behind Efficient Software and Cracking Big Tech Interviews*
 
-![image](/assets/img/medium/dsa-series-master-this-to-instantly-level-up-your-programming-career/1_CTNRfTavjlo04WyQPfMyiA.png)
+![image](/assets/img/dsa-series-master-this-to-instantly-level-up-your-programming-career/1_CTNRfTavjlo04WyQPfMyiA.png)
 
 ### 📍 Executive Summary
 

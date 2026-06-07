@@ -1,13 +1,13 @@
 ---
 title: "🚀 Use Batching for Bulk Inserts and Updates to Supercharge Performance"
 date: 2025-04-13 08:45:25 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🚀 Use Batching for Bulk Inserts and Updates to Supercharge Performance
 
-![image](/assets/img/medium/use-batching-for-bulk-inserts-and-updates-to-supercharge-performance/1_w_W_cTV6Z5efqDKn5JPgPA.png)
+![image](/assets/img/use-batching-for-bulk-inserts-and-updates-to-supercharge-performance/1_w_W_cTV6Z5efqDKn5JPgPA.png)
 
 When you’re dealing with large volumes of data, inserting or updating records one by one can become a serious bottleneck. Batching allows you to group multiple operations into a single request, drastically reducing the number of database round trips and improving overall performance.
 
@@ -80,7 +80,7 @@ When batching large writes, ensure your code retries or logs partial failures.
 
 Profile your database and app behavior before and after batching. You’ll usually notice significant gains.
 
-![image](/assets/img/medium/use-batching-for-bulk-inserts-and-updates-to-supercharge-performance/1_MECoFZqCcCumkE5JrydEqw.png)
+![image](/assets/img/use-batching-for-bulk-inserts-and-updates-to-supercharge-performance/1_MECoFZqCcCumkE5JrydEqw.png)
 
 ### 🧯 When NOT to Batch
 

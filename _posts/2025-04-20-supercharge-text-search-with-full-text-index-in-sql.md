@@ -1,13 +1,13 @@
 ---
 title: "🔍 Supercharge Text Search with Full-Text Index in SQL"
 date: 2025-04-20 16:00:41 +0000
-categories: [medium-export]
+categories: ["SQL Optimization Series"]
 tags: []
 ---
 
 ### 🔍 Supercharge Text Search with Full-Text Index in SQL
 
-![image](/assets/img/medium/supercharge-text-search-with-full-text-index-in-sql/1_kQE5DDyjK4H5xAxgYej_cA.png)
+![image](/assets/img/supercharge-text-search-with-full-text-index-in-sql/1_kQE5DDyjK4H5xAxgYej_cA.png)
 
 Searching through large volumes of text using LIKE ‘%keyword%’ might get the job done on small tables — but it becomes a**performance bottleneck**as data grows. That’s where**Full-Text Indexing**becomes a game-changer. It enables fast, flexible, and intelligent searching across large datasets.
 
@@ -101,7 +101,7 @@ SELECT * FROM articlesWHERE content_vector @@ phraseto_tsquery('database tuning'
 
 ### 📈 Performance Comparison
 
-![image](/assets/img/medium/supercharge-text-search-with-full-text-index-in-sql/1_TUNNlTNJ-USoUEuuvdpcEg.png)
+![image](/assets/img/supercharge-text-search-with-full-text-index-in-sql/1_TUNNlTNJ-USoUEuuvdpcEg.png)
 
 ### 🏗️ Real-World Use Case
 
@@ -148,7 +148,7 @@ CREATE TRIGGER update_vectorBEFORE INSERT OR UPDATE ON articlesFOR EACH ROW EXEC
 
 ### 📊 Summary Table
 
-![image](/assets/img/medium/supercharge-text-search-with-full-text-index-in-sql/1_C-NKUNh3YQe85fzN20VxYg.png)
+![image](/assets/img/supercharge-text-search-with-full-text-index-in-sql/1_C-NKUNh3YQe85fzN20VxYg.png)
 
 ### 🧾 Pro Tips
 
