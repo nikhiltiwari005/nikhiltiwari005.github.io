@@ -26,37 +26,19 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
-          working-directory: 'tech-blog'
       
-      - name: Build Jekyll site with Gemfile
-        run: |
-          cd tech-blog
-          bundle exec jekyll build
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       
-      - name: Create deployment artifact
-        run: |
-          # Create tech-blog directory
-          mkdir -p _deploy/tech-blog
-          
-          # Copy all root-level files and directories (main site)
-          cp -r favicon/ _deploy/ || true
-          cp -r resume/ _deploy/ || true
-          cp index.html _deploy/ || true
-          cp manifest.json _deploy/ || true
-          cp service-worker.js _deploy/ || true
-          
-          # Jekyll with baseurl creates: _site/tech-blog/
-          # Copy from the correct nested level to flatten
-          if [ -d "tech-blog/_site/tech-blog" ]; then
-            cp -r tech-blog/_site/tech-blog/* _deploy/tech-blog/
-          else
-            cp -r tech-blog/_site/* _deploy/tech-blog/
-          fi
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --verbose
+        env:
+          JEKYLL_ENV: production
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_deploy
+          path: ./_site
   
   deploy:
     environment:
