@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-06-07T06:00:08+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nikhil Tiwari</title><subtitle>Personal website and tech blog by Nikhil Tiwari</subtitle><entry><title type="html">Welcome to My Tech Blog</title><link href="http://localhost:4000/posts/welcome/" rel="alternate" type="text/html" title="Welcome to My Tech Blog" /><published>2026-06-07T05:43:00+05:30</published><updated>2026-06-07T05:43:00+05:30</updated><id>http://localhost:4000/posts/welcome</id><content type="html" xml:base="http://localhost:4000/posts/welcome/"><![CDATA[<h1 id="welcome-to-my-tech-blog-">Welcome to My Tech Blog! 🚀</h1>
+
+<p>I’m excited to share my thoughts and experiences with the tech community using the beautiful <strong>Jekyll Theme Chirpy</strong>.</p>
+
+<p>This blog will feature my insights on:</p>
+
+<h2 id="topics-i-cover">Topics I Cover</h2>
+<ul>
+  <li><strong>Software Architecture</strong> - Designing scalable systems</li>
+  <li><strong>Cloud Technologies</strong> - AWS, GCP, Docker, Kubernetes</li>
+  <li><strong>DevOps</strong> - CI/CD, Infrastructure as Code</li>
+  <li><strong>Open Source</strong> - Contributions and best practices</li>
+  <li><strong>Learning &amp; Growth</strong> - Tech tips and career insights</li>
+</ul>
+
+<h2 id="whats-next">What’s Next?</h2>
+<p>Feel free to explore:</p>
+<ul>
+  <li>📄 <strong>About</strong> - Learn more about me</li>
+  <li>💼 <strong>Experience</strong> - My professional background</li>
+  <li>📝 <strong>Posts</strong> - Read my latest articles</li>
+  <li>🔗 <strong>Links</strong> - Connect on GitHub or Twitter</li>
+</ul>
+
+<hr />
+
+<p><strong>Happy reading!</strong> Don’t forget to subscribe to the <a href="/feed.xml">RSS feed</a> for updates. 📰</p>]]></content><author><name></name></author><category term="getting-started" /><category term="jekyll" /><category term="chirpy" /><category term="blog" /><summary type="html"><![CDATA[Welcome to My Tech Blog! 🚀]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/N-Infinity-no-bg.png" /><media:content medium="image" url="http://localhost:4000/N-Infinity-no-bg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microservices Architecture - When to Use It</title><link href="http://localhost:4000/posts/microservices-architecture/" rel="alternate" type="text/html" title="Microservices Architecture - When to Use It" /><published>2026-06-05T10:30:00+05:30</published><updated>2026-06-05T10:30:00+05:30</updated><id>http://localhost:4000/posts/microservices-architecture</id><content type="html" xml:base="http://localhost:4000/posts/microservices-architecture/"><![CDATA[<h1 id="microservices-architecture---when-to-use-it">Microservices Architecture - When to Use It</h1>
+
+<p>Microservices have become increasingly popular, but they’re not always the right choice. Let’s explore when and how to implement them effectively.</p>
+
+<h2 id="what-are-microservices">What Are Microservices?</h2>
+
+<p>Microservices architecture is an approach to developing a single application as a suite of small services, each running in its own process and communicating via lightweight mechanisms.</p>
+
+<h2 id="advantages">Advantages</h2>
+
+<p>✅ <strong>Independent Deployment</strong> - Deploy services without affecting others<br />
+✅ <strong>Technology Flexibility</strong> - Use different languages/frameworks per service<br />
+✅ <strong>Scalability</strong> - Scale individual components based on demand<br />
+✅ <strong>Team Autonomy</strong> - Small teams can own specific services</p>
+
+<h2 id="challenges">Challenges</h2>
+
+<p>⚠️ <strong>Operational Complexity</strong> - Requires robust DevOps practices<br />
+⚠️ <strong>Network Latency</strong> - Inter-service communication overhead<br />
+⚠️ <strong>Data Consistency</strong> - Distributed transactions are tricky<br />
+⚠️ <strong>Monitoring</strong> - Multiple services to monitor and debug</p>
+
+<h2 id="when-to-use-microservices">When to Use Microservices</h2>
+
+<ul>
+  <li>✓ Large, complex applications</li>
+  <li>✓ Multiple development teams</li>
+  <li>✓ Need for independent scaling</li>
+  <li>✓ Diverse technology requirements</li>
+</ul>
+
+<h2 id="when-not-to-use">When NOT to Use</h2>
+
+<ul>
+  <li>✗ Small applications or MVPs</li>
+  <li>✗ Tight coupling requirements</li>
+  <li>✗ Single team environment</li>
+  <li>✗ Real-time synchronous operations</li>
+</ul>
+
+<h2 id="best-practices">Best Practices</h2>
+
+<ol>
+  <li><strong>Start with Monolith</strong> - Don’t microservice too early</li>
+  <li><strong>Clear Boundaries</strong> - Define service responsibilities clearly</li>
+  <li><strong>API Contracts</strong> - Maintain stable contracts between services</li>
+  <li><strong>Monitoring &amp; Logging</strong> - Implement comprehensive observability</li>
+  <li><strong>Automation</strong> - Invest in CI/CD pipelines</li>
+</ol>
+
+<hr />
+
+<p>Remember: <strong>Microservices are a solution to organizational problems, not just technical ones.</strong></p>]]></content><author><name></name></author><category term="system-design" /><category term="microservices" /><category term="architecture" /><category term="scalability" /><summary type="html"><![CDATA[Microservices Architecture - When to Use It]]></summary></entry><entry><title type="html">Docker Best Practices for Production</title><link href="http://localhost:4000/posts/docker-best-practices/" rel="alternate" type="text/html" title="Docker Best Practices for Production" /><published>2026-06-03T14:20:00+05:30</published><updated>2026-06-03T14:20:00+05:30</updated><id>http://localhost:4000/posts/docker-best-practices</id><content type="html" xml:base="http://localhost:4000/posts/docker-best-practices/"><![CDATA[<h1 id="docker-best-practices-for-production">Docker Best Practices for Production</h1>
+
+<p>Docker is powerful, but using it incorrectly can lead to security vulnerabilities, performance issues, and operational nightmares. Here are battle-tested best practices.</p>
+
+<h2 id="1-use-specific-base-image-tags">1. Use Specific Base Image Tags</h2>
+
+<p><strong>Bad:</strong></p>
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> python:latest</span>
+<span class="k">FROM</span><span class="s"> ubuntu:latest</span>
+</code></pre></div></div>
+
+<p><strong>Good:</strong></p>
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> python:3.11-slim</span>
+<span class="k">FROM</span><span class="s"> ubuntu:22.04</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">latest</code> tag is unpredictable and can break builds unexpectedly.</p>
+
+<h2 id="2-minimize-image-size">2. Minimize Image Size</h2>
+
+<p><strong>Use Multi-Stage Builds:</strong></p>
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="w"> </span><span class="s">python:3.11</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="s">builder</span>
+<span class="k">COPY</span><span class="s"> . /app</span>
+<span class="k">WORKDIR</span><span class="s"> /app</span>
+<span class="k">RUN </span>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+
+<span class="k">FROM</span><span class="s"> python:3.11-slim</span>
+<span class="k">COPY</span><span class="s"> --from=builder /app /app</span>
+<span class="k">WORKDIR</span><span class="s"> /app</span>
+<span class="k">CMD</span><span class="s"> ["python", "app.py"]</span>
+</code></pre></div></div>
+
+<p>This reduces image size significantly by excluding build dependencies.</p>
+
+<h2 id="3-security-considerations">3. Security Considerations</h2>
+
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Run as non-root user</span>
+<span class="k">RUN </span>useradd <span class="nt">-m</span> appuser
+<span class="k">USER</span><span class="s"> appuser</span>
+
+<span class="c"># Don't run as root</span>
+<span class="c"># Don't include secrets in images</span>
+<span class="c"># Scan images for vulnerabilities</span>
+</code></pre></div></div>
+
+<h2 id="4-optimize-layers">4. Optimize Layers</h2>
+
+<ul>
+  <li>Order dockerfile commands from least to most frequently changed</li>
+  <li>Combine RUN commands to reduce layers</li>
+  <li>Leverage build cache effectively</li>
+</ul>
+
+<p><strong>Good Practice:</strong></p>
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> python:3.11-slim</span>
+
+<span class="c"># Install dependencies first (rarely changes)</span>
+<span class="k">RUN </span>apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="se">\
+</span>    gcc <span class="se">\
+</span>    <span class="o">&amp;&amp;</span> <span class="nb">rm</span> <span class="nt">-rf</span> /var/lib/apt/lists/<span class="k">*</span>
+
+<span class="c"># Copy requirements (changes less often)</span>
+<span class="k">COPY</span><span class="s"> requirements.txt .</span>
+<span class="k">RUN </span>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+
+<span class="c"># Copy source code (changes frequently)</span>
+<span class="k">COPY</span><span class="s"> . .</span>
+
+<span class="k">CMD</span><span class="s"> ["python", "app.py"]</span>
+</code></pre></div></div>
+
+<h2 id="5-health-checks">5. Health Checks</h2>
+
+<div class="language-dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HEALTHCHECK</span><span class="s"> --interval=30s --timeout=10s --start-period=5s --retries=3 \</span>
+  CMD curl -f http://localhost:8000/health || exit 1
+</code></pre></div></div>
+
+<h2 id="6-resource-limits">6. Resource Limits</h2>
+
+<p>Always set resource limits in orchestration:</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">resources</span><span class="pi">:</span>
+  <span class="na">limits</span><span class="pi">:</span>
+    <span class="na">memory</span><span class="pi">:</span> <span class="s2">"</span><span class="s">512Mi"</span>
+    <span class="na">cpu</span><span class="pi">:</span> <span class="s2">"</span><span class="s">500m"</span>
+  <span class="na">requests</span><span class="pi">:</span>
+    <span class="na">memory</span><span class="pi">:</span> <span class="s2">"</span><span class="s">256Mi"</span>
+    <span class="na">cpu</span><span class="pi">:</span> <span class="s2">"</span><span class="s">250m"</span>
+</code></pre></div></div>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ol>
+  <li>✅ Use specific, verified base images</li>
+  <li>✅ Minimize image size with multi-stage builds</li>
+  <li>✅ Never run as root</li>
+  <li>✅ Keep secrets out of images</li>
+  <li>✅ Implement health checks</li>
+  <li>✅ Set resource limits</li>
+  <li>✅ Scan for vulnerabilities regularly</li>
+</ol>
+
+<hr />
+
+<p><strong>Pro Tip:</strong> Use tools like <code class="language-plaintext highlighter-rouge">trivy</code> or <code class="language-plaintext highlighter-rouge">grype</code> to scan your Docker images for known vulnerabilities before pushing to production.</p>]]></content><author><name></name></author><category term="devops" /><category term="docker" /><category term="containerization" /><category term="production" /><category term="best-practices" /><summary type="html"><![CDATA[Docker Best Practices for Production]]></summary></entry><entry><title type="html">API Design Principles You Should Know</title><link href="http://localhost:4000/posts/api-design-principles/" rel="alternate" type="text/html" title="API Design Principles You Should Know" /><published>2026-06-01T09:15:00+05:30</published><updated>2026-06-01T09:15:00+05:30</updated><id>http://localhost:4000/posts/api-design-principles</id><content type="html" xml:base="http://localhost:4000/posts/api-design-principles/"><![CDATA[<h1 id="api-design-principles-you-should-know">API Design Principles You Should Know</h1>
+
+<p>A well-designed API is the backbone of modern applications. Here are principles that lead to maintainable, scalable, and developer-friendly APIs.</p>
+
+<h2 id="1-be-consistent">1. Be Consistent</h2>
+
+<p><strong>Naming Convention:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Good:    /api/v1/users/{id}/posts
+Bad:     /api/v1/user/{user_id}/post_list
+         /api/v1/Users/{UserId}/Post
+</code></pre></div></div>
+
+<p>Consistency makes APIs predictable and easier to understand.</p>
+
+<h2 id="2-use-proper-http-methods">2. Use Proper HTTP Methods</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET     - Retrieve resources (safe &amp; idempotent)
+POST    - Create new resources
+PUT     - Replace entire resource (idempotent)
+PATCH   - Partial update
+DELETE  - Remove resource (idempotent)
+</code></pre></div></div>
+
+<h2 id="3-status-codes-matter">3. Status Codes Matter</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>200 OK              - Request successful
+201 Created         - Resource created
+204 No Content      - Successful with no response body
+400 Bad Request     - Client error
+401 Unauthorized    - Authentication required
+403 Forbidden       - Permission denied
+404 Not Found       - Resource doesn't exist
+500 Server Error    - Server-side problem
+</code></pre></div></div>
+
+<h2 id="4-version-your-api">4. Version Your API</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Good API Evolution:
+/api/v1/...    (stable)
+/api/v2/...    (major changes)
+
+Avoid deprecating v1 suddenly!
+</code></pre></div></div>
+
+<h2 id="5-pagination-for-large-datasets">5. Pagination for Large Datasets</h2>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span><span class="w">
+  </span><span class="nl">"pagination"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"page"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">150</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"has_more"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="6-error-responses-should-be-helpful">6. Error Responses Should Be Helpful</h2>
+
+<p><strong>Bad:</strong></p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"error"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Invalid request"</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>Good:</strong></p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"error"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"INVALID_EMAIL"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Email format is invalid"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"email"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"suggestion"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Please use a valid email address"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="7-document-everything">7. Document Everything</h2>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Example: OpenAPI/Swagger</span>
+<span class="s">/api/v1/users/{id}</span><span class="err">:</span>
+  <span class="na">get</span><span class="pi">:</span>
+    <span class="na">summary</span><span class="pi">:</span> <span class="s">Get user by ID</span>
+    <span class="na">parameters</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">id</span>
+        <span class="na">in</span><span class="pi">:</span> <span class="s">path</span>
+        <span class="na">required</span><span class="pi">:</span> <span class="kc">true</span>
+        <span class="na">schema</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">integer</span>
+    <span class="na">responses</span><span class="pi">:</span>
+      <span class="na">200</span><span class="pi">:</span>
+        <span class="na">description</span><span class="pi">:</span> <span class="s">User found</span>
+      <span class="na">404</span><span class="pi">:</span>
+        <span class="na">description</span><span class="pi">:</span> <span class="s">User not found</span>
+</code></pre></div></div>
+
+<h2 id="8-rate-limiting--throttling">8. Rate Limiting &amp; Throttling</h2>
+
+<p>Always inform clients:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>X-RateLimit-Limit: 1000
+X-RateLimit-Remaining: 950
+X-RateLimit-Reset: 1623456789
+</code></pre></div></div>
+
+<h2 id="9-security-first">9. Security First</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>✓ Use HTTPS only
+✓ Validate &amp; sanitize inputs
+✓ Implement authentication/authorization
+✓ Never expose sensitive data
+✓ Use API keys/tokens securely
+</code></pre></div></div>
+
+<h2 id="10-make-breaking-changes-carefully">10. Make Breaking Changes Carefully</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>❌ Don't remove fields suddenly
+✅ Deprecate first (document for 6+ months)
+✅ Support multiple versions during transition
+✅ Communicate changes clearly
+</code></pre></div></div>
+
+<h2 id="checklist-for-good-api-design">Checklist for Good API Design</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />RESTful principles followed</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Consistent naming and structure</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Proper HTTP methods and status codes</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Clear error messages</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Comprehensive documentation</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Versioning strategy in place</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Rate limiting implemented</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Security measures applied</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Pagination for large datasets</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Backward compatibility considered</li>
+</ul>
+
+<hr />
+
+<p><strong>Remember:</strong> Your API is a contract with your users. Breaking that contract damages trust and causes pain for developers using your service.</p>]]></content><author><name></name></author><category term="development" /><category term="api-design" /><category term="rest" /><category term="backend" /><category term="best-practices" /><summary type="html"><![CDATA[API Design Principles You Should Know]]></summary></entry><entry><title type="html">Getting Started with Kubernetes</title><link href="http://localhost:4000/posts/kubernetes-getting-started/" rel="alternate" type="text/html" title="Getting Started with Kubernetes" /><published>2026-05-28T16:45:00+05:30</published><updated>2026-05-28T16:45:00+05:30</updated><id>http://localhost:4000/posts/kubernetes-getting-started</id><content type="html" xml:base="http://localhost:4000/posts/kubernetes-getting-started/"><![CDATA[<h1 id="getting-started-with-kubernetes">Getting Started with Kubernetes</h1>
+
+<p>Kubernetes (K8s) can seem overwhelming at first, but understanding the basics makes it much more approachable. Let’s break it down.</p>
+
+<h2 id="what-is-kubernetes">What is Kubernetes?</h2>
+
+<p>Kubernetes is an open-source orchestration platform for automating deployment, scaling, and management of containerized applications.</p>
+
+<p>Think of it as a <strong>smart container manager</strong> that:</p>
+<ul>
+  <li>Deploys containers across a cluster</li>
+  <li>Handles scaling up/down automatically</li>
+  <li>Restarts failed containers</li>
+  <li>Manages networking and storage</li>
+  <li>Enables rolling updates</li>
+</ul>
+
+<h2 id="core-concepts">Core Concepts</h2>
+
+<h3 id="1-pod">1. Pod</h3>
+<p>The smallest deployable unit - usually one container, sometimes multiple.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Pod</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">my-app</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">containers</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">app</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">myapp:1.0</span>
+    <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">containerPort</span><span class="pi">:</span> <span class="m">8000</span>
+</code></pre></div></div>
+
+<h3 id="2-deployment">2. Deployment</h3>
+<p>Manages replicas of pods and rolling updates.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">apps/v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Deployment</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">my-app</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">replicas</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">selector</span><span class="pi">:</span>
+    <span class="na">matchLabels</span><span class="pi">:</span>
+      <span class="na">app</span><span class="pi">:</span> <span class="s">my-app</span>
+  <span class="na">template</span><span class="pi">:</span>
+    <span class="na">metadata</span><span class="pi">:</span>
+      <span class="na">labels</span><span class="pi">:</span>
+        <span class="na">app</span><span class="pi">:</span> <span class="s">my-app</span>
+    <span class="na">spec</span><span class="pi">:</span>
+      <span class="na">containers</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">app</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">myapp:1.0</span>
+        <span class="na">ports</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">containerPort</span><span class="pi">:</span> <span class="m">8000</span>
+</code></pre></div></div>
+
+<h3 id="3-service">3. Service</h3>
+<p>Exposes pods internally or externally.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">my-app-service</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">selector</span><span class="pi">:</span>
+    <span class="na">app</span><span class="pi">:</span> <span class="s">my-app</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">LoadBalancer</span>
+  <span class="na">ports</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">protocol</span><span class="pi">:</span> <span class="s">TCP</span>
+    <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+    <span class="na">targetPort</span><span class="pi">:</span> <span class="m">8000</span>
+</code></pre></div></div>
+
+<h3 id="4-configmap--secrets">4. ConfigMap &amp; Secrets</h3>
+<p>Manage configuration and sensitive data.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">ConfigMap</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">app-config</span>
+<span class="na">data</span><span class="pi">:</span>
+  <span class="na">LOG_LEVEL</span><span class="pi">:</span> <span class="s2">"</span><span class="s">debug"</span>
+  <span class="na">DATABASE_HOST</span><span class="pi">:</span> <span class="s2">"</span><span class="s">db.example.com"</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">db-credentials</span>
+<span class="na">type</span><span class="pi">:</span> <span class="s">Opaque</span>
+<span class="na">data</span><span class="pi">:</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">ZGJwYXNzd29yZA==</span>  <span class="c1"># base64 encoded</span>
+</code></pre></div></div>
+
+<h2 id="why-kubernetes">Why Kubernetes?</h2>
+
+<p>✅ <strong>Auto-scaling</strong> - Automatically scale based on load<br />
+✅ <strong>Self-healing</strong> - Restart failed containers<br />
+✅ <strong>Rolling updates</strong> - Zero-downtime deployments<br />
+✅ <strong>Service discovery</strong> - Automatic DNS<br />
+✅ <strong>Load balancing</strong> - Built-in load balancing<br />
+✅ <strong>Resource management</strong> - Efficient resource utilization</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<h3 id="1-install-kubectl">1. Install kubectl</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># macOS</span>
+brew <span class="nb">install </span>kubectl
+
+<span class="c"># Linux</span>
+curl <span class="nt">-LO</span> <span class="s2">"https://dl.k8s.io/release/</span><span class="si">$(</span>curl <span class="nt">-L</span> <span class="nt">-s</span> https://dl.k8s.io/release/stable.txt<span class="si">)</span><span class="s2">/bin/linux/amd64/kubectl"</span>
+</code></pre></div></div>
+
+<h3 id="2-set-up-a-local-cluster">2. Set Up a Local Cluster</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Docker Desktop (easiest)</span>
+<span class="c"># Enable Kubernetes in Docker Desktop settings</span>
+
+<span class="c"># Or use Minikube</span>
+brew <span class="nb">install </span>minikube
+minikube start
+</code></pre></div></div>
+
+<h3 id="3-deploy-your-first-app">3. Deploy Your First App</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl create deployment my-app <span class="nt">--image</span><span class="o">=</span>nginx:latest
+kubectl expose deployment my-app <span class="nt">--port</span><span class="o">=</span>80 <span class="nt">--type</span><span class="o">=</span>LoadBalancer
+kubectl get pods
+kubectl get services
+</code></pre></div></div>
+
+<h2 id="common-kubectl-commands">Common kubectl Commands</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># View resources</span>
+kubectl get pods
+kubectl get deployments
+kubectl get services
+
+<span class="c"># Describe resources</span>
+kubectl describe pod &lt;pod-name&gt;
+
+<span class="c"># View logs</span>
+kubectl logs &lt;pod-name&gt;
+
+<span class="c"># Port forwarding</span>
+kubectl port-forward pod/&lt;pod-name&gt; 8000:8000
+
+<span class="c"># Execute command in pod</span>
+kubectl <span class="nb">exec</span> <span class="nt">-it</span> &lt;pod-name&gt; <span class="nt">--</span> /bin/sh
+
+<span class="c"># Apply configuration</span>
+kubectl apply <span class="nt">-f</span> deployment.yaml
+
+<span class="c"># Delete resources</span>
+kubectl delete pod &lt;pod-name&gt;
+</code></pre></div></div>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<ol>
+  <li><strong>Learn YAML</strong> - Kubernetes uses YAML for configuration</li>
+  <li><strong>Understand namespaces</strong> - Logical clusters within K8s</li>
+  <li><strong>Explore Helm</strong> - Package manager for Kubernetes</li>
+  <li><strong>Study networking</strong> - How pods communicate</li>
+  <li><strong>Master volumes</strong> - Persistent data storage</li>
+</ol>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://kubernetes.io/docs/">Kubernetes Official Docs</a></li>
+  <li><a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/">kubectl Cheat Sheet</a></li>
+  <li><a href="https://labs.play-with-k8s.com/">Play with Kubernetes</a></li>
+</ul>
+
+<hr />
+
+<p><strong>Start Small:</strong> Begin with simple deployments locally. Complexity builds naturally as your needs grow.</p>]]></content><author><name></name></author><category term="devops" /><category term="cloud" /><category term="kubernetes" /><category term="k8s" /><category term="containerization" /><category term="orchestration" /><summary type="html"><![CDATA[Getting Started with Kubernetes]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/N-Infinity-no-bg.png" /><media:content medium="image" url="http://localhost:4000/N-Infinity-no-bg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">10 JavaScript Tips Every Developer Should Know</title><link href="http://localhost:4000/posts/javascript-tips/" rel="alternate" type="text/html" title="10 JavaScript Tips Every Developer Should Know" /><published>2026-05-25T11:30:00+05:30</published><updated>2026-05-25T11:30:00+05:30</updated><id>http://localhost:4000/posts/javascript-tips</id><content type="html" xml:base="http://localhost:4000/posts/javascript-tips/"><![CDATA[<h1 id="10-javascript-tips-every-developer-should-know">10 JavaScript Tips Every Developer Should Know</h1>
+
+<p>JavaScript powers modern web development. Here are tips that will make you a better JavaScript developer.</p>
+
+<h2 id="1-destructuring-assignment">1. Destructuring Assignment</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Before</span>
+<span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">John</span><span class="dl">'</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="na">email</span><span class="p">:</span> <span class="dl">'</span><span class="s1">john@example.com</span><span class="dl">'</span> <span class="p">};</span>
+<span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">age</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">age</span><span class="p">;</span>
+
+<span class="c1">// After</span>
+<span class="kd">const</span> <span class="p">{</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="nx">email</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">user</span><span class="p">;</span>
+
+<span class="c1">// Array destructuring</span>
+<span class="kd">const</span> <span class="p">[</span><span class="nx">first</span><span class="p">,</span> <span class="nx">second</span><span class="p">,</span> <span class="p">...</span><span class="nx">rest</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">];</span>
+</code></pre></div></div>
+
+<h2 id="2-template-literals">2. Template Literals</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Bad</span>
+<span class="kd">const</span> <span class="nx">greeting</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Hello, </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">name</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">! You are </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">age</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> years old.</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="c1">// Good</span>
+<span class="kd">const</span> <span class="nx">greeting</span> <span class="o">=</span> <span class="s2">`Hello, </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">! You are </span><span class="p">${</span><span class="nx">age</span><span class="p">}</span><span class="s2"> years old.`</span><span class="p">;</span>
+
+<span class="c1">// Multi-line</span>
+<span class="kd">const</span> <span class="nx">html</span> <span class="o">=</span> <span class="s2">`
+  &lt;div class="card"&gt;
+    &lt;h1&gt;</span><span class="p">${</span><span class="nx">title</span><span class="p">}</span><span class="s2">&lt;/h1&gt;
+    &lt;p&gt;</span><span class="p">${</span><span class="nx">description</span><span class="p">}</span><span class="s2">&lt;/p&gt;
+  &lt;/div&gt;
+`</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="3-arrow-functions">3. Arrow Functions</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Traditional</span>
+<span class="kd">function</span> <span class="nf">add</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// Arrow function</span>
+<span class="kd">const</span> <span class="nx">add</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+
+<span class="c1">// Single parameter</span>
+<span class="kd">const</span> <span class="nx">square</span> <span class="o">=</span> <span class="nx">x</span> <span class="o">=&gt;</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">x</span><span class="p">;</span>
+
+<span class="c1">// Multiple statements</span>
+<span class="kd">const</span> <span class="nx">calculate</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+  <span class="k">return</span> <span class="nx">sum</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<h2 id="4-default-parameters">4. Default Parameters</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Before</span>
+<span class="kd">function</span> <span class="nf">greet</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span> <span class="o">||</span> <span class="dl">'</span><span class="s1">Guest</span><span class="dl">'</span><span class="p">;</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="s2">`Hello, </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">!`</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// After</span>
+<span class="kd">function</span> <span class="nf">greet</span><span class="p">(</span><span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Guest</span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="s2">`Hello, </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">!`</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Works with functions too</span>
+<span class="kd">const</span> <span class="nx">fetchData</span> <span class="o">=</span> <span class="p">(</span><span class="nx">url</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">https://api.example.com</span><span class="dl">'</span><span class="p">,</span> <span class="nx">timeout</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// ...</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<h2 id="5-spread-operator">5. Spread Operator</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Array spreading</span>
+<span class="kd">const</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">combined</span> <span class="o">=</span> <span class="p">[...</span><span class="nx">arr1</span><span class="p">,</span> <span class="p">...</span><span class="nx">arr2</span><span class="p">];</span> <span class="c1">// [1, 2, 3, 4, 5, 6]</span>
+
+<span class="c1">// Object spreading</span>
+<span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">John</span><span class="dl">'</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">30</span> <span class="p">};</span>
+<span class="kd">const</span> <span class="nx">updatedUser</span> <span class="o">=</span> <span class="p">{</span> <span class="p">...</span><span class="nx">user</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">31</span> <span class="p">};</span> <span class="c1">// { name: 'John', age: 31 }</span>
+
+<span class="c1">// Function arguments</span>
+<span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="nb">Math</span><span class="p">.</span><span class="nf">max</span><span class="p">(...</span><span class="nx">numbers</span><span class="p">);</span> <span class="c1">// 3</span>
+</code></pre></div></div>
+
+<h2 id="6-asyncawait">6. Async/Await</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Callback hell (bad)</span>
+<span class="kd">function</span> <span class="nf">fetchUser</span><span class="p">(</span><span class="nx">id</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nf">fetch</span><span class="p">(</span><span class="s2">`/api/users/</span><span class="p">${</span><span class="nx">id</span><span class="p">}</span><span class="s2">`</span><span class="p">)</span>
+    <span class="p">.</span><span class="nf">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nf">json</span><span class="p">())</span>
+    <span class="p">.</span><span class="nf">then</span><span class="p">(</span><span class="nx">user</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="nf">fetch</span><span class="p">(</span><span class="s2">`/api/posts?user=</span><span class="p">${</span><span class="nx">id</span><span class="p">}</span><span class="s2">`</span><span class="p">)</span>
+        <span class="p">.</span><span class="nf">then</span><span class="p">(</span><span class="nx">res</span> <span class="o">=&gt;</span> <span class="nx">res</span><span class="p">.</span><span class="nf">json</span><span class="p">())</span>
+        <span class="p">.</span><span class="nf">then</span><span class="p">(</span><span class="nx">posts</span> <span class="o">=&gt;</span> <span class="nf">callback</span><span class="p">(</span><span class="nx">user</span><span class="p">,</span> <span class="nx">posts</span><span class="p">));</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="c1">// Much better</span>
+<span class="k">async</span> <span class="kd">function</span> <span class="nf">fetchUserWithPosts</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">try</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">userRes</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span><span class="s2">`/api/users/</span><span class="p">${</span><span class="nx">id</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+    <span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">userRes</span><span class="p">.</span><span class="nf">json</span><span class="p">();</span>
+    
+    <span class="kd">const</span> <span class="nx">postsRes</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span><span class="s2">`/api/posts?user=</span><span class="p">${</span><span class="nx">id</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+    <span class="kd">const</span> <span class="nx">posts</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">postsRes</span><span class="p">.</span><span class="nf">json</span><span class="p">();</span>
+    
+    <span class="k">return</span> <span class="p">{</span> <span class="nx">user</span><span class="p">,</span> <span class="nx">posts</span> <span class="p">};</span>
+  <span class="p">}</span> <span class="k">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="dl">'</span><span class="s1">Error:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="7-array-methods">7. Array Methods</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// map - transform array</span>
+<span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">doubled</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nf">map</span><span class="p">(</span><span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">*</span> <span class="mi">2</span><span class="p">);</span> <span class="c1">// [2, 4, 6, 8]</span>
+
+<span class="c1">// filter - select elements</span>
+<span class="kd">const</span> <span class="nx">evens</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nf">filter</span><span class="p">(</span><span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">===</span> <span class="mi">0</span><span class="p">);</span> <span class="c1">// [2, 4]</span>
+
+<span class="c1">// reduce - aggregate</span>
+<span class="kd">const</span> <span class="nx">sum</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nf">reduce</span><span class="p">((</span><span class="nx">acc</span><span class="p">,</span> <span class="nx">n</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">acc</span> <span class="o">+</span> <span class="nx">n</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span> <span class="c1">// 10</span>
+
+<span class="c1">// find - get first match</span>
+<span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="nx">users</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="nx">u</span> <span class="o">=&gt;</span> <span class="nx">u</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="mi">123</span><span class="p">);</span>
+
+<span class="c1">// some/every - test condition</span>
+<span class="kd">const</span> <span class="nx">hasAdmin</span> <span class="o">=</span> <span class="nx">users</span><span class="p">.</span><span class="nf">some</span><span class="p">(</span><span class="nx">u</span> <span class="o">=&gt;</span> <span class="nx">u</span><span class="p">.</span><span class="nx">role</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">admin</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">allAdults</span> <span class="o">=</span> <span class="nx">users</span><span class="p">.</span><span class="nf">every</span><span class="p">(</span><span class="nx">u</span> <span class="o">=&gt;</span> <span class="nx">u</span><span class="p">.</span><span class="nx">age</span> <span class="o">&gt;=</span> <span class="mi">18</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="8-object-methods">8. Object Methods</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Object.keys, values, entries</span>
+<span class="kd">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">John</span><span class="dl">'</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">30</span> <span class="p">};</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nf">keys</span><span class="p">(</span><span class="nx">user</span><span class="p">);</span>     <span class="c1">// ['name', 'age']</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nf">values</span><span class="p">(</span><span class="nx">user</span><span class="p">);</span>   <span class="c1">// ['John', 30]</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nf">entries</span><span class="p">(</span><span class="nx">user</span><span class="p">);</span>  <span class="c1">// [['name', 'John'], ['age', 30]]</span>
+
+<span class="c1">// Object.assign - merge objects</span>
+<span class="kd">const</span> <span class="nx">merged</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nf">assign</span><span class="p">({},</span> <span class="nx">user</span><span class="p">,</span> <span class="p">{</span> <span class="na">city</span><span class="p">:</span> <span class="dl">'</span><span class="s1">NYC</span><span class="dl">'</span> <span class="p">});</span>
+
+<span class="c1">// Freeze objects</span>
+<span class="nb">Object</span><span class="p">.</span><span class="nf">freeze</span><span class="p">(</span><span class="nx">user</span><span class="p">);</span> <span class="c1">// user.age = 31 won't work</span>
+</code></pre></div></div>
+
+<h2 id="9-optional-chaining">9. Optional Chaining</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Before</span>
+<span class="kd">const</span> <span class="nx">city</span> <span class="o">=</span> <span class="nx">user</span> <span class="o">&amp;&amp;</span> <span class="nx">user</span><span class="p">.</span><span class="nx">address</span> <span class="o">&amp;&amp;</span> <span class="nx">user</span><span class="p">.</span><span class="nx">address</span><span class="p">.</span><span class="nx">city</span><span class="p">;</span>
+
+<span class="c1">// After (optional chaining)</span>
+<span class="kd">const</span> <span class="nx">city</span> <span class="o">=</span> <span class="nx">user</span><span class="p">?.</span><span class="nx">address</span><span class="p">?.</span><span class="nx">city</span><span class="p">;</span>
+
+<span class="c1">// Also works with functions</span>
+<span class="kd">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">user</span><span class="p">?.</span><span class="nx">getEmail</span><span class="p">?.();</span>
+
+<span class="c1">// Arrays</span>
+<span class="kd">const</span> <span class="nx">firstItem</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">?.[</span><span class="mi">0</span><span class="p">];</span>
+</code></pre></div></div>
+
+<h2 id="10-nullish-coalescing">10. Nullish Coalescing</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Problem with ||</span>
+<span class="kd">const</span> <span class="nx">value1</span> <span class="o">=</span> <span class="mi">0</span> <span class="o">||</span> <span class="dl">'</span><span class="s1">default</span><span class="dl">'</span><span class="p">;</span> <span class="c1">// 'default' (wrong!)</span>
+
+<span class="c1">// Solution with ??</span>
+<span class="kd">const</span> <span class="nx">value2</span> <span class="o">=</span> <span class="mi">0</span> <span class="o">??</span> <span class="dl">'</span><span class="s1">default</span><span class="dl">'</span><span class="p">;</span> <span class="c1">// 0 (correct!)</span>
+
+<span class="c1">// Works with false, '', 0, etc.</span>
+<span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">userInput</span> <span class="o">??</span> <span class="dl">'</span><span class="s1">Anonymous</span><span class="dl">'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="bonus-useful-array-functions">Bonus: Useful Array Functions</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// flat - flatten nested arrays</span>
+<span class="kd">const</span> <span class="nx">nested</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]];</span>
+<span class="nx">nested</span><span class="p">.</span><span class="nf">flat</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// [1, 2, 3, 4, 5, 6]</span>
+
+<span class="c1">// flatMap - map then flatten</span>
+<span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="nx">numbers</span><span class="p">.</span><span class="nf">flatMap</span><span class="p">(</span><span class="nx">n</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="nx">n</span><span class="p">,</span> <span class="nx">n</span> <span class="o">*</span> <span class="mi">2</span><span class="p">]);</span> <span class="c1">// [1, 2, 2, 4, 3, 6]</span>
+
+<span class="c1">// includes - check if value exists</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">].</span><span class="nf">includes</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// true</span>
+</code></pre></div></div>
+
+<hr />
+
+<p><strong>Practice these tips regularly and you’ll write cleaner, more efficient JavaScript code!</strong></p>]]></content><author><name></name></author><category term="development" /><category term="javascript" /><category term="tips" /><category term="frontend" /><category term="best-practices" /><summary type="html"><![CDATA[10 JavaScript Tips Every Developer Should Know]]></summary></entry></feed>

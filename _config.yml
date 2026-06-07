@@ -1,0 +1,115 @@
+# Chirpy Jekyll Theme Configuration
+# For more options, see https://github.com/cotes2020/jekyll-theme-chirpy
+
+title: Nikhil Tiwari
+tagline: Software Engineer | Tech Writer | Open Source Contributor
+description: Personal website and tech blog by Nikhil Tiwari
+url: "https://nikhiltiwari005.github.io"
+avatar: /me.png
+github:
+  username: nikhiltiwari005
+twitter:
+  username: nikhiltiwari005
+social:
+  name: Nikhil Tiwari
+  links:
+    - https://github.com/nikhiltiwari005
+    - https://twitter.com/nikhiltiwari005
+
+lang: en
+timezone: Asia/Kolkata
+
+# Jekyll theme
+theme: jekyll-theme-chirpy
+
+# Markdown processor
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+# Permalink structure
+permalink: /posts/:title/
+
+# Pagination
+paginate: 10
+
+# Build settings
+exclude:
+  - .gitignore
+  - .gitattributes
+  - README.md
+  - LICENSE
+  - backup-*.tar.gz
+
+include:
+  - _redirects
+  - .well-known
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+      dynamic_title: true
+
+# Plugin configuration
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives configuration
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# CDN endpoint
+# cdn: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-static@latest
+
+# Comments system (optional)
+comments:
+  active: disqus
+  disqus:
+    shortname: ""
+
+# Analytics (optional)
+analytics:
+  google:
+    id: ""
+
+# Ads (optional)
+google_adsense:
+  enabled: false
