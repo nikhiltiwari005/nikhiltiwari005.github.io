@@ -29,7 +29,7 @@ This blog will demystify CPUs from the bare metal up — from physical cores and
 
 Let’s say you’re on a Linux system and you run:
 
-```
+```bash
 $ lscpu | grep "^CPU(s):"CPU(s):                8
 ```
 
@@ -66,7 +66,7 @@ That’s not a lie — it’s a**scheduler trick**.
 
 #### 🧠 Linux View:
 
-```
+```bash
 $ nproc8$ lscpu | grep "Thread|Core|Socket"Thread(s) per core:    2Core(s) per socket:    4Socket(s):             1
 ```
 
@@ -76,8 +76,20 @@ So now you know:**8 logical CPUs = 4 physical cores × 2 hyperthreads.**
 
 **Example: Intel Xeon with 1 socket, 4 cores, Hyper-Threading enabled**
 
-```
-Socket 0├── Core 0│   ├── Logical CPU 0│   └── Logical CPU 1├── Core 1│   ├── Logical CPU 2│   └── Logical CPU 3├── Core 2│   ├── Logical CPU 4│   └── Logical CPU 5├── Core 3    ├── Logical CPU 6    └── Logical CPU 7
+```bash
+Socket 0
+├── Core 0
+│   ├── Logical CPU 0
+│   └── Logical CPU 1
+├── Core 1
+│   ├── Logical CPU 2
+│   └── Logical CPU 3
+├── Core 2
+│   ├── Logical CPU 4
+│   └── Logical CPU 5
+└── Core 3
+    ├── Logical CPU 6
+    └── Logical CPU 7
 ```
 
 ### 🟦 3. vCPU: The Illusion of Compute
@@ -105,7 +117,7 @@ That means:
 
 Let’s say you run:
 
-```
+```bash
 docker run --cpus=2 my-app
 ```
 
@@ -115,7 +127,7 @@ You’re not “getting” 2 CPUs. You’re telling Linux to use**cgroups**to**t
 
 Under the hood:
 
-```
+```bash
 cpu.cfs_quota_us = 200000cpu.cfs_period_us = 100000
 ```
 
@@ -125,7 +137,7 @@ cpu.cfs_quota_us = 200000cpu.cfs_period_us = 100000
 
 Want to pin containers to specific cores?
 
-```
+```bash
 docker run --cpuset-cpus="0,1" ...
 ```
 
@@ -141,7 +153,7 @@ In Kubernetes, CPU limits and requests are expressed in**millicores**.
 
 So this:
 
-```
+```bash
 resources:  requests:    cpu: "500m"
 ```
 

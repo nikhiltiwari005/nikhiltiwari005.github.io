@@ -65,8 +65,26 @@ Every crash in production, every deadlock, every flaky test that “works on my 
 
 Here’s the bird’s-eye view of the mind map we’ll explore:
 
-```
-Concurrency & Multithreading│├── 1. Mutual Exclusion        → Locking, reentrancy, intrinsic monitors├── 2. Visibility              → Volatile, memory model, happens-before├── 3. Atomicity               → Compare-and-swap, atomic primitives├── 4. Coordination            → wait/notify, latches, semaphores├── 5. Task Management         → Runnable, ExecutorService, Future├── 6. Non-Blocking / Async    → CompletableFuture, reactive streams├── 7. Immutability            → final fields, value objects, collections├── 8. Parallelism             → Fork/Join, Streams, Spliterators└── 9. Thread Lifecycle        → States, interrupt, daemon, priority
+```bash
+Concurrency & Multithreading
+├── 1. Mutual Exclusion
+│   └── Locking, reentrancy, intrinsic monitors
+├── 2. Visibility
+│   └── Volatile, memory model, happens-before
+├── 3. Atomicity
+│   └── Compare-and-swap, atomic primitives
+├── 4. Coordination
+│   └── wait/notify, latches, semaphores
+├── 5. Task Management
+│   └── Runnable, ExecutorService, Future
+├── 6. Non-Blocking / Async
+│   └── CompletableFuture, reactive streams
+├── 7. Immutability
+│   └── final fields, value objects, collections
+├── 8. Parallelism
+│   └── Fork/Join, Streams, Spliterators
+└── 9. Thread Lifecycle
+    └── States, interrupt, daemon, priority
 ```
 
 This is not just a list — it’s**a mental model**.
@@ -79,8 +97,139 @@ From simple locks to advanced reactive programming —**it all fits here.**
 
 ### 🧠 The Mind Map (In Detail)
 
-```
-Concurrency & Multithreading│├── 1. Mutual Exclusion│   ├── synchronized│   │   ├── Method-level│   │   └── Block-level│   ├── java.util.concurrent.locks│   │   ├── Lock│   │   │   ├── lock()│   │   │   └── unlock()│   │   ├── ReentrantLock│   │   ├── ReadWriteLock│   │   └── StampedLock (Optimistic Read)│   └── Concepts│       └── Reentrancy, Monitor, Intrinsic Lock│├── 2. Visibility│   ├── volatile│   ├── Java Memory Model│   │   └── Happens-before│   ├── Atomic Classes│   │   ├── AtomicInteger│   │   ├── AtomicLong│   │   ├── AtomicBoolean│   │   └── AtomicReference│   └── Concepts│       └── Cache Coherence, Reordering Prevention│├── 3. Atomicity│   ├── CAS Mechanism (Compare-And-Swap)│   ├── java.util.concurrent.atomic│   │   ├── get(), set()│   │   ├── compareAndSet()│   │   └── incrementAndGet()│   ├── Advanced Counters│   │   ├── LongAdder│   │   └── DoubleAccumulator│   └── Unsafe (sun.misc.Unsafe) [low-level ops]│├── 4. Coordination│   ├── Object class│   │   ├── wait()│   │   ├── notify()│   │   └── notifyAll()│   ├── java.util.concurrent tools│   │   ├── CountDownLatch│   │   ├── CyclicBarrier│   │   ├── Semaphore│   │   ├── Exchanger│   │   └── Phaser│   ├── Blocking Queues│   │   ├── BlockingQueue│   │   ├── SynchronousQueue│   │   └── DelayQueue│   └── Thread Coordination│       ├── join()│       ├── sleep()│       └── yield()│├── 5. Task Management│   ├── Runnable / Callable│   ├── Executor Framework│   │   ├── Executors (factory)│   │   │   ├── newFixedThreadPool()│   │   │   ├── newCachedThreadPool()│   │   │   ├── newSingleThreadExecutor()│   │   │   └── newScheduledThreadPool()│   │   └── ExecutorService│   │       ├── submit()│   │       ├── shutdown()│   │       ├── awaitTermination()│   │       ├── invokeAll()│   │       └── invokeAny()│   └── Future│       ├── get()│       ├── cancel()│       └── isDone()│├── 6. Non-Blocking / Async│   ├── CompletableFuture│   │   ├── supplyAsync()│   │   ├── thenApply(), thenAccept(), thenCombine()│   │   ├── allOf(), anyOf()│   │   └── exceptionally(), whenComplete()│   ├── Flow API (Java 9+)│   │   ├── Publisher│   │   ├── Subscriber│   │   ├── Processor│   │   └── Subscription│   └── Reactive Libraries│       ├── Project Reactor│       └── RxJava│├── 7. Immutability│   ├── final keyword│   ├── Immutable Class Design│   │   ├── Constructor-only state│   │   ├── All fields final│   │   └── No setters│   ├── Design Patterns│   │   ├── Builder Pattern│   │   └── Value Object│   └── Collections (Java 9+)│       ├── List.of()│       ├── Set.of()│       └── Map.of()│├── 8. Parallelism│   ├── Fork/Join Framework│   │   ├── ForkJoinPool│   │   ├── RecursiveTask│   │   └── RecursiveAction│   ├── Parallel Streams│   │   ├── .parallelStream()│   │   └── .map(), .reduce(), .collect()│   ├── Spliterator (advanced)│   └── Batch Execution│       └── invokeAll(List<Callable<T>>)│└── 9. Thread Lifecycle / Management    ├── Thread class    │   ├── start(), run()    │   ├── interrupt(), isInterrupted()    │   ├── setDaemon(), setPriority()    ├── Thread States    │   ├── NEW    │   ├── RUNNABLE    │   ├── BLOCKED    │   ├── WAITING    │   ├── TIMED_WAITING    │   └── TERMINATED    ├── ThreadFactory    └── ThreadGroup (legacy)
+```bash
+Concurrency & Multithreading
+├── 1. Mutual Exclusion
+│   ├── synchronized
+│   │   ├── Method-level
+│   │   └── Block-level
+│   ├── java.util.concurrent.locks
+│   │   ├── Lock
+│   │   │   ├── lock()
+│   │   │   └── unlock()
+│   │   ├── ReentrantLock
+│   │   ├── ReadWriteLock
+│   │   └── StampedLock (Optimistic Read)
+│   └── Concepts
+│       └── Reentrancy, Monitor, Intrinsic Lock
+│
+├── 2. Visibility
+│   ├── volatile
+│   ├── Java Memory Model
+│   │   └── Happens-before
+│   ├── Atomic Classes
+│   │   ├── AtomicInteger
+│   │   ├── AtomicLong
+│   │   ├── AtomicBoolean
+│   │   └── AtomicReference
+│   └── Concepts
+│       └── Cache Coherence, Reordering Prevention
+│
+├── 3. Atomicity
+│   ├── CAS Mechanism (Compare-And-Swap)
+│   ├── java.util.concurrent.atomic
+│   │   ├── get(), set()
+│   │   ├── compareAndSet()
+│   │   └── incrementAndGet()
+│   ├── Advanced Counters
+│   │   ├── LongAdder
+│   │   └── DoubleAccumulator
+│   └── Unsafe (sun.misc.Unsafe) [low-level ops]
+│
+├── 4. Coordination
+│   ├── Object class
+│   │   ├── wait()
+│   │   ├── notify()
+│   │   └── notifyAll()
+│   ├── java.util.concurrent tools
+│   │   ├── CountDownLatch
+│   │   ├── CyclicBarrier
+│   │   ├── Semaphore
+│   │   ├── Exchanger
+│   │   └── Phaser
+│   ├── Blocking Queues
+│   │   ├── BlockingQueue
+│   │   ├── SynchronousQueue
+│   │   └── DelayQueue
+│   └── Thread Coordination
+│       ├── join()
+│       ├── sleep()
+│       └── yield()
+│
+├── 5. Task Management
+│   ├── Runnable / Callable
+│   ├── Executor Framework
+│   │   ├── Executors (factory)
+│   │   │   ├── newFixedThreadPool()
+│   │   │   ├── newCachedThreadPool()
+│   │   │   ├── newSingleThreadExecutor()
+│   │   │   └── newScheduledThreadPool()
+│   │   └── ExecutorService
+│   │       ├── submit()
+│   │       ├── shutdown()
+│   │       ├── awaitTermination()
+│   │       ├── invokeAll()
+│   │       └── invokeAny()
+│   └── Future
+│       ├── get()
+│       ├── cancel()
+│       └── isDone()
+│
+├── 6. Non-Blocking / Async
+│   ├── CompletableFuture
+│   │   ├── supplyAsync()
+│   │   ├── thenApply(), thenAccept(), thenCombine()
+│   │   ├── allOf(), anyOf()
+│   │   └── exceptionally(), whenComplete()
+│   ├── Flow API (Java 9+)
+│   │   ├── Publisher
+│   │   ├── Subscriber
+│   │   ├── Processor
+│   │   └── Subscription
+│   └── Reactive Libraries
+│       ├── Project Reactor
+│       └── RxJava
+│
+├── 7. Immutability
+│   ├── final keyword
+│   ├── Immutable Class Design
+│   │   ├── Constructor-only state
+│   │   ├── All fields final
+│   │   └── No setters
+│   ├── Design Patterns
+│   │   ├── Builder Pattern
+│   │   └── Value Object
+│   └── Collections (Java 9+)
+│       ├── List.of()
+│       ├── Set.of()
+│       └── Map.of()
+│
+├── 8. Parallelism
+│   ├── Fork/Join Framework
+│   │   ├── ForkJoinPool
+│   │   ├── RecursiveTask
+│   │   └── RecursiveAction
+│   ├── Parallel Streams
+│   │   ├── .parallelStream()
+│   │   └── .map(), .reduce(), .collect()
+│   ├── Spliterator (advanced)
+│   └── Batch Execution
+│       └── invokeAll(List<Callable<T>>)
+│
+└── 9. Thread Lifecycle / Management
+    ├── Thread class
+    │   ├── start(), run()
+    │   ├── interrupt(), isInterrupted()
+    │   └── setDaemon(), setPriority()
+    ├── Thread States
+    │   ├── NEW
+    │   ├── RUNNABLE
+    │   ├── BLOCKED
+    │   ├── WAITING
+    │   ├── TIMED_WAITING
+    │   └── TERMINATED
+    ├── ThreadFactory
+    └── ThreadGroup (legacy)
 ```
 
 ### 🌐 How These Concepts Map Across Languages

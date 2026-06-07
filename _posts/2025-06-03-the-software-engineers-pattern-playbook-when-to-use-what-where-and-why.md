@@ -33,8 +33,24 @@ This guide aims to clear that confusion by organizing these concepts into a logi
 
 #### 2. The Scope Hierarchy
 
-```
-MACRO LEVEL (City Planning)├── System Design → How multiple services/systems work together├── High-Level Design → Major components and their interactionsMID LEVEL (Building Design)  ├── Software Architecture → Overall structure of your application├── Architectural Patterns → Common ways to structure applicationsMICRO LEVEL (Construction Techniques)├── Design Patterns → Reusable solutions to common coding problems├── Code Organization → Classes, interfaces, methods
+```bash
+MACRO LEVEL (City Planning)
+├── System Design
+│   └── How multiple services/systems work together
+└── High-Level Design
+    └── Major components and their interactions
+
+MID LEVEL (Building Design)
+├── Software Architecture
+│   └── Overall structure of your application
+└── Architectural Patterns
+    └── Common ways to structure applications
+
+MICRO LEVEL (Construction Techniques)
+├── Design Patterns
+│   └── Reusable solutions to common coding problems
+└── Code Organization
+    └── Classes, interfaces, methods
 ```
 
 ---
@@ -178,8 +194,158 @@ MACRO LEVEL (City Planning)├── System Design → How multiple services/sys
 
 ### 🎪 The Complete Software Development Map
 
-```
-SOFTWARE DEVELOPMENT├── 1. FOUNDATIONS: Programming Core│   ├── Language Mastery│   │   ├── Java / Python / C++ / JS - pick one and go deep│   │   ├── Memory, Pointers, Garbage Collection│   │   └── Compilation, JIT, Interpreters│   ├── DSA: Data Structures & Algorithms│   │   ├── Arrays, Trees, Graphs, Hashing│   │   ├── Recursion, DP, Greedy, Backtracking│   │   └── Leetcode-level mastery is non-negotiable│   ├── Problem-Solving Thinking│   │   ├── Divide & Conquer│   │   ├── Pattern Matching│   │   └── Time-Space Trade-offs│   └── Code Quality│       ├── Naming, Comments, Readability│       └── Unit Testing, Refactoring, CI Hooks│├── 2. CODE DESIGN: Micro-Level Thinking│   ├── Object-Oriented Programming│   │   ├── Encapsulation, Abstraction, Inheritance, Polymorphism│   │   ├── Real-world modeling → thinking in terms of objects│   │   └── Interface Segregation, Dependency Inversion│   ├── SOLID + DRY + KISS + YAGNI│   │   └── Design principles that *never expire*│   ├── Design Patterns (GoF)│   │   ├── Creational → Singleton, Factory, Builder│   │   ├── Structural → Adapter, Proxy, Decorator│   │   └── Behavioral → Strategy, Observer, Command│   └── Low-Level Design (LLD)│       ├── Class design, UML, Interfaces│       └── Sequencing, Composition, Contracts│├── 3. SYSTEM ARCHITECTURE: Mid-Level Thinking│   ├── Architecture Patterns│   │   ├── Monolith, Modular, Microservices, Serverless│   │   ├── MVC, MVVM, MVP│   │   └── Hexagonal, Onion, Clean Architecture│   ├── Layered Systems│   │   ├── Presentation, Business, Data│   │   └── Separation of concerns and stability│   ├── API Design│   │   ├── RESTful, GraphQL, gRPC│   │   ├── Pagination, Filtering, Versioning│   │   └── OAuth2, JWT, Session vs Token Auth│   └── Integration Patterns│       ├── Sync/Async Communication│       ├── Event-Driven (Kafka, RabbitMQ)│       └── CQRS, Event Sourcing, SAGA Pattern│├── 4. SYSTEM DESIGN: Macro-Level Thinking│   ├── High-Level Design (HLD)│   │   ├── Major components: Services, APIs, Databases│   │   ├── Caches, Queues, Load Balancers│   │   └── Horizontal vs Vertical Scaling│   ├── Low-Level Design (LLD)│   │   ├── Class diagrams, Interfaces, Data Modeling│   │   ├── Object Composition, Inheritance Tradeoffs│   │   └── API contracts and protocols│   ├── Scaling Strategies│   │   ├── DB Sharding, Partitioning, Indexing│   │   ├── CDN, Caching (Redis, Memcached)│   │   └── Load Balancers, Throttling, Rate Limiting│   └── Reliability Patterns│       ├── Retry, Circuit Breaker, Bulkhead│       ├── Failover, Redundancy│       └── Eventual Consistency vs Strong Consistency│├── 5. INFRASTRUCTURE ENGINEERING│   ├── DevOps│   │   ├── Docker, Kubernetes, Helm│   │   ├── Infrastructure as Code (Terraform, Pulumi)│   │   └── CI/CD Pipelines (GitHub Actions, GitLab, Jenkins)│   ├── Cloud Platforms│   │   ├── AWS / GCP / Azure - pick and master one│   │   ├── Compute, Storage, IAM, Networking│   │   └── VPCs, Subnets, NAT, Firewalls│   └── Deployment Patterns│       ├── Blue-Green, Canary, Rolling Updates│       ├── Feature Flags│       └── Zero Downtime Deployments│├── 6. DATA SYSTEMS│   ├── Relational Databases│   │   ├── MySQL, PostgreSQL│   │   └── Joins, Indexes, Normalization, ACID│   ├── NoSQL Databases│   │   ├── MongoDB (Document), Cassandra (Wide-Column)│   │   └── Redis (Key-Value), Neo4j (Graph)│   ├── Caching│   │   ├── Redis, Memcached│   │   ├── TTL, LRU, LFU│   │   └── Write-through, Write-behind│   └── Big Data & Pipelines│       ├── Kafka, Flink, Spark│       ├── ETL/ELT Patterns│       └── Data Lake vs Data Warehouse│├── 7. SECURITY ENGINEERING│   ├── OWASP Top 10│   │   └── XSS, CSRF, SQLi, Broken Auth│   ├── Encryption & Identity│   │   ├── HTTPS, TLS, AES, RSA│   │   ├── OAuth2, OpenID Connect│   │   └── SSO, 2FA, Token Management│   ├── Secrets Management│   │   └── Vault, AWS Secrets Manager│   └── Secure Design│       ├── Principle of Least Privilege│       └── Defense in Depth│├── 8. OBSERVABILITY & OPERATIONS│   ├── Logging│   │   ├── Structured Logs, Log Rotation│   │   └── ELK Stack, Loki, Fluentd│   ├── Metrics│   │   ├── Prometheus, Grafana│   │   └── Custom App Metrics + Infra Metrics│   ├── Tracing│   │   ├── OpenTelemetry, Jaeger, Zipkin│   │   └── Distributed Request Tracing│   └── Alerting & Dashboards│       ├── SLOs, SLIs, SLAs│       └── Incident Management & On-call│├── 9. TESTING & QUALITY│   ├── Unit Tests, Integration Tests, E2E Tests│   ├── TDD, BDD, Contract Testing│   ├── Static Analysis (SonarQube, PMD)│   └── Code Review, PR Process, Linting│└── 10. PRODUCT THINKING & SOFT SKILLS    ├── Product-Market Fit, MVP, Agile    ├── Writing Design Docs, RFCs, Architecture Narratives    ├── Leading Design Reviews, Cross-Team Communication    ├── Interviewing & Getting Interviewed (DSA + LLD + HLD)    └── Mentorship, Ownership, Business Thinking
+```bash
+SOFTWARE DEVELOPMENT
+
+├── 1. FOUNDATIONS: Programming Core
+│   ├── Language Mastery
+│   │   ├── Java / Python / C++ / JavaScript — pick one and go deep
+│   │   ├── Memory, Pointers, Garbage Collection
+│   │   └── Compilation, JIT, Interpreters
+│   ├── DSA: Data Structures & Algorithms
+│   │   ├── Arrays, Trees, Graphs, Hashing
+│   │   ├── Recursion, Dynamic Programming, Greedy, Backtracking
+│   │   └── LeetCode-level mastery
+│   ├── Problem-Solving Thinking
+│   │   ├── Divide & Conquer
+│   │   ├── Pattern Recognition
+│   │   └── Time-Space Trade-offs
+│   └── Code Quality
+│       ├── Naming, Comments, Readability
+│       └── Unit Testing, Refactoring, CI Hooks
+│
+├── 2. CODE DESIGN: Micro-Level Thinking
+│   ├── Object-Oriented Programming
+│   │   ├── Encapsulation, Abstraction, Inheritance, Polymorphism
+│   │   ├── Real-world Modeling
+│   │   └── Interface Segregation, Dependency Inversion
+│   ├── SOLID + DRY + KISS + YAGNI
+│   │   └── Timeless design principles
+│   ├── Design Patterns (GoF)
+│   │   ├── Creational → Singleton, Factory, Builder
+│   │   ├── Structural → Adapter, Proxy, Decorator
+│   │   └── Behavioral → Strategy, Observer, Command
+│   └── Low-Level Design (LLD)
+│       ├── Class Design, UML, Interfaces
+│       └── Sequencing, Composition, Contracts
+│
+├── 3. SYSTEM ARCHITECTURE: Mid-Level Thinking
+│   ├── Architecture Patterns
+│   │   ├── Monolith, Modular Monolith, Microservices, Serverless
+│   │   ├── MVC, MVVM, MVP
+│   │   └── Hexagonal, Onion, Clean Architecture
+│   ├── Layered Systems
+│   │   ├── Presentation, Business, Data Layers
+│   │   └── Separation of Concerns
+│   ├── API Design
+│   │   ├── REST, GraphQL, gRPC
+│   │   ├── Pagination, Filtering, Versioning
+│   │   └── OAuth2, JWT, Session vs Token Authentication
+│   └── Integration Patterns
+│       ├── Synchronous vs Asynchronous Communication
+│       ├── Event-Driven Systems (Kafka, RabbitMQ)
+│       └── CQRS, Event Sourcing, Saga Pattern
+│
+├── 4. SYSTEM DESIGN: Macro-Level Thinking
+│   ├── High-Level Design (HLD)
+│   │   ├── Services, APIs, Databases
+│   │   ├── Caches, Queues, Load Balancers
+│   │   └── Horizontal vs Vertical Scaling
+│   ├── Low-Level Design (LLD)
+│   │   ├── Class Diagrams, Interfaces, Data Modeling
+│   │   ├── Composition vs Inheritance
+│   │   └── API Contracts and Protocols
+│   ├── Scaling Strategies
+│   │   ├── Sharding, Partitioning, Indexing
+│   │   ├── CDN, Redis, Memcached
+│   │   └── Load Balancing, Throttling, Rate Limiting
+│   └── Reliability Patterns
+│       ├── Retry, Circuit Breaker, Bulkhead
+│       ├── Failover, Redundancy
+│       └── Eventual vs Strong Consistency
+│
+├── 5. INFRASTRUCTURE ENGINEERING
+│   ├── DevOps
+│   │   ├── Docker, Kubernetes, Helm
+│   │   ├── Infrastructure as Code (Terraform, Pulumi)
+│   │   └── CI/CD (GitHub Actions, GitLab CI, Jenkins)
+│   ├── Cloud Platforms
+│   │   ├── AWS / GCP / Azure — master one
+│   │   ├── Compute, Storage, IAM, Networking
+│   │   └── VPCs, Subnets, NAT, Firewalls
+│   └── Deployment Patterns
+│       ├── Blue-Green, Canary, Rolling Deployments
+│       ├── Feature Flags
+│       └── Zero-Downtime Deployments
+│
+├── 6. DATA SYSTEMS
+│   ├── Relational Databases
+│   │   ├── MySQL, PostgreSQL
+│   │   └── Joins, Indexes, Normalization, ACID
+│   ├── NoSQL Databases
+│   │   ├── MongoDB, Cassandra
+│   │   └── Redis, Neo4j
+│   ├── Caching
+│   │   ├── Redis, Memcached
+│   │   ├── TTL, LRU, LFU
+│   │   └── Write-Through, Write-Behind
+│   └── Big Data & Pipelines
+│       ├── Kafka, Flink, Spark
+│       ├── ETL / ELT Patterns
+│       └── Data Lake vs Data Warehouse
+│
+├── 7. SECURITY ENGINEERING
+│   ├── OWASP Top 10
+│   │   └── XSS, CSRF, SQL Injection, Broken Authentication
+│   ├── Encryption & Identity
+│   │   ├── HTTPS, TLS, AES, RSA
+│   │   ├── OAuth2, OpenID Connect
+│   │   └── SSO, MFA, Token Management
+│   ├── Secrets Management
+│   │   └── Vault, AWS Secrets Manager
+│   └── Secure Design
+│       ├── Principle of Least Privilege
+│       └── Defense in Depth
+│
+├── 8. OBSERVABILITY & OPERATIONS
+│   ├── Logging
+│   │   ├── Structured Logging, Log Rotation
+│   │   └── ELK Stack, Loki, Fluentd
+│   ├── Metrics
+│   │   ├── Prometheus, Grafana
+│   │   └── Application & Infrastructure Metrics
+│   ├── Tracing
+│   │   ├── OpenTelemetry, Jaeger, Zipkin
+│   │   └── Distributed Request Tracing
+│   └── Alerting & Dashboards
+│       ├── SLOs, SLIs, SLAs
+│       └── Incident Management & On-Call
+│
+├── 9. TESTING & QUALITY
+│   ├── Unit Testing
+│   ├── Integration Testing
+│   ├── End-to-End Testing
+│   ├── TDD, BDD, Contract Testing
+│   ├── Static Analysis (SonarQube, PMD)
+│   └── Code Reviews, PR Process, Linting
+│
+└── 10. PRODUCT THINKING & SOFT SKILLS
+│   ├── Product-Market Fit, MVP, Agile
+│   ├── Design Docs, RFCs, Architecture Narratives
+│   ├── Design Reviews & Cross-Team Communication
+│   ├── Interview Preparation (DSA, LLD, HLD)
+│   └── Mentorship, Ownership, Business Thinking
+│   
+├── 11. LEADERSHIP & ENGINEERING STRATEGY
+    ├── Technical Roadmaps
+    ├── Engineering Economics
+    ├── Platform Engineering
+    ├── Organizational Design
+    ├── Build vs Buy Decisions
+    ├── Cost Optimization
+    ├── Risk Management
+    ├── Stakeholder Management
+    └── Influencing Without Authority
 ```
 
 > Comprehensive list:[https://raw.githubusercontent.com/nikhiltiwari005/sde-mental-map/refs/heads/main/epic_software_map.md](https://raw.githubusercontent.com/nikhiltiwari005/sde-mental-map/refs/heads/main/epic_software_map.md)
