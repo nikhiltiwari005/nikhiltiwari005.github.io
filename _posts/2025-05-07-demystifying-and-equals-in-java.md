@@ -19,8 +19,11 @@ In Java, comparing objects is not as straightforward as it seems. Developers oft
 
 The == operator checks whether**two object references point to the exact same memory location**.
 
-```
-Example example1 = new Example();Example example2 = new Example();example1 == example1; // trueexample1 == example2; // false
+```java
+Example example1 = new Example();
+Example example2 = new Example();
+System.out.println(example1 == example1); // true
+System.out.println(example1 == example2); // false
 ```
 
 Even if example1 and example2 hold the**same values**, == returns false because they are different objects in memory.
@@ -29,20 +32,47 @@ Even if example1 and example2 hold the**same values**, == returns false because 
 
 By default, the .equals() method in Java is inherited from Object, and its behavior is identical to == — it checks**reference equality**.
 
-```
-public class Example {    public int id;}Example e1 = new Example(); e1.id = 1;Example e2 = new Example(); e2.id = 1;System.out.println(e1.equals(e2)); // false
+```java
+public class Example {
+    public int id;
+}
+
+Example e1 = new Example();
+e1.id = 1;
+Example e2 = new Example();
+e2.id = 1;
+System.out.println(e1.equals(e2)); // false
 ```
 
 But this can (and should) be overridden to compare**object contents**instead of memory references:
 
-```
-public class Example {    public int id;    @Override    public boolean equals(Object o) {        if (this == o) return true;        if (!(o instanceof Example)) return false;        Example other = (Example) o;        return this.id == other.id;    }    @Override    public int hashCode() {        return Objects.hash(id);    }}
+```java
+public class Example {
+    public int id;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Example)) return false;
+        Example other = (Example) o;
+        return this.id == other.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+}
 ```
 
 Now:
 
-```
-Example e1 = new Example(); e1.id = 1;Example e2 = new Example(); e2.id = 1;System.out.println(e1.equals(e2)); // true
+```java
+Example e1 = new Example();
+e1.id = 1;
+Example e2 = new Example();
+e2.id = 1;
+System.out.println(e1.equals(e2)); // true
 ```
 
 ### ⚠️ == vs .equals() — What’s the Difference?
@@ -68,24 +98,42 @@ If two objects are equal by .equals(), they must have the**same hash code**— t
 
 ### Example Without hashCode Override:
 
-```
-Example e1 = new Example(); e1.id = 1;Example e2 = new Example(); e2.id = 1;System.out.println(e1.equals(e2));     // trueSystem.out.println(e1.hashCode());     // 9869869System.out.println(e2.hashCode());     // 8768872
+```java
+Example e1 = new Example();
+e1.id = 1;
+Example e2 = new Example();
+e2.id = 1;
+System.out.println(e1.equals(e2)); // true
+System.out.println(e1.hashCode()); // 9869869
+System.out.println(e2.hashCode()); // 8768872
 ```
 
 Even though equals() returns true, the hashCode() values are different. If you store e1 in a HashMap and then look up e2, it won’t be found. Bug alert!
 
 ### ✅ Correct hashCode Implementation
 
-```
-@Overridepublic int hashCode() {    return Objects.hash(id);}
+```java
+@Override
+public int hashCode() {
+    return Objects.hash(id);
+}
 ```
 
 This ensures that logically equal objects return the same hash and behave correctly in collections.
 
 ### 💥 What If You Mutate a Key?
 
-```
-Map<Example, String> map = new HashMap<>();Example key = new Example(); key.id = 1;map.put(key, "value");// Mutate the keykey.id = 2;// This will failSystem.out.println(map.containsKey(key)); // false
+```java
+Map<Example, String> map = new HashMap<>();
+Example key = new Example();
+key.id = 1;
+map.put(key, "value");
+
+// Mutate the key
+key.id = 2;
+
+// This will fail
+System.out.println(map.containsKey(key)); // false
 ```
 
 **Mutating a field that affects .hashCode() breaks the map**. The object “moves” to a different bucket, but the map can’t find it anymore. This is why**keys in a hash-based map must be immutable**.
@@ -96,8 +144,13 @@ Writing equals() and hashCode() manually is tedious and error-prone.
 
 **Lombok**provides annotations to generate them automatically:
 
-```
-import lombok.EqualsAndHashCode;@EqualsAndHashCodepublic class Example {    public int id;}
+```java
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode
+public class Example {
+    public int id;
+}
 ```
 
 Use @Data for a full package: getters, setters, toString, equals, and hashCode.
@@ -106,7 +159,7 @@ Use @Data for a full package: getters, setters, toString, equals, and hashCode.
 
 Java introduced**records**in Java 14 (finalized in Java 16). Records are**immutable, concise, and perfect for DTOs and map keys**.
 
-```
+```java
 public record Example(int id) {}
 ```
 

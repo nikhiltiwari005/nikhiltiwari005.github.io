@@ -15,6 +15,7 @@ social:
   links:
     - https://github.com/nikhiltiwari005
     - https://twitter.com/nikhiltiwari005
+    - https://www.linkedin.com/in/nikhiltiwari005
 
 lang: en
 timezone: Asia/Kolkata
@@ -44,7 +45,6 @@ exclude:
   - .gitattributes
   - README.md
   - LICENSE
-  - backup-*.tar.gz
 
 include:
   - _redirects
