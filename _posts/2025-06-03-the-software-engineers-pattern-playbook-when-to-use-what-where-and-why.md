@@ -1,15 +1,16 @@
 ---
 title: "The Software Engineer’s Pattern Playbook: When to Use What, Where, and Why"
 date: 2025-06-03 12:20:26 +0000
-categories: [medium-export]
+categories: [programming]
 tags: []
+image:
+    path: /assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_id387MHLwqjARGOtys0UUA.png
+    alt: image
 ---
 
 ### The Software Engineer’s Pattern Playbook: When to Use What, Where, and Why
 
 > A comprehensive guide to design patterns, architectural patterns, and system design fundamentals
-
-![image](/assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_id387MHLwqjARGOtys0UUA.png)
 
 #### 🤔 The Confusion is Real
 
@@ -38,8 +39,6 @@ MACRO LEVEL (City Planning)├── System Design → How multiple services/sys
 ---
 
 ### 📚 Pattern Categories Explained
-
-![image](/assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_KDcO0-zeZrMxaPjuT3BlBQ.png)
 
 ### 🏛️ Architectural Patterns
 
@@ -190,8 +189,6 @@ SOFTWARE DEVELOPMENT├── 1. FOUNDATIONS: Programming Core│   ├── La
 
 #### When Someone Says…
 
-![image](/assets/img/the-software-engineers-pattern-playbook-when-to-use-what-where-and-why/1_h9djDDyQ87VPwKwPUqVQvw.png)
-
 #### In Interviews, Expect…
 
 - **Junior/Mid-level:**Design Patterns, SOLID principles, basic system design
@@ -236,4 +233,3 @@ If this roadmap brought you clarity, saved you hours of planning, or gave you th
 - 🔖**Save this post**you’ll reference it throughout your journey
 
 *Remember: The best engineers don’t just know patterns — they know when NOT to use them.*
-

@@ -1,18 +1,16 @@
 ---
 title: "🧠 Programming Paradigms: Mastering the Mindsets of Code (with Java)"
 date: 2026-06-07 02:45:01 +0000
-categories: [medium-export]
-tags: []
+categories: [programming]
+tags: [java]
+image:
+    path: /assets/img/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_Jl2nYru0_2OJBkQzkURtUg.png
+    alt: Programming Paradigms Mastering the Mindsets of Code (with Java)
 ---
-
-### 🧠 Programming Paradigms: Mastering the Mindsets of Code (with Java)
 
 Programming paradigms aren’t just buzzwords — they’re the fundamental mindsets that shape how we think, design, and write software. They influence everything from variable scoping to how we approach scalability.
 
 But here’s the problem: Most engineers have a vague idea of these paradigms, often confusing one for another, or assuming they’re mutually exclusive. Some even think paradigms are tied to languages. Let’s fix that. In this blog, you’ll deeply understand each paradigm, how they overlap, and where Java fits in.
-
-![image](/assets/img/programming-paradigms-mastering-the-mindsets-of-code-with-java/1_Jl2nYru0_2OJBkQzkURtUg.png)
-
 We’ll tackle this with code, comparisons, and clarity. Buckle up.
 
 ---

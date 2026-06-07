@@ -3,11 +3,12 @@ title: "🔗 Avoid Too Many Joins in a Single Query"
 date: 2025-04-21 07:48:13 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/avoid-too-many-joins-in-a-single-query/1_Etl3OFR3aN_tBHsP8P9PvA.png
+    alt: image
 ---
 
 ### 🔗 Avoid Too Many Joins in a Single Query
-
-![image](/assets/img/avoid-too-many-joins-in-a-single-query/1_Etl3OFR3aN_tBHsP8P9PvA.png)
 
 ### 🤯 Why Too Many Joins Can Hurt Performance
 
@@ -73,9 +74,6 @@ Sometimes, not all joins are necessary. Double-check with stakeholders — do th
 
 ### 📊 Performance Example
 
-![image](/assets/img/avoid-too-many-joins-in-a-single-query/1_rcalHd8Wesczb7C6B75Euw.png)
-
 ### 🧪 Final Thoughts
 
 While joins are fundamental to relational databases, too many of them in one query can hurt both performance and maintainability. Keep your queries lean and focused. Use CTEs, temp tables, and selective columns to make your SQL fast and clean.
-

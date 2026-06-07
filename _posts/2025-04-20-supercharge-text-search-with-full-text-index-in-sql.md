@@ -3,11 +3,12 @@ title: "🔍 Supercharge Text Search with Full-Text Index in SQL"
 date: 2025-04-20 16:00:41 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/supercharge-text-search-with-full-text-index-in-sql/1_kQE5DDyjK4H5xAxgYej_cA.png
+    alt: image
 ---
 
 ### 🔍 Supercharge Text Search with Full-Text Index in SQL
-
-![image](/assets/img/supercharge-text-search-with-full-text-index-in-sql/1_kQE5DDyjK4H5xAxgYej_cA.png)
 
 Searching through large volumes of text using LIKE ‘%keyword%’ might get the job done on small tables — but it becomes a**performance bottleneck**as data grows. That’s where**Full-Text Indexing**becomes a game-changer. It enables fast, flexible, and intelligent searching across large datasets.
 
@@ -101,8 +102,6 @@ SELECT * FROM articlesWHERE content_vector @@ phraseto_tsquery('database tuning'
 
 ### 📈 Performance Comparison
 
-![image](/assets/img/supercharge-text-search-with-full-text-index-in-sql/1_TUNNlTNJ-USoUEuuvdpcEg.png)
-
 ### 🏗️ Real-World Use Case
 
 ### Scenario:
@@ -148,8 +147,6 @@ CREATE TRIGGER update_vectorBEFORE INSERT OR UPDATE ON articlesFOR EACH ROW EXEC
 
 ### 📊 Summary Table
 
-![image](/assets/img/supercharge-text-search-with-full-text-index-in-sql/1_C-NKUNh3YQe85fzN20VxYg.png)
-
 ### 🧾 Pro Tips
 
 - Use**GIN index**for tsvector in PostgreSQL.
@@ -168,4 +165,3 @@ CREATE TRIGGER update_vectorBEFORE INSERT OR UPDATE ON articlesFOR EACH ROW EXEC
 If your application deals with a lot of user-generated or unstructured text —**Full-Text Indexing is essential**.
 
 It takes your queries from sluggish to snappy, supports intelligent ranking, and improves user experience dramatically. Whether you’re building a blog engine, document search, or even an e-commerce search engine, Full-Text Index is your best friend. 🧠⚡
-

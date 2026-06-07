@@ -1,8 +1,8 @@
 ---
 title: "🌟 Master Java Collections: The Complete Developer’s Guide"
 date: 2026-06-07 02:45:01 +0000
-categories: [medium-export]
-tags: []
+categories: [programming]
+tags: [java]
 ---
 
 ### 🌟 Master Java Collections: The Complete Developer’s Guide

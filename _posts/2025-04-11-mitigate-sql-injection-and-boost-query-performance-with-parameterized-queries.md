@@ -3,11 +3,12 @@ title: "Mitigate SQL Injection and Boost Query Performance with Parameterized Qu
 date: 2025-04-11 15:01:43 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/mitigate-sql-injection-and-boost-query-performance-with-parameterized-queries/1_7mDQH9Q-UqlsYH90w3JtgA.png
+    alt: image
 ---
 
 ### Mitigate SQL Injection and Boost Query Performance with Parameterized Queries
-
-![image](/assets/img/mitigate-sql-injection-and-boost-query-performance-with-parameterized-queries/1_7mDQH9Q-UqlsYH90w3JtgA.png)
 
 ### Why It Matters
 
@@ -99,4 +100,3 @@ string query = "SELECT * FROM employees WHERE department = @dept";SqlCommand cmd
 Using parameterized queries is a simple yet powerful way to protect your application from SQL injection attacks and boost performance by reusing query execution plans. Whether you’re building an app in Python, Java, Node.js, or C#, this practice should be second nature to every developer.
 
 🚀 Make this a habit, and your database (and security team) will thank you later.
-

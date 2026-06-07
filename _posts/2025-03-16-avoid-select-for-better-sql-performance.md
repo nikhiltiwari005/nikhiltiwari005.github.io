@@ -3,16 +3,16 @@ title: "Avoid SELECT * for Better SQL Performance"
 date: 2025-03-16 12:26:34 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/avoid-select-for-better-sql-performance/1_3zigLDMr_d3be8qT_mhNlQ.png
+    alt: image
 ---
-# Avoid SELECT * for Better SQL Performance
 
 When working with SQL, one of the most common and tempting shortcuts is to use SELECT * to fetch all columns from a table. While it might…---
 
 ### Avoid SELECT * for Better SQL Performance
 
 When working with SQL, one of the most common and tempting shortcuts is to use SELECT * to fetch all columns from a table. While it might seem convenient, using SELECT * is often a poor practice that can degrade database performance, increase resource usage, and introduce unnecessary complexity into your application.
-
-![image](/assets/img/avoid-select-for-better-sql-performance/1_3zigLDMr_d3be8qT_mhNlQ.png)
 
 In this post, we’ll explore why you should avoid SELECT *, how it impacts performance, and what you should do instead.
 
@@ -145,4 +145,3 @@ Using SELECT * might save a few keystrokes, but it can significantly degrade que
 By following these best practices, you’ll write cleaner, more efficient SQL queries — and your database will thank you for it! 😎
 
 Want to improve your SQL skills further? Stay tuned for the next post! 👊
-

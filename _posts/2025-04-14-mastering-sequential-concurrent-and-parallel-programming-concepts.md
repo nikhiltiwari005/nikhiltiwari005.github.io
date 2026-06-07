@@ -3,11 +3,12 @@ title: "🧠 Mastering Sequential, Concurrent, and Parallel Programming Concepts
 date: 2025-04-14 07:43:12 +0000
 categories: ["Programming Concepts"]
 tags: []
+image:
+    path: /assets/img/mastering-sequential-concurrent-and-parallel-programming-concepts/1_ssQ-Lg2deE-qbdPGNxR-mA.png
+    alt: image
 ---
 
 ### 🧠 Mastering Sequential, Concurrent, and Parallel Programming Concepts
-
-![image](/assets/img/mastering-sequential-concurrent-and-parallel-programming-concepts/1_ssQ-Lg2deE-qbdPGNxR-mA.png)
 
 ### 📄 Executive Summary
 
@@ -245,4 +246,3 @@ Want to explore specific examples in Java, Python, or Go? Leave a comment or req
 Stay tuned for more deep dives into threading models, async runtimes, and performance tuning.
 
 Happy coding ✨
-

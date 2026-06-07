@@ -3,6 +3,9 @@ title: "🧵 Thread Lifecycle & Management — The Final Pillar"
 date: 2025-05-24 19:16:16 +0000
 categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
+image:
+    path: /assets/img/thread-lifecycle-management-the-final-pillar/1_csRt7v-NaTmSZOCvPR056Q.png
+    alt: image
 ---
 
 ### 🧵 Thread Lifecycle & Management — The Final Pillar
@@ -11,8 +14,6 @@ tags: []
 
 > *🔗*[← Previous: Parallelism](https://nikhiltiwari005.medium.com/parallelism-exploiting-all-cores-like-a-pro-e127ddc1ff68)*• 🔗 [→ Next (TBA)]  
 > 🔝*[Parent Blog: The Ultimate Concurrency & Multithreading Guide](https://medium.com/javarevisited/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02)
-
-![image](/assets/img/thread-lifecycle-management-the-final-pillar/1_csRt7v-NaTmSZOCvPR056Q.png)
 
 > **✅ Read for free:**[Thread Lifecycle & Management — The Final Pillar](https://nikhiltiwari005.medium.com/thread-lifecycle-management-the-final-pillar-32c976c5b56e?sk=99a8dcfd5a8ffa23c895d6875c9d7d2b)  
 > If it helped you, clap once. If it helped a lot, clap more. That’s how it reaches others too.
@@ -33,8 +34,6 @@ Every thread in Java goes through a predictable journey with 6 well-defined stat
 - **WAITING**— Thread is waiting indefinitely for something (like`.join()`or`.wait()`)
 - **TIMED_WAITING**— Thread is waiting, but with a timeout (like`.sleep(1000)`)
 - **TERMINATED**— Thread finished executing (successfully or with exception)
-
-![image](/assets/img/thread-lifecycle-management-the-final-pillar/1_uwxDZtds1_nL5U4QFseYkQ.png)
 
 ### 🧘‍♂️ Analogy: Think of a person at a subway station
 
@@ -289,4 +288,3 @@ If this post brought you clarity, saved you hours of Googling, or challenged the
 - 💬**Comment**with questions, feedback, or requests — I read every one.
 - 📩**Request**a topic you’d like covered next.
 - ⭐**Follow**to stay ahead as new deep-dive posts drop.
-

@@ -3,6 +3,9 @@ title: "Singleton Pattern in Java: Beyond the Basics"
 date: 2025-05-16 19:19:06 +0000
 categories: ["Design Patterns"]
 tags: []
+image:
+    path: /assets/img/singleton-pattern-in-java-beyond-the-basics/1_wbJeN0fk9NneNHF_x1ri1Q.png
+    alt: image
 ---
 
 ### Singleton Pattern in Java: Beyond the Basics
@@ -10,8 +13,6 @@ tags: []
 > *“There should only ever be one.” — That sounds like the plot of a dystopian movie. But in software engineering, that’s the****Singleton Pattern****, and it plays a critical role in system design. And no, it’s not just a glorified global variable.*
 
 In this blog, we’ll go from a naive implementation to the most production-grade patterns of Singleton in Java. We’ll uncover the*why*, the*how*, and the*why not*of each variant, comparing them on safety, performance, and elegance.
-
-![image](/assets/img/singleton-pattern-in-java-beyond-the-basics/1_wbJeN0fk9NneNHF_x1ri1Q.png)
 
 ---
 
@@ -143,8 +144,6 @@ public class AppConfig {    private static final AppConfig instance = new AppCon
 
 ### 🧠 When to Use Which Singleton?
 
-![image](/assets/img/singleton-pattern-in-java-beyond-the-basics/1_gmCNMh0zW0L77Ld09PGJ8w.png)
-
 ---
 
 ### 🤔 Reflect & Apply — Questions for You:
@@ -203,4 +202,3 @@ If this helped you level up your design pattern game:
 Let’s master software design — one pattern at a time.
 
 Happy coding! ✨
-

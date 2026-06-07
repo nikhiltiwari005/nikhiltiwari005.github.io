@@ -1,8 +1,8 @@
 ---
 title: "SOLID Principles Made Simple: A Developer’s Guide with Real-World Java Examples"
 date: 2026-06-07 02:45:01 +0000
-categories: [medium-export]
-tags: []
+categories: [programming, SOLID]
+tags: [java]
 ---
 
 ### SOLID Principles Made Simple: A Developer’s Guide with Real-World Java Examples

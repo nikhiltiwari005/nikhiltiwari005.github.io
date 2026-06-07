@@ -3,6 +3,9 @@ title: "🕸️ Coordination: Making Threads Work Together, Not Collide"
 date: 2025-05-19 15:28:19 +0000
 categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
+image:
+    path: /assets/img/coordination-making-threads-work-together-not-collide/1_JM1hYhAkEnn08JV3WLNPrg.png
+    alt: image
 ---
 
 ### 🕸️ Coordination: Making Threads Work Together, Not Collide
@@ -15,8 +18,6 @@ tags: []
 Concurrency without coordination is chaos.
 
 Imagine an orchestra with no conductor. Each musician plays well, but no one plays*together*.
-
-![image](/assets/img/coordination-making-threads-work-together-not-collide/1_JM1hYhAkEnn08JV3WLNPrg.png)
 
 That’s your multithreaded application without coordination:**beautiful components colliding in dissonance**.
 
@@ -40,8 +41,6 @@ Coordination solves a fundamental problem:
 > ***How do threads know when it’s safe to proceed?***
 
 We use signals, barriers, semaphores, latches — the whole toolbox. Let’s go.
-
-![image](/assets/img/coordination-making-threads-work-together-not-collide/1_OvuKkUKZQGEWGS2I6x9TYQ.png)
 
 ### 🧱 Level 1: Classic Monitor Methods
 
@@ -209,4 +208,3 @@ If this post brought you clarity, saved you hours of Googling, or challenged the
 - 💬**Comment**with questions, feedback, or requests — I read every one.
 - 📩**Request**a topic you’d like covered next.
 - ⭐**Follow**to stay ahead as new deep-dive posts drop.
-

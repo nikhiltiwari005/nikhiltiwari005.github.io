@@ -3,6 +3,9 @@ title: "DSA Series: Arrays Explained Like You’re a 10x Dev 🧠"
 date: 2025-04-16 07:15:33 +0000
 categories: ["Data Structure and Algorithms Series"]
 tags: []
+image:
+    path: /assets/img/dsa-series-arrays-explained-like-youre-a-10x-dev/1_vXJWND7NDW2UUy0-BT5KUw.png
+    alt: image
 ---
 
 ### DSA Series: Arrays Explained Like You’re a 10x Dev 🧠
@@ -10,8 +13,6 @@ tags: []
 A deep dive into how arrays really work — from memory layout and low-level behavior to raw implementations and must-know DSA patterns.
 
 📚*This blog is part of the*[Data Structures & Algorithms Series](https://nikhiltiwari005.medium.com/list/data-structure-and-algorithms-series-b1016b1b9bdd)*, where we break down core DSA topics into in-depth, developer-friendly guides. Be sure to check out the full series to master DSA from the ground up!*
-
-![image](/assets/img/dsa-series-arrays-explained-like-youre-a-10x-dev/1_vXJWND7NDW2UUy0-BT5KUw.png)
 
 ### 🚀 Introduction
 
@@ -210,4 +211,3 @@ A: Python over-allocates memory and resizes when capacity is reached.
 ### 🚀 Continue Your DSA Journey
 
 👉 Check out the full[DSA Blog Series here](https://nikhiltiwari005.medium.com/list/data-structure-and-algorithms-series-b1016b1b9bdd)to master Linked Lists, Trees, and more.
-

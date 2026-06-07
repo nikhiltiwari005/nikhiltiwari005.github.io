@@ -3,6 +3,9 @@ title: "🔍 Top SQL Concepts, Slang, and Keywords Every Developer Should Know"
 date: 2025-04-22 08:49:48 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/top-sql-concepts-slang-and-keywords-every-developer-should-know/1_eyFblsdm__xXxVB7bsCFRQ.png
+    alt: image
 ---
 
 ### 🔍 Top SQL Concepts, Slang, and Keywords Every Developer Should Know
@@ -10,8 +13,6 @@ tags: []
 💡 Whether you’re just starting with databases or you’re optimizing complex analytics pipelines, knowing the right SQL terms —*and the lingo used by pros*— can take your database game to the next level.
 
 This guide breaks down the**essential SQL concepts**,**performance terms**,**slang from real-world devs**, and**advanced features**you’ll actually hear in interviews and tech teams.
-
-![image](/assets/img/top-sql-concepts-slang-and-keywords-every-developer-should-know/1_eyFblsdm__xXxVB7bsCFRQ.png)
 
 ### 🧠 Foundational SQL Concepts
 
@@ -125,4 +126,3 @@ This blog is part of the[SQL Query Performance Series](https://nikhiltiwari005.m
 👉[Explore the Full Series Here](https://nikhiltiwari005.medium.com/list/sql-optimization-series-d8b4e6e66dfc)
 
 From query plans to indexing strategies, we’ve got you covered!
-

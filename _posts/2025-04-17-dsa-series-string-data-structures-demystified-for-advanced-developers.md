@@ -3,6 +3,9 @@ title: "DSA Series: String Data Structures Demystified for Advanced Developers �
 date: 2025-04-17 13:33:28 +0000
 categories: ["Data Structure and Algorithms Series"]
 tags: []
+image:
+    path: /assets/img/dsa-series-string-data-structures-demystified-for-advanced-developers/1_sR43Oi4DKOI6nV4fFi5ZOw.png
+    alt: image
 ---
 
 ### DSA Series: String Data Structures Demystified for Advanced Developers 🧠
@@ -10,8 +13,6 @@ tags: []
 A comprehensive exploration of string data structures — from character arrays to complex string manipulation algorithms and performance optimization techniques.
 
 *📚 This blog is part of the*[Data Structures & Algorithms Series](https://nikhiltiwari005.medium.com/list/data-structure-and-algorithms-series-b1016b1b9bdd)*, where we break down core DSA topics into in-depth, developer-friendly guides. Be sure to check out the full series to master DSA from the ground up!*
-
-![image](/assets/img/dsa-series-string-data-structures-demystified-for-advanced-developers/1_sR43Oi4DKOI6nV4fFi5ZOw.png)
 
 ### 🚀 Introduction
 
@@ -150,8 +151,6 @@ Some languages offer string views to reduce memory overhead:
 
 ### 🔢 Common String Operations and Complexity
 
-![image](/assets/img/dsa-series-string-data-structures-demystified-for-advanced-developers/1_hIIT4_lUpHWH-VbwMPc6yg.png)
-
 ### 🔄 Key String Algorithms
 
 - KMP Algorithm (Knuth-Morris-Pratt)
@@ -181,4 +180,3 @@ Master strings, and you’ll have the tools to tackle a wide range of problems �
 **Q: Are Unicode strings more expensive than ASCII strings?**A: Yes, Unicode strings generally require more memory (2–4 bytes per character vs. 1 byte) and have more complex operations due to variable character lengths.
 
 🚀**Continue Your DSA Journey**👉 Check out the full DSA Blog Series[here](https://nikhiltiwari005.medium.com/list/data-structure-and-algorithms-series-b1016b1b9bdd)to master Arrays, Linked Lists, Trees, and more!
-

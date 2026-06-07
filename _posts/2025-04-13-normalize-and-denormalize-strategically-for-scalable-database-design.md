@@ -3,11 +3,12 @@ title: "🧠 Normalize and Denormalize Strategically for Scalable Database Desig
 date: 2025-04-13 08:46:34 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_U-efY9wfKS8ngvSzGOGcFg.png
+    alt: image
 ---
 
 ### 🧠 Normalize and Denormalize Strategically for Scalable Database Design
-
-![image](/assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_U-efY9wfKS8ngvSzGOGcFg.png)
 
 When designing databases, we often hear two seemingly conflicting principles:
 
@@ -19,8 +20,6 @@ Both are true — it’s all about**knowing when**to use each.
 ---
 
 ### 📚 Recap: Normalization vs. Denormalization
-
-![image](/assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_xlrdgc5GFs2RqvsDySHIgQ.png)
 
 ---
 
@@ -147,8 +146,6 @@ SELECT  region,  product_category,  SUM(quantity * price) AS total_salesFROM Sal
 
 ### 🧠 Key Takeaways
 
-![image](/assets/img/normalize-and-denormalize-strategically-for-scalable-database-design/1_cAgXgov_FCAtLimT-dDIZA.png)
-
 ---
 
 ### 💡 Bonus Tips
@@ -166,4 +163,3 @@ Strategic normalization and denormalization is a superpower. With proper balance
 - You ensure**clean data models**
 - Achieve**fast analytics**
 - Build databases that scale with your app 🚀
-

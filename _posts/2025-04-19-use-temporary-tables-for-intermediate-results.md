@@ -3,11 +3,12 @@ title: "🧪 Use Temporary Tables for Intermediate Results"
 date: 2025-04-19 11:38:36 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/use-temporary-tables-for-intermediate-results/1_JBErHtrsBDsE6oYuDbUe8Q.png
+    alt: image
 ---
 
 ### 🧪 Use Temporary Tables for Intermediate Results
-
-![image](/assets/img/use-temporary-tables-for-intermediate-results/1_JBErHtrsBDsE6oYuDbUe8Q.png)
 
 ### 💡 What Are Temporary Tables?
 
@@ -20,8 +21,6 @@ tags: []
 They can dramatically improve performance by avoiding repeated subquery execution and enabling indexing on intermediate results.
 
 ### ⚡ Benefits of Using Temporary Tables
-
-![image](/assets/img/use-temporary-tables-for-intermediate-results/1_XNAalsuTt6VirbPkNBEhNA.png)
 
 ### 🧱 Creating Temporary Tables with Indexes and Constraints
 
@@ -78,4 +77,3 @@ In some DBMS (like PostgreSQL),**CTEs**or**WITH clauses**may work better for sma
 Temporary tables are more than just a development trick — they’re a powerful query optimization technique. By using them to store and index intermediate results, you can simplify your queries, boost performance, and create scalable solutions for complex data workflows.
 
 Let me know if you’d like an image or performance comparison added!
-

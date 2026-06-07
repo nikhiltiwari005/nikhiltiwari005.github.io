@@ -3,14 +3,14 @@ title: "Minimize the Use of DISTINCT for Better Query Performance"
 date: 2025-04-07 14:01:52 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/minimize-the-use-of-distinct-for-better-query-performance/1_b84fz0G2i6chkf4IRwyuXA.png
+    alt: image
 ---
-# Minimize the Use of DISTINCT for Better Query Performance
 
 Why DISTINCT Can Be Costly?---
 
 ### Minimize the Use of DISTINCT for Better Query Performance
-
-![image](/assets/img/minimize-the-use-of-distinct-for-better-query-performance/1_b84fz0G2i6chkf4IRwyuXA.png)
 
 ### Why DISTINCT Can Be Costly?
 
@@ -125,4 +125,3 @@ Use EXISTS instead of IN, and consider GROUP BY instead of DISTINCT where applic
 ### Conclusion
 
 Using DISTINCT indiscriminately can lead to poor query performance by forcing sorting and duplicate removal operations. Instead of relying on DISTINCT, analyze query logic, optimize joins, and use indexing to achieve better results with lower computational costs.
-

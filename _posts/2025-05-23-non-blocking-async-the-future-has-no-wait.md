@@ -3,6 +3,9 @@ title: "⚡ Non-Blocking & Async: The Future Has No wait()"
 date: 2025-05-23 07:06:15 +0000
 categories: ["Java Concurrency & Multithreading: Ultimate Roadmap Series"]
 tags: []
+image:
+    path: /assets/img/non-blocking-async-the-future-has-no-wait/1_zuc1qFL4uTV_tKGpaVB11w.png
+    alt: image
 ---
 
 ### ⚡ Non-Blocking & Async: The Future Has No wait()
@@ -12,14 +15,10 @@ tags: []
 > *🔗 ←*[Previous: Task Management](https://medium.com/javarevisited/task-management-thread-creation-is-dead-long-live-the-executor-e83508c5f150)*• 🔗 →*[Next: Immutability](https://nikhiltiwari005.medium.com/immutability-thread-safety-without-the-locks-6aefbb413c56)*  
 > 🔝*[Parent Blog: The Ultimate Guide to Concurrency & Multithreading](https://medium.com/javarevisited/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02)
 
-![image](/assets/img/non-blocking-async-the-future-has-no-wait/1_zuc1qFL4uTV_tKGpaVB11w.png)
-
 In the modern high-performance world of Java backend development, non-blocking and asynchronous programming is not optional — it’s table stakes. If your service is thread-per-request, you are dead on arrival at scale. So let’s deconstruct it from first principles to enterprise-grade architecture, starting from CompletableFuture, to Java’s Flow API, to battle-tested reactive libraries like Project Reactor and RxJava.
 
 > *✅ Read for free:*[Non-Blocking & Async Non-Blocking & Async: The Future Has No wait()](https://nikhiltiwari005.medium.com/non-blocking-async-the-future-has-no-wait-4011b38041d9?source=friends_link&sk=16ab49449c99e3eec6754888fdeee4a4)*  
 > If it helped you, clap once. If it helped a lot, clap more. That’s how it reaches others too.*
-
-![image](/assets/img/non-blocking-async-the-future-has-no-wait/1_nx5e8XSchajmloDthETqaw.png)
 
 ### 🔁 Blocking vs Non-Blocking: The Core Mental Model
 
@@ -200,19 +199,11 @@ Let’s tackle this with context-based guidance, not just theory.
 
 #### ✅ Use Non-Blocking / Async When:
 
-![image](/assets/img/non-blocking-async-the-future-has-no-wait/1_FqxMJHuki5wMIfxF982K8w.png)
-
 ### ❌ Avoid Non-Blocking / Async When:
-
-![image](/assets/img/non-blocking-async-the-future-has-no-wait/1_X4P0D8BTSsjtcSqfv3FwxQ.png)
 
 ### ⚖️ Pros and Cons of Non-Blocking / Async
 
-![image](/assets/img/non-blocking-async-the-future-has-no-wait/1_eeVmHa6stDifR3qfLUcCDQ.png)
-
 ### 🧭 Mental Model Summary
-
-![image](/assets/img/non-blocking-async-the-future-has-no-wait/1_WV6HSWUJ-EqrY2OQHW6wRQ.png)
 
 ### 🔥 TL;DR
 
@@ -236,4 +227,3 @@ If this post brought you clarity, saved you hours of Googling, or challenged the
 - 💬**Comment**with questions, feedback, or requests — I read every one.
 - 📩**Request**a topic you’d like covered next.
 - ⭐**Follow**to stay ahead as new deep-dive posts drop.
-

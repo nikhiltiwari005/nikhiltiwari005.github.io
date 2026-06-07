@@ -3,13 +3,14 @@ title: "🚀 DSA Mastery: The Ultimate Data Structures and Algorithms Guide"
 date: 2025-05-27 15:30:44 +0000
 categories: ["Data Structure and Algorithms Series"]
 tags: []
+image:
+    path: /assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_3uKBG2vtD0OG7zuxnjgOCQ.png
+    alt: image
 ---
 
 ### 🚀 DSA Mastery: The Ultimate Data Structures and Algorithms Guide
 
 *A strategic roadmap to mastering data structures and algorithms, connecting theory to engineering and preparing you for elite coding interviews.*
-
-![image](/assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_3uKBG2vtD0OG7zuxnjgOCQ.png)
 
 ---
 
@@ -26,16 +27,12 @@ tags: []
 - **Non-Linear**: Trees, Graphs, Hash Tables (hierarchical/networked access)
 - **Specialized**: Heaps, Tries, Sets (optimized for specific operations)
 
-![image](/assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_VpMN-6-qICeZojRIfqxK7g.png)
-
 #### Types of Algorithms
 
 - **Searching**: Find specific data (Binary Search, DFS, BFS)
 - **Sorting**: Organize data (Quick Sort, Merge Sort)
 - **Optimization**: Find best solutions (Dynamic Programming, Greedy)
 - **Graph Processing**: Navigate relationships (Shortest Path, Network Flow)
-
-![image](/assets/img/dsa-mastery-the-ultimate-data-structures-and-algorithms-guide/1_EMRIoyaf8TcBNtCQpTh7Zg.png)
 
 #### Why Learn DSA
 
@@ -206,4 +203,3 @@ If this roadmap brought you clarity, saved you hours of planning, or gave you th
 ---
 
 *💡 Remember to save this comprehensive roadmap for easy reference as you progress through your DSA mastery journey!*
-

@@ -3,17 +3,16 @@ title: "🎯 Optimize for Specific Workloads: OLTP vs OLAP"
 date: 2025-04-17 13:38:02 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_YUzyyKaIcv2wxbSl-ZZGTg.png
+    alt: image
 ---
 
 ### 🎯 Optimize for Specific Workloads: OLTP vs OLAP
 
-![image](/assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_YUzyyKaIcv2wxbSl-ZZGTg.png)
-
 Not all databases are used the same way. Knowing whether your workload is**transactional (OLTP)**or**analytical (OLAP)**is essential for optimizing performance, schema design, indexing strategy, and query tuning.
 
 ### 🔍 What Are OLTP and OLAP?
-
-![image](/assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_G-0pU8EdWrUT2Cfy3y5iyQ.png)
 
 ### ⚙️ Tuning Strategies for OLTP Workloads
 
@@ -67,8 +66,6 @@ Store intermediate aggregates to reduce runtime computation.
 
 ### 📈 Performance Impact
 
-![image](/assets/img/optimize-for-specific-workloads-oltp-vs-olap/1_6kyJTNJy7fOvCYBDUk5GNg.png)
-
 ### 💡 Pro Tip
 
 Don’t try to force OLTP workloads into OLAP databases and vice versa. Some modern databases like**PostgreSQL**,**SQL Server**, and**Snowflake**can handle mixed workloads —**but optimization still matters**!
@@ -76,4 +73,3 @@ Don’t try to force OLTP workloads into OLAP databases and vice versa. Some mod
 ### 🧠 Final Thoughts
 
 Understanding your workload type is foundational to performance tuning. By aligning schema design, indexes, and query strategies with the nature of your workload, you ensure the database runs smoothly and efficiently — whether you’re processing transactions or generating business insights.
-

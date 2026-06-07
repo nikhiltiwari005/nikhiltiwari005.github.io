@@ -3,13 +3,14 @@ title: "🚀 Understanding Resource Limitations in Modern Systems: A Practical G
 date: 2025-05-20 16:29:34 +0000
 categories: ["System Design"]
 tags: []
+image:
+    path: /assets/img/understanding-resource-limitations-in-modern-systems-a-practical-guide/1_D08RlqnGy4nR1F-4_Qkl-w.png
+    alt: image
 ---
 
 ### 🚀 Understanding Resource Limitations in Modern Systems: A Practical Guide
 
 *How to Identify and Solve CPU, Memory, I/O, and Thread Bottlenecks in Production Applications*
-
-![image](/assets/img/understanding-resource-limitations-in-modern-systems-a-practical-guide/1_D08RlqnGy4nR1F-4_Qkl-w.png)
 
 > ***TL;DR:****Learn to identify whether your performance bottlenecks are CPU-bound, I/O-bound, memory-bound, or thread-bound — and discover the right tools and techniques to solve each type of problem.*
 
@@ -181,8 +182,6 @@ Picture a web server handling thousands of concurrent connections. Each connecti
 
 Applying the wrong solution to your performance issue is like taking aspirin for a broken arm. This table will help you match your bottleneck to the appropriate response:
 
-![image](/assets/img/understanding-resource-limitations-in-modern-systems-a-practical-guide/1_4vJRkb_GNHkj13cgrKLHlA.png)
-
 ### 📊 Case Study: Scaling a Payment Processing System
 
 Consider a real-world example from a well-documented fintech case study. Their payment processing system was buckling under load, and the initial diagnosis pointed to needing more servers. However, deeper analysis revealed multiple interconnected bottlenecks:
@@ -231,4 +230,3 @@ If this post brought you clarity, saved you hours of Googling, or challenged the
 - 💬**Comment**with questions, feedback, or requests — I read every one.
 - 📩**Request**a topic you’d like covered next.
 - ⭐**Follow**to stay ahead as new deep-dive posts drop.
-

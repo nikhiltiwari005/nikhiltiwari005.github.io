@@ -3,11 +3,12 @@ title: "🧠 Static vs Dynamic, Strong vs Weak Typing: Demystified with Examples
 date: 2025-04-11 04:44:50 +0000
 categories: ["Programming Concepts"]
 tags: []
+image:
+    path: /assets/img/static-vs-dynamic-strong-vs-weak-typing-demystified-with-examples/1_ATUj2JuwT8Tyen2_8twMxQ.png
+    alt: image
 ---
 
 ### 🧠 Static vs Dynamic, Strong vs Weak Typing: Demystified with Examples
-
-![image](/assets/img/static-vs-dynamic-strong-vs-weak-typing-demystified-with-examples/1_ATUj2JuwT8Tyen2_8twMxQ.png)
 
 Whether you’re choosing a new language or just trying to understand what someone means when they say “Java is statically typed” or “JavaScript is weakly typed”,**knowing how programming languages handle types**is crucial.
 
@@ -130,8 +131,6 @@ console.log("5" + 5);  // '55' – string concatenation!console.log("5" - 2);  /
 
 ### 🔍 Language Matrix
 
-![image](/assets/img/static-vs-dynamic-strong-vs-weak-typing-demystified-with-examples/1_eKRZgTbbaTRz0BB_1GU0Og.png)
-
 ### 🥊 Real-World Implications
 
 ### 🧪 Static + Strong (Java, Rust)
@@ -153,8 +152,6 @@ console.log("5" + 5);  // '55' – string concatenation!console.log("5" - 2);  /
 
 ### 🚀 Which Should You Use?
 
-![image](/assets/img/static-vs-dynamic-strong-vs-weak-typing-demystified-with-examples/1_D2nERKxWfd7l4kwdC2Au-Q.png)
-
 ### 🧠 Final Thoughts
 
 There’s no one-size-fits-all.
@@ -165,4 +162,3 @@ There’s no one-size-fits-all.
 - Weak typing… well, it’s fast, but risky.
 
 Know your trade-offs. Choose based on the**project, team size, and long-term maintainability**.
-

@@ -3,13 +3,14 @@ title: "🧠 Coding Styles 101: Declarative vs Imperative vs Functional vs Proce
 date: 2025-04-17 04:55:32 +0000
 categories: ["Programming Concepts"]
 tags: []
+image:
+    path: /assets/img/coding-styles-101-declarative-vs-imperative-vs-functional-vs-procedural-explained-simply/1_JT1So9i90IyUPwrtdRBINg.png
+    alt: image
 ---
 
 ## 🧠 Coding Styles 101: Declarative vs Imperative vs Functional vs Procedural Explained Simply (Python)
 
 A beginner-friendly guide to the 4 core programming paradigms with real-world examples, analogies, and clear code snippets.
-
-![image](/assets/img/coding-styles-101-declarative-vs-imperative-vs-functional-vs-procedural-explained-simply/1_JT1So9i90IyUPwrtdRBINg.png)
 
 ### 🚀 Introduction
 
@@ -179,8 +180,6 @@ Like writing a cookbook: each recipe (procedure) defines steps to make a dish.
 
 ### 🆚 Side-by-Side Comparison
 
-![image](/assets/img/coding-styles-101-declarative-vs-imperative-vs-functional-vs-procedural-explained-simply/1_YQvhiB394EM9Qx7xLcFFRg.png)
-
 ### 🤔 Which Paradigm Should You Learn First?
 
 ✅**Start with Imperative & Procedural**— they’re beginner-friendly and most tutorials start here.
@@ -228,4 +227,3 @@ If you’re just starting out, focus on writing clear, logical code. As you gain
 ### 🚀 Continue Learning
 
 👉 Dive deeper into[Programming Concepts Series](https://nikhiltiwari005.medium.com/list/programming-concepts-32c843a73c93)for more beginner-friendly blogs on core ideas every developer should know.
-

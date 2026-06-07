@@ -3,13 +3,14 @@ title: "DSA Series: Master This to Instantly Level Up Your Programming Career"
 date: 2025-04-16 00:59:48 +0000
 categories: ["Data Structure and Algorithms Series"]
 tags: []
+image:
+    path: /assets/img/dsa-series-master-this-to-instantly-level-up-your-programming-career/1_CTNRfTavjlo04WyQPfMyiA.png
+    alt: image
 ---
 
 ### DSA Series: Master This to Instantly Level Up Your Programming Career
 
 *The Foundation Behind Efficient Software and Cracking Big Tech Interviews*
-
-![image](/assets/img/dsa-series-master-this-to-instantly-level-up-your-programming-career/1_CTNRfTavjlo04WyQPfMyiA.png)
 
 ### 📍 Executive Summary
 
@@ -107,4 +108,3 @@ Here are common problems and what to use:
 **Next Up →**[Arrays Deep Dive](https://nikhiltiwari005.medium.com/dsa-series-arrays-explained-like-youre-a-10x-dev-efe797e70401)
 
 Follow[DSA series](https://nikhiltiwari005.medium.com/list/data-structure-and-algorithms-series-b1016b1b9bdd)to go from fundamentals to mastery. DSA will change how you write and think about code.
-

@@ -3,14 +3,14 @@ title: "Use INNER JOIN Instead of OUTER JOIN When Possible"
 date: 2025-03-20 12:26:30 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/use-inner-join-instead-of-outer-join-when-possible/1_J9eW2HTy5PvUSqTrc2hp4w.png
+    alt: image
 ---
-# Use INNER JOIN Instead of OUTER JOIN When Possible
 
 Using INNER JOIN instead of OUTER JOIN can significantly improve query performance, especially when you don’t need to include unmatched…---
 
 ### Use INNER JOIN Instead of OUTER JOIN When Possible
-
-![image](/assets/img/use-inner-join-instead-of-outer-join-when-possible/1_J9eW2HTy5PvUSqTrc2hp4w.png)
 
 Using INNER JOIN instead of OUTER JOIN can significantly improve query performance, especially when you don’t need to include unmatched rows from one or both tables. INNER JOIN returns only the matching rows, reducing the dataset size and improving query speed.
 
@@ -83,4 +83,3 @@ Output:
 ❌ When you need to include unmatched rows from one or both tables.
 
 ❌ When generating reports that require complete data sets, even if some fields are null.
-

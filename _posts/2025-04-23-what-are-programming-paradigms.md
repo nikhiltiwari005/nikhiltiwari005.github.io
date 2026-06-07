@@ -3,13 +3,14 @@ title: "🧠 What are Programming Paradigms?"
 date: 2025-04-23 07:22:34 +0000
 categories: ["Programming Concepts"]
 tags: []
+image:
+    path: /assets/img/what-are-programming-paradigms/1_OVE0JtiEfFiO2vFz4ij6Ww.png
+    alt: image
 ---
 
 ### 🧠 What are Programming Paradigms?
 
 **Programming paradigms**are different styles or approaches to solving problems using code. They define*how*you structure and write programs.
-
-![image](/assets/img/what-are-programming-paradigms/1_OVE0JtiEfFiO2vFz4ij6Ww.png)
 
 ### 🔥 The Most Common Paradigms:
 
@@ -103,8 +104,6 @@ SELECT number FROM numbers WHERE number % 2 = 0;
 
 ### 🧪 Summary Table
 
-![image](/assets/img/what-are-programming-paradigms/1_sgdj0fD7brGSXFvY9DyJWw.png)
-
 ### 🏁 Conclusion
 
 Programming paradigms are not just theoretical concepts — they shape how you**think about problems**and**design solutions**. By rewriting the same task using different paradigms, you can clearly see how each paradigm emphasizes different principles:
@@ -116,4 +115,3 @@ Programming paradigms are not just theoretical concepts — they shape how you**
 - **Declarative**lets you express the*what*, leaving the*how*to the language or framework.
 
 🔄 There’s no “best” paradigm — each has strengths and ideal use cases. As a modern developer, mastering multiple paradigms allows you to**write cleaner, more maintainable, and more efficient code**, and gives you the flexibility to pick the right tool for the job.
-

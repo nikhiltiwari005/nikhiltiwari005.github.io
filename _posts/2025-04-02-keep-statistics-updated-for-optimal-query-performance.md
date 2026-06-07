@@ -3,14 +3,14 @@ title: "Keep Statistics Updated for Optimal Query Performance"
 date: 2025-04-02 11:32:09 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/keep-statistics-updated-for-optimal-query-performance/1_0cdcxz_cXq2c_21ioVTYiA.png
+    alt: image
 ---
-# Keep Statistics Updated for Optimal Query Performance
 
 What Are Database Statistics?---
 
 ### Keep Statistics Updated for Optimal Query Performance
-
-![image](/assets/img/keep-statistics-updated-for-optimal-query-performance/1_0cdcxz_cXq2c_21ioVTYiA.png)
 
 **What Are Database Statistics?**
 
@@ -124,4 +124,3 @@ Although most databases provide an automatic statistics update feature, it may n
 ### Conclusion
 
 Database statistics play a crucial role in query optimization. Keeping them updated ensures faster query execution, reduces resource usage, and prevents performance bottlenecks. Whether using auto-update features or manual refresh strategies, maintaining accurate statistics is a best practice for every database administrator and developer.
-

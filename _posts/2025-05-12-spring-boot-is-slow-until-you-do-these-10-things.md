@@ -1,15 +1,16 @@
 ---
 title: "Spring Boot Is Slow — ⚡Until You Do These 10 Things"
 date: 2025-05-12 11:56:32 +0000
-categories: [medium-export]
-tags: []
+categories: [programming]
+tags: [java, spring-boot]
+image:
+    path: /assets/img/spring-boot-is-slow-until-you-do-these-10-things/1_x95ey24pXDu69XQ6pE0wCw.png
+    alt: image
 ---
 
 ### Spring Boot Is Slow — ⚡Until You Do These 10 Things
 
 You’re building with Spring Boot — but is your app truly optimized, or merely functional?
-
-![image](/assets/img/spring-boot-is-slow-until-you-do-these-10-things/1_x95ey24pXDu69XQ6pE0wCw.png)
 
 Spring Boot gives you a fast start. But fast isn’t the same as*high-performance*. If you’re shipping to prod without tuning these knobs, you’re leaving performance, scalability, and efficiency on the table.
 
@@ -232,4 +233,3 @@ You now have the blueprint. What you do next is up to you.
 📌**P.S.**Want to level up your engineering game? Subscribe on Medium. I write battle-tested backend engineering guides, not just theory.
 
 📎**Checkout****:**[Concurrency & Multithreading: The Ultimate Engineer’s Bible](https://medium.com/@nikhiltiwari005/the-concurrency-multithreading-bible-for-engineers-642d2c5c3a02)
-

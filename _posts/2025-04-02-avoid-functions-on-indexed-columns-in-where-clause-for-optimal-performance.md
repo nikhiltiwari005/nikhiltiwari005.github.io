@@ -3,14 +3,14 @@ title: "Avoid Functions on Indexed Columns in WHERE Clause for Optimal Performan
 date: 2025-04-02 10:43:54 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/avoid-functions-on-indexed-columns-in-where-clause-for-optimal-performance/1_V61CUFY1uPMCTW70UP8Xtw.png
+    alt: image
 ---
-# Avoid Functions on Indexed Columns in WHERE Clause for Optimal Performance
 
 Why Indexed Columns Matter in Queries?---
 
 ### Avoid Functions on Indexed Columns in WHERE Clause for Optimal Performance
-
-![image](/assets/img/avoid-functions-on-indexed-columns-in-where-clause-for-optimal-performance/1_V61CUFY1uPMCTW70UP8Xtw.png)
 
 **Why Indexed Columns Matter in Queries?**
 
@@ -104,4 +104,3 @@ can use the index efficiently.
 **Conclusion**
 
 Applying functions to indexed columns in the WHERE clause can severely impact query performance by preventing efficient index usage. By restructuring queries to avoid these functions, databases can execute queries faster, reduce CPU and I/O usage, and maintain high performance even as data grows.
-

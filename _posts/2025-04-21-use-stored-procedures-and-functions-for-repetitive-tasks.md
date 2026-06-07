@@ -3,10 +3,12 @@ title: "🧠 Use Stored Procedures and Functions for Repetitive Tasks"
 date: 2025-04-21 07:51:02 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_P62IKDDdfjj_ZlSwjf9BEA.png
+    alt: image
 ---
-### 🧠 Use Stored Procedures and Functions for Repetitive Tasks
 
-![image](/assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_P62IKDDdfjj_ZlSwjf9BEA.png)
+### 🧠 Use Stored Procedures and Functions for Repetitive Tasks
 
 ### 🚀 Why Use Stored Procedures and Functions?
 
@@ -20,8 +22,6 @@ When your application performs repetitive database operations — like inserting
 - **Security**: Can grant execution rights without exposing data structure.
 
 ### 🔧 Stored Procedure vs Function
-
-![image](/assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_CS3TKE21STLGcijfZ85X6g.png)
 
 ### 📘 Example: Stored Procedure for Bulk Logging
 
@@ -71,8 +71,6 @@ CALL daily_sales_summary(CURRENT_DATE - INTERVAL 1 DAY);
 - ⚡**Less network overhead**: Only call procedure name, not whole query
 - 🔐**Security**: Avoid exposing raw tables directly to application layer
 
-![image](/assets/img/use-stored-procedures-and-functions-for-repetitive-tasks/1_69_Ofhd1ZXX5Om1eAVPvKQ.png)
-
 ### 🔒 Best Practices
 
 - ✅ Use parameters instead of hardcoded values
@@ -83,4 +81,3 @@ CALL daily_sales_summary(CURRENT_DATE - INTERVAL 1 DAY);
 ### 💡 Final Thoughts
 
 Stored procedures and user-defined functions bring structure, security, and performance benefits to SQL-heavy applications. Use them for routine operations, encapsulate logic, and keep your database logic DRY (Don’t Repeat Yourself).
-

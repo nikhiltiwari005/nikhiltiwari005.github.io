@@ -3,11 +3,12 @@ title: "Use UNION ALL Instead of UNION for Better Query Performance"
 date: 2025-04-07 14:02:00 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/use-union-all-instead-of-union-for-better-query-performance/1_jUL1dfnNgddoNFkLpVODpQ.png
+    alt: image
 ---
 
 ### Use UNION ALL Instead of UNION for Better Query Performance
-
-![image](/assets/img/use-union-all-instead-of-union-for-better-query-performance/1_jUL1dfnNgddoNFkLpVODpQ.png)
 
 **Understanding UNION and UNION ALL**
 
@@ -132,4 +133,3 @@ SELECT user_id FROM orders WHERE EXISTS (      SELECT 1 FROM transactions WHERE 
 - **Consider DISTINCT or EXISTS as alternatives**for better efficiency.
 
 By making these optimizations, you can significantly**reduce query execution time**,**lower resource usage**, and**improve overall database performance**. 🚀
-

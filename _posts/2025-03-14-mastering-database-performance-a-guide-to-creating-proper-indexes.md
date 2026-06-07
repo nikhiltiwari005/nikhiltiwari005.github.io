@@ -3,11 +3,12 @@ title: "Mastering Database Performance: A Guide to Creating Proper Indexes"
 date: 2025-03-14 17:32:01 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/mastering-database-performance-a-guide-to-creating-proper-indexes/1_jbYHk_UcAnjH8JV8xNZWPA.png
+    alt: image
 ---
 
 ### Mastering Database Performance: A Guide to Creating Proper Indexes
-
-![image](/assets/img/mastering-database-performance-a-guide-to-creating-proper-indexes/1_jbYHk_UcAnjH8JV8xNZWPA.png)
 
 Databases are the backbone of modern applications, handling massive amounts of data every second. But as the volume of data grows, so do the challenges of retrieving it quickly and efficiently. One of the most effective ways to improve database performance is by using**indexes**— but not all indexes are created equal. Understanding the different types of indexes and how to apply them correctly can make a huge difference in query speed and overall system performance.
 
@@ -122,4 +123,3 @@ Since the index already contains all the columns needed (last_name, first_name, 
 Understanding the different types of indexes and their use cases is key to improving database performance. By using the right indexing strategy, you can reduce query times, improve read performance, and handle growing datasets more efficiently.
 
 👉**Next Up:**We’ll cover how to monitor and analyze index usage with EXPLAIN PLAN — stay tuned!
-

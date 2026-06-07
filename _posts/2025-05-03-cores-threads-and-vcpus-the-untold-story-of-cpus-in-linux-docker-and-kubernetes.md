@@ -3,6 +3,9 @@ title: "🧠 Cores, Threads, and vCPUs: The Untold Story of CPUs in Linux, Docke
 date: 2025-05-03 19:48:31 +0000
 categories: ["Programming Concepts"]
 tags: []
+image:
+    path: /assets/img/cores-threads-and-vcpus-the-untold-story-of-cpus-in-linux-docker-and-kubernetes/1_VoNMY2r0c7FlwTTMl4Yfow.png
+    alt: image
 ---
 
 ### 🧠 Cores, Threads, and vCPUs: The Untold Story of CPUs in Linux, Docker, and Kubernetes
@@ -14,8 +17,6 @@ tags: []
 > “Why does htop show 8 CPUs when my laptop has 4?”
 
 Welcome to the chaos.
-
-![image](/assets/img/cores-threads-and-vcpus-the-untold-story-of-cpus-in-linux-docker-and-kubernetes/1_VoNMY2r0c7FlwTTMl4Yfow.png)
 
 Most developers have a vague sense that CPUs are “doing work” — somewhere down there, deep in the machine. But when it comes time to set CPU limits on Docker containers or request compute in Kubernetes clusters, that vagueness becomes a real liability.
 
@@ -234,4 +235,3 @@ If this post brought you clarity, saved you hours of Googling, or challenged the
 - ⭐**Follow**to stay ahead as new deep-dive posts drop.
 
 Let’s build real engineering wisdom — not trivia.
-

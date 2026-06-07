@@ -3,11 +3,12 @@ title: "⚡ Create and Maintain Partitioning for Scalable SQL Performance"
 date: 2025-04-22 04:30:25 +0000
 categories: ["SQL Optimization Series"]
 tags: []
+image:
+    path: /assets/img/create-and-maintain-partitioning-for-scalable-sql-performance/1_McFE1GPePfYfY2_GPtaCvg.png
+    alt: image
 ---
 
 ### ⚡ Create and Maintain Partitioning for Scalable SQL Performance
-
-![image](/assets/img/create-and-maintain-partitioning-for-scalable-sql-performance/1_McFE1GPePfYfY2_GPtaCvg.png)
 
 ### What is Partitioning in Databases?
 
@@ -28,8 +29,6 @@ Operations like purging old data, archiving, or reorganizing become simpler when
 Partitioning helps distribute data across different storage or servers (in distributed databases), optimizing performance and reducing contention.
 
 ### 🧩 Types of Partitioning
-
-![image](/assets/img/create-and-maintain-partitioning-for-scalable-sql-performance/1_jD8Bc3Rg5jkF9GdVtXReew.png)
 
 ### 💡 Example: Range Partitioning (PostgreSQL)
 
@@ -97,4 +96,3 @@ Partitioning is a**powerful technique**for improving the performance and managea
 - And scales with your application.
 
 Use it when your data starts growing beyond millions of rows and becomes a bottleneck. Combined with indexing and good schema design, it becomes a cornerstone of high-performance SQL.
-
