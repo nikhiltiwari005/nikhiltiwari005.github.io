@@ -46,6 +46,10 @@ exclude:
   - README.md
   - LICENSE
 
+# Preserve line feeds inside syntax-highlighted code blocks.
+compress_html:
+  blanklines: true
+
 include:
   - _redirects
   - .well-known

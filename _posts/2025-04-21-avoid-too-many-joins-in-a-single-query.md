@@ -31,7 +31,7 @@ Every additional join increases the complexity of the execution plan and expands
 
 ### 🧠 Example: Query with Too Many Joins
 
-```
+```sql
 SELECT o.id, c.name, p.product_name, s.shipment_date, r.region_nameFROM orders oJOIN customers c ON o.customer_id = c.idJOIN products p ON o.product_id = p.idJOIN shipments s ON o.shipment_id = s.idJOIN regions r ON c.region_id = r.idJOIN agents a ON c.agent_id = a.idJOIN invoices i ON o.invoice_id = i.id-- and more...WHERE o.status = 'delivered';
 ```
 
@@ -43,7 +43,7 @@ While this might work, it can become a bottleneck for performance and harder to 
 
 Split the query into logical blocks:
 
-```
+```sql
 WITH customer_orders AS (  SELECT o.id, o.customer_id, o.product_id, o.shipment_id  FROM orders o  WHERE o.status = 'delivered'),order_products AS (  SELECT co.id, p.product_name  FROM customer_orders co  JOIN products p ON co.product_id = p.id)SELECT * FROM order_products;
 ```
 
@@ -57,15 +57,15 @@ Avoid SELECT * — retrieve only required columns to reduce the data load and me
 
 Ensure foreign keys and commonly joined columns are indexed.
 
-```
--- Create index for join columnsCREATE INDEX idx_orders_customer_id ON orders(customer_id);
+```sql
+Create index for join columnsCREATE INDEX idx_orders_customer_id ON orders(customer_id);
 ```
 
 ### ✅ 4. Pre-Aggregate or Use Temp Tables
 
 If possible, pre-join data or use temporary tables for intermediate results.
 
-```
+```sql
 CREATE TEMP TABLE recent_orders ASSELECT * FROM orders WHERE order_date > CURRENT_DATE - INTERVAL '30 days';-- Later use this temp table in joins
 ```
 
